@@ -1,4 +1,4 @@
-# <contrib-group>, <fn-group>
+# `<contrib-group>` and `<fn-group>`
 
 Authors, their affiliations and roles.
 

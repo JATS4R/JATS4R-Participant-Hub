@@ -1,4 +1,4 @@
-# <caption>
+# `<caption>`
 
 Figure and table captions.
 

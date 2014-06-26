@@ -1,4 +1,4 @@
-# <subj-group> and <kwd-group>
+# `<subj-group>` and `<kwd-group>`
 
 Categories in an organised subject taxonomy, or free-text keywords.
 

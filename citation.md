@@ -1,4 +1,4 @@
-# <element-citation> and <mixed-citation>
+# `<element-citation>`
 
 Citation of journal articles, books, and other objects (software, data, etc).
 

@@ -1,4 +1,4 @@
-# <permissions>
+# `<permissions>`
 
 Article permissions: copyright details, license URL, license text.
 

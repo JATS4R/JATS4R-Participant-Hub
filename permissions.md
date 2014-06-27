@@ -14,3 +14,17 @@ Article permissions: copyright details, license URL, license text.
   </license>
 </permissions>
 ```
+
+## eLife
+
+```xml
+
+<permissions>
+                <copyright-statement>Copyright &#xa9; 2012, Alegado et al</copyright-statement>
+                <copyright-year>2012</copyright-year>
+                <copyright-holder>Alegado et al</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This article is distributed under the terms of the <ext-link ext-link-type= "uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use and redistribution provided that the original author and source are credited.</license-p>
+                </license>
+            </permissions>
+```

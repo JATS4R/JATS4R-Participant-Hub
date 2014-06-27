@@ -28,3 +28,81 @@ Figure and table captions.
   </alternatives>
 </table-wrap>
 ```
+
+## eLife
+
+```xml
+<!-- figure where there are figure supplements we have to use the fig-group container, some figures also have source data -->
+<fig-group>
+<fig id="fig1" position="float">
+<object-id pub-id-type="doi">10.7554/eLife.00013.003</object-id>
+<label>Figure 1.</label>
+<caption>
+<title>TEXT</title>
+<p>TEXT<p>
+<bold>DOI:</bold>
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00013.003">http://dx.doi.org/10.7554/eLife.00013.003</ext-link>
+</p>
+p>
+<supplementary-material id="SD1-data">
+<object-id pub-id-type="doi">10.7554/eLife.00013.004</object-id>
+<label>Figure 1&#x2014;source data 1.</label>
+<caption>
+<title>TEXT</title>
+<p>TEXT</p>
+<p>
+<bold>DOI:</bold>
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00013.004">http://dx.doi.org/10.7554/eLife.00013.004</ext-link>
+</p>
+</caption>
+<media mime-subtype="xlsx" mimetype="application" xlink:href="elife00013s001.xlsx"/>
+</supplementary-material>
+</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="elife00013f001"/>
+</fig>
+<fig id="sfig1" position="float" specific-use="child-fig">
+<object-id pub-id-type="doi">10.7554/eLife.00013.005</object-id>
+<label>Figure 1&#x2014;figure supplement 1.</label>
+<caption>
+<title>TEXT</title>
+<p>TEXT</p>
+<p>
+<bold>DOI:</bold>
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00013.005">http://dx.doi.org/10.7554/eLife.00013.005</ext-link>
+</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="elife00013fs001"/>
+</fig>
+</fig-group>
+
+
+<!-- table -->
+<table-wrap id="tbl1" position="float">
+<object-id pub-id-type="doi">10.7554/eLife.00013.009</object-id>
+<label>Table 1.</label>
+<caption>
+<p>Species tested for colony induction</p>
+<p>
+<bold>DOI:</bold>
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00013.009">http://dx.doi.org/10.7554/eLife.00013.009</ext-link>
+</p>
+</caption>
+<table frame="hsides" rules="groups">...</table>
+<table-wrap-foot>
+<fn id="tblfn1">
+<label>&#x2a;</label>
+<p>No rosette colonies observed, &#x2b; rosette colonies observed</p>
+</fn>
+</table-wrap-foot>
+</table-wrap>
+
+
+
+
+
+
+
+
+
+

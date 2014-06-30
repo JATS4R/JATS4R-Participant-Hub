@@ -12,3 +12,13 @@ Clincal trial
 </fn>
 
 ```xml
+
+
+```xml
+<!-- suggested tagging? -->
+
+<article>
+<article-meta>
+<related-object object-id-type=“clinical-trial” id=“CB7778886452342”/>
+
+```xml

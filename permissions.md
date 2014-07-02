@@ -36,6 +36,25 @@ Article permissions: copyright details, license URL, license text.
 </permissions>
 ```
 
+## Ubiquity Press
+
+```xml
+
+<permissions>
+    <copyright-statement>Copyright: &#x00A9; 2014 The Author(s)</copyright-statement>
+    <copyright-year>2014</copyright-year>
+    <license license-type="open-access"
+        xlink:href="http://creativecommons.org/licenses/by/3.0/">
+        <license-p>This is an open-access article distributed under the terms of the
+            Creative Commons Attribution 3.0 Unported License (CC-BY 3.0), which permits
+            unrestricted use, distribution, and reproduction in any medium, provided the
+            original author and source are credited. See <uri
+                xlink:href="http://creativecommons.org/licenses/by/3.0/"
+                >http://creativecommons.org/licenses/by/3.0/</uri>.</license-p>
+    </license>
+</permissions>
+```
+
 ## JATS Tag Library
 
 From [Journal Publishing Tag Library - NISO JATS Draft Version

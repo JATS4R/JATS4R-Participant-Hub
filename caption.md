@@ -97,10 +97,34 @@ p>
 </table-wrap-foot>
 </table-wrap>
 
+```
+
+## Ubiquity Press
+
+```xml
+
+<!-- figure -->
+
+<fig id="F1">
+<label>Figure 1</label>
+<caption>
+<p>Evolution of CVLI rate in Pernambuco &#8211; 2006 to 2013. Source: GACE/SDS and IBGE.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="figures/Fig01_web.jpg"/>
+</fig>
+
+<!-- table -->
+
+<table-wrap id="T1">
+<label>Table 1</label>
+<caption>
+<p>Number of schools by socioeconomic level and group. Source: (<xref ref-type="bibr" rid="B12">Correa 2007</xref>).</p>
+</caption>
+<table>...</table>
+</table-wrap>
 
 
-
-
+```
 
 
 

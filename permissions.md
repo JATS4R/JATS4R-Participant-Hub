@@ -5,6 +5,7 @@ Article permissions: copyright details, license URL, license text.
 
 ## Open Book Publishers
 
+An example of book-, chapter-, and image-level permission statement
 ```xml
 <book>
   <book-meta>
@@ -68,6 +69,10 @@ Article permissions: copyright details, license URL, license text.
   <book-back>...</book-back>
 </book>
 ```
+
+***Notes***
+* How can we make clear in a machine readable way that it's necessary to go from the particular (individual image license) to the general (whole book)? - which is to say that the permission attached to the whole book excludes individual chapters, and the permission attached to individual chapters excludes images?
+
 
 ## PeerJ
 

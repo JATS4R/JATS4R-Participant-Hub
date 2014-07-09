@@ -13,8 +13,8 @@ An example of book-, chapter-, and image-level permission statement
     <permissions>
       <copyright-statement>Margaret Harper Mills and Warwick Gould, CC BY-NC-ND</copyright-statement>
       <copyright-year>2013</copyright-year>
+      <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
       <license license-type="open-access" xlink:href="http://www.openbookpublishers.com/isbn/9781783740178#copyrighttab">
-      <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
         <license-p>This entire volume is published under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (CC BY-NC-ND 4.0), which enables you to share, copy, distribute and transmit the work in its entirety for personal and non-commercial use, providing editor and author attribution is clearly stated. However all the text and many of the individual chapters are licenced under the more permissive Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See permissions relating to individual chapters. Please note that illustrations may be issued under separate licenses. See permissions relating to individual images.</license-p>
       </license>
     </permissions>
@@ -27,8 +27,8 @@ An example of book-, chapter-, and image-level permission statement
         <permissions>
           <copyright-statement>Warwick Gould, CC BY-NC-ND 4.0</copyright-statement>
           <copyright-year>2013</copyright-year>
+          <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
           <license license-type="open-access" xlink:href="http://www.openbookpublishers.com/isbn/9781783740178#copyrighttab">
-          <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
             <license-p>This chapter is published under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (CC BY-NC-ND 4.0), which enables you to share, copy, distribute and transmit the work for personal and non-commercial use, providing editor and author attribution is clearly stated. Please note that illustrations may be issued under separate licenses. See permissions relating to individual images.</license-p>
           </license>
         </permissions>
@@ -43,8 +43,7 @@ An example of book-, chapter-, and image-level permission statement
           <permissions>
             <copyright-statement>The National Portrait Gallery, London. All rights reserved</copyright-statement>
             <copyright-year>2013</copyright-year>
-            <license license-type="" xlink:href="http://www.openbookpublishers.com/isbn/9781783740178#copyrighttab">
-            </license>
+            <license license-type="" xlink:href="http://www.openbookpublishers.com/isbn/9781783740178#copyrighttab"/>
           </permissions>
           <graphic xlink:href="images/fig1"/>
         </fig>
@@ -57,8 +56,8 @@ An example of book-, chapter-, and image-level permission statement
         <permissions>
           <copyright-statement>Alexandra Poulain, CC BY 4.0</copyright-statement>
           <copyright-year>2013</copyright-year>
+          <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"/>
           <license license-type="open-access" xlink:href="http://www.openbookpublishers.com/isbn/9781783740178#copyrighttab">
-          <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
             <license-p>This chapter is published under a Creative Commons Attribution 4.0 International Public License (CC BY 4.0), which allows you to share, copy, distribute, transmit,adapt, and re-use the material so licenced, even for commercial purposes. Any material copied or adapted in this way must be attributed to the editors and the respective authors (but not in any way that suggests that they endorse you or your use of the work). Please note that illustrations may be issued under separate licenses. See permissions relating to individual images.</license-p>
           </license>
         </permissions>

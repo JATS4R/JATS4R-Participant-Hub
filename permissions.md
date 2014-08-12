@@ -138,6 +138,22 @@ An example of book-, chapter-, and image-level permission statement
 </permissions>
 ```
 
+eLife suggested changes based on discussions (tie-in with upgrade from 3.0 to JATS in Oct)
+<permissions>
+                <copyright-statement>Copyright &#xa9; 2014, Baldwin</copyright-statement>
+                <copyright-year>2014</copyright-year>
+                <copyright-holder>Baldwin</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This article is distributed under the terms of the <ext-link
+                            ext-link-type="uri"
+                            xlink:href="http://creativecommons.org/licenses/by/3.0/">Creative
+                            Commons Attribution License</ext-link>, which permits unrestricted use
+                        and redistribution provided that the original author and source are
+                        credited.</license-p>
+                </license>
+            </permissions>
+
+
 ## Ubiquity Press
 
 ```xml

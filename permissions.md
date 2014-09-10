@@ -153,7 +153,7 @@ eLife suggested changes based on discussions (tie-in with upgrade from 3.0 to JA
   <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
     <license-p>This article is distributed under the terms of the <ext-link
       ext-link-type="uri"
-      xlink:href="http://creativecommons.org/licenses/by/3.0/">Creative
+      xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
       Commons Attribution License</ext-link>, which permits unrestricted use
       and redistribution provided that the original author and source are
       credited.</license-p>

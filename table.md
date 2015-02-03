@@ -1,4 +1,4 @@
-# `<table-wrap>`
+# `<table>`, `<table-wrap>`
 
 Tables
 

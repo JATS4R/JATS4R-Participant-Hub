@@ -9,31 +9,31 @@ Formulas and equations
 ### &lt;tex-math> example
 
 This example is from the Tag Library, [&lt;tex-math>](http://jatspan.org/niso/publishing-1.1d1/#p=elem-tex-math)
-documentation.
+documentation, modified somewhat.
 
 ```xml
 <disp-formula>
-<tex-math id="M1"><![CDATA[\documentclass[12pt]{minimal}
-\usepackage{wasysym}
-\usepackage[substack]{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{amsbsy}
-\usepackage[mathscr]{eucal}
-\usepackage{mathrsfs}
-\DeclareFontFamily{T1}{linotext}{}
-\DeclareFontShape{T1}{linotext}{m}{n} { &#x003C;-&#x003E; linotext }{}
-\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
-\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
-\begin{document}
-$$
-{\mathrm{Acc/Acc:\hspace{.5em}}}\frac{{\mathit{ade2-202}}}{{\mathit{ADE2}}}\
-hspace{.5em}\frac{{\mathit{ura3-59}}}{{\mathit{ura3-59}}}\hspace{.5em}\frac{{\
-mathit{ADE1}}}{{\mathit{adel-201}}}\hspace{.5em}\frac{{\mathit{ter1-Acc}}}{{\
-mathit{ter1-Acc}}}\hspace{.5em}\frac{{\mathit{MATa}}}{{\mathit{MAT{\alpha}}}}
-$$
-\end{document}]]>
-</tex-math>
+  <tex-math id="M1"><![CDATA[
+    \documentclass[12pt]{minimal}
+
+    \usepackage{amsmath}
+    \usepackage{amsfonts}
+    \usepackage{amssymb}
+    \usepackage{amsbsy}
+    \usepackage[mathscr]{eucal}
+    \usepackage{mathrsfs}
+
+    \begin{document}
+      $$
+        \mathrm{Acc/Acc: \hspace{.5em}}
+        \frac{\mathit{ade2-202}}{\mathit{ADE2}} 
+        \hspace{.5em}
+        \frac{\mathit{ura3-59}}{\mathit{ura3-59}}
+        \hspace{.5em}
+        \frac{\mathit{MATa}}{\mathit{MAT{\alpha}}}
+      $$
+    \end{document}
+  ]]></tex-math>
 </disp-formula>
 ```
 

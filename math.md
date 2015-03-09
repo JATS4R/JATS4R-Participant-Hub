@@ -173,3 +173,42 @@ element.
   </sup>, superoxide anion....</p>
 ```
 
+## BMC, Proteome Science
+
+From [PMC4200174](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4200174/#Sec18).
+
+This is a good example of how to use &lt;alternatives>
+
+```xml
+<p>Protein abundance was expressed by means of the normalized spectral 
+  abundance factor (NSAF). NSAF was calculated as follows: 
+  <inline-formula id="IEq1">
+    <alternatives>
+      <tex-math id="M1">\mathrm{NSAF}=\mathrm{SAFi} /
+        {\displaystyle {\sum}_{i=1}^N SAFi}</tex-math>
+      <mml:math id="M2">
+        <mml:mi mathvariant="normal">NSAF</mml:mi>
+        <mml:mo>=</mml:mo>
+        <mml:mi mathvariant="normal">SAFi</mml:mi>
+        <mml:mo stretchy="true">/</mml:mo>
+        <mml:mstyle displaystyle="true">
+          <mml:msubsup>
+            <mml:mo>&#x02211;</mml:mo>
+            <mml:mrow>
+              <mml:mi>i</mml:mi>
+              <mml:mo>=</mml:mo>
+              <mml:mn>1</mml:mn>
+            </mml:mrow>
+            <mml:mi>N</mml:mi>
+          </mml:msubsup>
+          <mml:mrow>
+            <mml:mi mathvariant="italic">SAFi</mml:mi>
+          </mml:mrow>
+        </mml:mstyle>
+      </mml:math>
+      <inline-graphic xlink:href="12953_2014_44_Article_IEq1.gif"/>
+    </alternatives>
+  </inline-formula>, where subscript i ....</p>
+```
+
+

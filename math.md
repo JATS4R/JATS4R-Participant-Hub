@@ -8,8 +8,12 @@ Formulas and equations
 
 ### &lt;tex-math> example
 
-This example is from the Tag Library, [&lt;tex-math>](http://jatspan.org/niso/publishing-1.1d1/#p=elem-tex-math)
+This example is from the Tag Library, 
+[&lt;tex-math>](http://jatspan.org/niso/publishing-1.1d1/#p=elem-tex-math)
 documentation, modified somewhat.
+
+This is a bad example - the TeX should be stripped of the preamble and "document"
+wrapper.
 
 ```xml
 <disp-formula>
@@ -155,4 +159,17 @@ documentation, modified somewhat.
 		</mml:mrow>
 	</mml:math>
 </inline-formula>
+
+
+## Molecular and cell biology
+
+Bad example - the TeX math expression should be enclosed in an &lt;inline-formula>
+element.
+
+```xml
+<p>Model for electron pathways ... O<sub>2</sub>
+  <sup>
+    <tex-math id="M1">\overline{{\mathrm{{\cdot}}}}</tex-math>
+  </sup>, superoxide anion....</p>
+```
 

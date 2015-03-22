@@ -1,0 +1,40 @@
+Item	GitHub	Chris' prioritization	Daniel's prioritization	Kaveh's prioritization	Mike Evans prioritization	eLife	BIR	Nature	Jeff's prioritizations	
+										
+license statement (incl instructions for how to attribute)		2	2			1	2	1	2	2
+Math	math (cat)	3	3	2		2	4	2	3	3
+JATS-Con paper (submission deadline March 26)	#16	1	1			3			1	1
+How do documents self-identify that they conform?	#10									#NUM!
+Online validation tool - polish and make production-ready	validation (repo)	4			3	9			4	4
+caption/description/label mixed up for figures, tables, boxes										#NUM!
+file naming/packaging										#NUM!
+Keywords/MESH terms versus subject-group(s)										#NUM!
+Keywords for sub article items eg figures, tables, videos										#NUM!
+Metadata of images - in binary of the image file (or elsewhere)										#NUM!
+References (citation of software/data/versions/law cases)	refs/cites (cat)	5	4	1	1	4	1	4	7	4
+Contributions (roles)										#NUM!
+Affiliations [need examples]										#NUM!
+Author metadata e.g present addresses, on behalf of, group authorship										#NUM!
+Funding (linking to individual authors, FundRef etc)						6		3	6	6
+peer review (subarticles?)										#NUM!
+versioning + corrections					2		3		5	3
+taxonomy (ecology, palaeontology, etc)							5			5
+clinical trial						5				5
+Using NLM defined article types in article-type attribute and expanding the list						7				7
+Persuade databases to use Journals' own IDs/ensure consistent abbreviation/capitalisation										#NUM!
+Consistent use of <journal-title-group> [need examples]										#NUM!
+Define list of contrib-types [need examples]						8				8
+Other use cases of contrib (co-first author etc)										#NUM!
+Publication dates/article history dates [need examples]					4		6			5
+Related article tagging (within journal, without, example JATS list of types?)							7			7
+Abstracts (different types etc) https://github.com/JATS4R/elements/issues/22								5		5
+DOIs (sub-article, different versions)										#NUM!
+Sections [need examples]										#NUM!
+Figures [need examples]										#NUM!
+Tables [need examples]										#NUM!
+Appendices [need examples]										#NUM!
+Boxes [need examples]										#NUM!
+References [need examples]										#NUM!
+<custom-meta> [need examples]										#NUM!
+article type (review, methods, editorial etc)			5							5
+Supplementary material [need examples]										#NUM!
+										#NUM!

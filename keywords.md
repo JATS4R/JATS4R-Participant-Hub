@@ -43,4 +43,27 @@ Article keywords: .
             </kwd-group>
 </front>
 </article>
-    
+```    
+
+## PeerJ
+
+```xml
+<article-categories>
+    <subj-group subj-group-type="categories">
+        <subject>Aquaculture, Fisheries and Fish Science</subject>
+        <subject>Biodiversity</subject>
+        <subject>Developmental Biology</subject>
+        <subject>Marine Biology</subject>
+        <subject>Zoology</subject>
+    </subj-group>
+</article-categories>
+…
+<kwd-group kwd-group-type="author">
+    <kwd>Shell loss</kwd>
+    <kwd>Sea hares</kwd>
+    <kwd>Biomineralization</kwd>
+    <kwd>Aquaculture</kwd>
+    <kwd>Larvae</kwd>
+</kwd-group>
+
+```

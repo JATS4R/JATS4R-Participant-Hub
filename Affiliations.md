@@ -79,7 +79,22 @@ And the same for affiliatins of members of a group author group:
                 </contrib>
 ```
 
-## Present address
+## PeerJ
+
+Each author has a reference to one or more affiliations:
+```xml
+<contrib id="author-1" contrib-type="author">
+    …
+    <xref ref-type="aff" rid="aff-1">1</xref>
+</contrib>
+```
+
+Each affiliation has some level of granularity in the address:
+```xml
+<aff id="aff-1"><institution>Department of Physiology and Biophysics, The Weill Cornell Medical College</institution>, <addr-line>New York, NY</addr-line>, <country>United States of America</country></aff>
+```
+
+# Present address
 
 ## eLife
 An author with a present address has the following within the contrib tagging:

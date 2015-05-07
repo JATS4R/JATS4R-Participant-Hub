@@ -52,6 +52,7 @@ An author with a present address has the following within the contrib tagging:
 ```xml
 <xref ref-type="fn" rid="pa1">&#167;</xref>
 ```
+
 and the following footnote in author notes:
 
 
@@ -61,4 +62,39 @@ and the following footnote in author notes:
      <label>&#167;</label>
         <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
 </fn>
+```
+
+The reviewing editor contians affliation details within the contrib:
+```xml
+ <contrib-group content-type="section">
+                <contrib contrib-type="editor" id="author-10">
+                    <name>
+                        <surname>Sneden</surname>
+                        <given-names>Christopher</given-names>
+                    </name>
+                    <role>Reviewing editor</role>
+                    <aff>
+                        <institution>Pediatric Dengue Vaccine Initiative</institution>,
+                            <country>United States</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
+```
+And the same for affiliatins of members of a group author group:
+
+```xml
+<contrib-group>
+                <contrib contrib-type="author non-byline">
+                    <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
+                    <name>
+                        <surname>Mullikin</surname>
+                        <given-names>Jim</given-names>
+                    </name>
+                    <aff>
+                        <institution>Science Exchange, Palo Alto</institution>,
+                        <addr-line>
+                            <named-content content-type="city">California</named-content>
+                        </addr-line>
+                    </aff>
+                </contrib>
 ```

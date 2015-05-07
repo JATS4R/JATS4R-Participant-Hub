@@ -17,7 +17,7 @@
 ## eLife
 
 
-The first contrib-group contains the authors, second contains the reviewing editor of the article and the third contains individual menmbers of a group author:
+Example from eLife research content. The first contrib-group contains the authors, second contains the reviewing editor of the article and the third contains individual menmbers of a group author:
 
 ```xml
 <contrib-group>
@@ -209,3 +209,42 @@ The first contrib-group contains the authors, second contains the reviewing edit
                     </name>
                 </contrib>
 </contrib-group>
+```
+
+Example from eLife Editorial content. It is steered by the requirement for the information to be human readable in a string, appearance in the PDF and on html view, and the need for flexibility. Comments and suggestions very welcome!
+
+```xml
+<contrib-group>
+                <contrib contrib-type="author" corresp="yes" id="author-1057">
+                    <name>
+                        <surname>Chen</surname>
+                        <given-names>Zhijian J</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="fn" rid="conf1"/>
+                    <x> is a </x>
+                    <role>Reviewing Editor</role>
+                    <x>, and is in the </x>
+                </contrib>
+                <contrib contrib-type="author" id="author-1674">
+                    <name>
+                        <surname>Ye</surname>
+                        <given-names>Jin</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2"/>
+                    <xref ref-type="fn" rid="conf1"/>
+                    <x> is in the </x>
+                </contrib>
+                <aff id="aff1"><institution content-type="dept">Department of Molecular Biology and
+                        the Howard Hughes Medical Institute</institution>, <institution>University
+                        of Texas Southwestern Medical Center</institution>,
+                            <addr-line><named-content content-type="city"
+                        >Dallas</named-content></addr-line>, <country>United States</country>
+                    <email>zhijian.chen@utsouthwestern.edu</email></aff>
+                <aff id="aff2"><institution content-type="dept">Department of Molecular
+                        Genetics</institution>, <institution>University of Texas Southwestern
+                        Medical Center</institution>, <addr-line><named-content content-type="city"
+                            >Dallas</named-content></addr-line>, <country>United States</country>
+                    <email>jin.ye@utsouthwestern.edu</email></aff>
+</contrib-group>
+ ```

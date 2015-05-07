@@ -65,6 +65,7 @@ This is an example from our editorial content, use of subj-group-type="sub-displ
                 <subj-group subj-group-type="sub-display-channel">
                     <subject>Infectious diseases</subject>
                 </subj-group>  
+            </article-categories>
                 ...
       <kwd-group kwd-group-type="author-keywords">
                 <title>Author keywords</title>
@@ -83,7 +84,9 @@ This is an example from our editorial content, use of subj-group-type="sub-displ
                 </kwd>
                 <kwd>Other</kwd>
             </kwd-group>
-</front>
+        ...
+        </article-meta>
+    </front>
 </article>
 ```  
 

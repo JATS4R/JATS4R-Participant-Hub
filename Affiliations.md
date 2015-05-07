@@ -44,26 +44,6 @@ The affiliations are cross linked with authors using the following style within 
 
 ```
 
-## Present address
-
-## eLife
-An author with a present address has the following within the contrib tagging:
-
-```xml
-<xref ref-type="fn" rid="pa1">&#167;</xref>
-```
-
-and the following footnote in author notes:
-
-
-```xml
-<author-notes>
-<fn fn-type="present-address" id="pa1">
-     <label>&#167;</label>
-        <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
-</fn>
-```
-
 The reviewing editor contians affliation details within the contrib:
 ```xml
  <contrib-group content-type="section">
@@ -98,3 +78,24 @@ And the same for affiliatins of members of a group author group:
                     </aff>
                 </contrib>
 ```
+
+## Present address
+
+## eLife
+An author with a present address has the following within the contrib tagging:
+
+```xml
+<xref ref-type="fn" rid="pa1">&#167;</xref>
+```
+
+and the following footnote in author notes:
+
+
+```xml
+<author-notes>
+<fn fn-type="present-address" id="pa1">
+     <label>&#167;</label>
+        <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
+</fn>
+```
+

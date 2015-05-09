@@ -1,6 +1,6 @@
 # `<sub-article>`
 
-Sub article elements - peer review compontents published with the articles
+Sub article elements - peer review components published with the articles
 
 ## eLife
 

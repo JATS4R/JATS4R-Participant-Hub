@@ -1,6 +1,6 @@
-# `<fig>`
+# `<article-id>`
 
-Figures
+DOIs
 
 ## eLife
 

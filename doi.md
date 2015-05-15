@@ -1,16 +1,14 @@
-# `<article-id>`
-
-DOIs
+# DOIs
 
 ## eLife
 
-### Main article doi
+### Main article DOI
 
 ```xml
 <article-id pub-id-type="doi">10.7554/eLife.00013</article-id>
 ```
 
-### Abstract component  doi
+### Abstract component DOI
 
 ```xml
 <abstract>
@@ -43,7 +41,7 @@ DOIs
 ```
 
 
-### Table component  doi
+### Table component DOI
 
 ```xml
 <table-wrap id="tbl1" position="float">
@@ -77,7 +75,7 @@ DOIs
 </table-wrap>
 ```
 
-### Decision letter component  doi
+### Decision letter component DOI
 
 ```xml
 <sub-article article-type="article-commentary" id="SA1">
@@ -87,7 +85,7 @@ DOIs
 </sub-article>
 ```
 
-### Author response letter component  doi
+### Author response letter component DOI
 
 ```xml
 <sub-article article-type="article-commentary" id="SA2">

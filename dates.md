@@ -31,3 +31,38 @@ For example, adding a new date each time a new version is published.
 ```
 
 
+## PMC
+
+An example with print and electronic dates:
+
+From J Adv Prosthodont. 2015 Apr; 7(2): 93–97; 10.4047/jap.2015.7.2.93
+
+```xml
+      <pub-date publication-format="print" date-type="pub">
+        <month>4</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date publication-format="electronic" date-type="pub">
+        <day>23</day>
+        <month>4</month>
+        <year>2015</year>
+      </pub-date>
+      ...
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>4</month>
+          <year>2014</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>28</day>
+          <month>1</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>02</day>
+          <month>2</month>
+          <year>2015</year>
+        </date>
+      </history>
+```

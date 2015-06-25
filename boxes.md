@@ -24,3 +24,18 @@ Boxes
 
 ```
 
+## boxed text with figure
+
+```xml  
+<boxed-text id="box02"> 
+	<label>Box 2</label>  
+	<title>Probabilistic Graphical Models.</title>  
+	<p>The framework of probabilistic graphical models...</p>  
+	<fig id="F1" position="float">  
+		<label>Figure 1</label>  
+		<caption><p><bold>(A)</bold> A directed graphical model, also known as Bayesian network. <bold>(B)</bold> An undirected graphical model….</p></caption>  
+		<graphic xlink:href="fpsyg-04-00515-g0001.tif"/>  
+	</fig>  
+	<p>In the case of undirected graphical models,...</p>   
+</boxed-text>
+```

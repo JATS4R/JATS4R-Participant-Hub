@@ -362,7 +362,7 @@ From Lupus Sci Med. 2014; 1(1): e000037; 10.1136/lupus-2014-000037
 
 ```xml
 <contrib contrib-type="author">
-<collab>Cancer Immunotherapies Spanish Group (GETICA)</collab>
+	<collab>Cancer Immunotherapies Spanish Group (GETICA)</collab>
 </contrib>
 ```
 
@@ -371,21 +371,23 @@ From Lupus Sci Med. 2014; 1(1): e000037; 10.1136/lupus-2014-000037
 ```xml
 <contrib-group>
 ...
-</contrib>
-<contrib contrib-type="author" id="collab1"><collab>The TESDAD Study Group</collab>
-</contrib>
+  <contrib contrib-type="author" id="collab1">
+   <collab>The TESDAD Study Group</collab>
+  </contrib>
 </contrib-group>
 <contrib-group content-type="collab-list">
-<contrib contrib-type="collab" rid="collab1">
-<name> 
-<surname>Cuenca-Royo</surname><given-names>Aida</given-names>
-</name>
-</contrib>
-<contrib contrib-type="collab" rid="collab1">
-<name> 
-<surname>Principe</surname><given-names>Alessandro</given-names>
-</name>
-</contrib>
+ <contrib contrib-type="collab" rid="collab1">
+  <name> 
+   <surname>Cuenca-Royo</surname>
+   <given-names>Aida</given-names>
+  </name>
+ </contrib>
+ <contrib contrib-type="collab" rid="collab1">
+  <name> 
+   <surname>Principe</surname>
+   <given-names>Alessandro</given-names>
+  </name>
+ </contrib>
 ...
 </contrib-group>
 ```
@@ -395,31 +397,29 @@ we are currently looking at using contrib-group to tag reviewers and editors. An
 
 ```xml
 <contrib-group content-type="editors">
-			<contrib id="editor-1" contrib-type="editor">
-				<name>
-					<surname>Smith</surname>
-					<given-names>John</given-names>
-				</name>
-				<aff>
-					<institution>University of Virginia</institution>, 
-					<country>USA</country>
-				</aff>
-			</contrib>
-		</contrib-group>
-		
-
-		<contrib-group content-type="reviewers">
-			<contrib id="reviewer-1" contrib-type="reviewer">
-				<name>
-					<surname>Konrad</surname>
-					<given-names>Charles</given-names>
-				</name>
-					<aff>
-						<institution>University of Munich</institution>, 
-						<country>Germany</country>
-					</aff>
-			</contrib>
-		</contrib-group>
+ <contrib id="editor-1" contrib-type="editor">
+  <name>
+   <surname>Smith</surname>
+   <given-names>John</given-names>
+  </name>
+  <aff>
+   <institution>University of Virginia</institution>, 
+   <country>USA</country>
+  </aff>
+ </contrib>
+</contrib-group>
+<contrib-group content-type="reviewers">
+ <contrib id="reviewer-1" contrib-type="reviewer">
+  <name>
+   <surname>Konrad</surname>
+   <given-names>Charles</given-names>
+  </name>
+  <aff>
+   <institution>University of Munich</institution>, 
+   <country>Germany</country>
+  </aff>
+ </contrib>
+</contrib-group>
 ```
 	
 

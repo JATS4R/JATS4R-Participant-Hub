@@ -93,6 +93,20 @@ Each affiliation has some level of granularity in the address:
 ```xml
 <aff id="aff-1"><institution>Department of Physiology and Biophysics, The Weill Cornell Medical College</institution>, <addr-line>New York, NY</addr-line>, <country>United States of America</country></aff>
 ```
+## Frontiers
+
+```xml
+<contrib contrib-type="author">
+<name>...</name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+<uri xlink:href="http://frontiersin.org/people/u/..."/>
+</contrib>
+...
+
+<aff id="aff1"><sup>1</sup><institution>School of Biological Sciences, University of Nebraska-Lincoln</institution>, <addr-line>Lincoln, NE</addr-line>, <country>USA</country></aff>
+<aff id="aff2"><sup>2</sup><institution>Nebraska Center for Virology, University of Nebraska-Lincoln</institution>, <addr-line>Lincoln, NE</addr-line>, <country>USA</country></aff>
+```
 
 # Present address
 
@@ -113,4 +127,22 @@ and the following footnote in author notes:
         <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
 </fn>
 ```
+
+## Frontiers
+
+in contrib:
+
+```xml
+<contrib contrib-type="author">
+<name><surname>Ren</surname> <given-names>Hongyan</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="fn" rid="fn003"><sup>&#x02020;</sup></xref>
+```
+
+footnote in author notes:
+
+```xml
+<fn fn-type="present-address" id="fn003"><p>&#x02020;Present Address: Hongyan Ren, Shanghai Majorbio Bio-pharm Technology Co., Ltd., Shanghai, China</p></fn>
+```
+
 

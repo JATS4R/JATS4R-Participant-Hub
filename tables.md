@@ -107,3 +107,63 @@ Tables
 </table-wrap>
 
 ```
+## Frontiers
+
+```xml
+<table-wrap position="float" id="T1">
+<label>Table 1</label>
+<caption>
+<p><bold>The proteomic datasets used in this study</bold>.</p></caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th align="left">Condition<xref ref-type="table-fn" rid="tfn1"><sup>a</sup></xref></th>
+<th align="left">Unique spectra</th>
+<th align="left">Peptides</th>
+<th align="left">Unique peptides</th>
+<th align="left">Proteins</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Ethanol (Qiao et al., <xref ref-type="bibr" rid="B37">2012</xref>)</td>
+<td align="left">21,066</td>
+<td align="left">7,337</td>
+<td align="left">7,192</td>
+<td align="left">1,523</td>
+</tr>
+<tr>
+<td align="left">Butanol (Tian et al., <xref ref-type="bibr" rid="B49">2013</xref>)</td>
+<td align="left">18,745</td>
+<td align="left">6,355</td>
+<td align="left">6,252</td>
+<td align="left">1,300</td>
+</tr>
+<tr>
+<td align="left">Hexane (Liu et al., <xref ref-type="bibr" rid="B28">2012</xref>)</td>
+<td align="left">19,217</td>
+<td align="left">6,995</td>
+<td align="left">6,875</td>
+<td align="left">1,389</td>
+</tr>
+<tr>
+<td align="left">Salt (Qiao et al., <xref ref-type="bibr" rid="B36">2013</xref>)</td>
+<td align="left">23,822</td>
+<td align="left">8,379</td>
+<td align="left">8,257</td>
+<td align="left">1,702</td>
+</tr>
+<tr>
+<td align="left">N-starvation (Huang et al., <xref ref-type="bibr" rid="B22">2013</xref>)</td>
+<td align="left">23,674</td>
+<td align="left">8,404</td>
+<td align="left">8,282</td>
+<td align="left">1,703</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<fn id="tfn1"><p><italic><sup>a</sup>References for each dataset are provided</italic>.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+```

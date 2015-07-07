@@ -24,7 +24,7 @@ Boxes
 
 ```
 
-## boxed text with figure
+## boxed text with figure-Frontiers
 
 ```xml  
 <boxed-text id="box02"> 

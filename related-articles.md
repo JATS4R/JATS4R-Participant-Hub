@@ -39,3 +39,31 @@ For linked articles outside the eLife journal. This is not an elegant solution a
 ...
 ```
 
+
+## PMC
+Related articles in different journals, demonstrating use of @journal-id and @journal-id-type.
+
+With DOI as @xlink:href:
+
+From Front Neurosci. 2014; 8: 300; 10.3389/fnins.2014.00300
+```xml
+<related-article id="RA1" related-article-type="commentary-article" 
+        journal-id="Brain Struct Funct" journal-id-type="nlm-ta" 
+        xlink:href="10.1007/s00429-013-0684-6" ext-link-type="doi">...</related-article>
+```
+
+With @vol and @page:
+
+From Front Oncol. 2014; 4: 235; 10.3389/fonc.2014.00235
+```xml
+<related-article id="RA1" related-article-type="commentary-article" 
+        journal-id="Proc Natl Acad Sci U S A" journal-id-type="nlm-ta" 
+        vol="111" page="29">...</related-article>
+```
+
+Related article defined soley by PubMed ID:
+
+From Commun Integr Biol. 2014; 7: e29483; 10.4161/cib.29483
+```xml
+<related-article related-article-type="article-reference" 
+        xlink:href="24643499" ext-link-type="pmid" id="REL1"/>

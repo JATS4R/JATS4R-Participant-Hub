@@ -289,3 +289,68 @@ Example from eLife Editorial content. It is steered by the requirement for the i
                     <email>jin.ye@utsouthwestern.edu</email></aff>
 </contrib-group>
  ```
+
+
+## PMC
+
+Collaborative author with expanded list of individual names:
+
+From Lupus Sci Med. 2014; 1(1): e000037; 10.1136/lupus-2014-000037
+
+```xml
+    <contrib contrib-type="collab" id="collab1">
+      <collab>APPLE investigators
+        <contrib-group>
+          <contrib contrib-type="collab">
+            <name>
+              <surname>Ardoin</surname>
+              <given-names>Stacy</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="collab">
+            <name>
+              <surname>Dewitt</surname>
+              <given-names>Esi Morgan</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="collab">
+            <name>
+              <surname>Rabinovich</surname>
+              <given-names>C Egla</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="collab">
+            <name>
+              <surname>Ellis</surname>
+              <given-names>Janet</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="collab">
+            <name>
+              <surname>Mieszkalski</surname>
+              <given-names>Kelly</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="collab">
+            <name>
+              <surname>Wootton</surname>
+              <given-names>Janet</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="collab">
+            <name>
+              <surname>Chira</surname>
+              <given-names>Peter</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="collab">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>Joyce</given-names>
+            </name>
+          </contrib>
+          ...
+        </contrib-group>
+      </collab>
+    </contrib>
+```

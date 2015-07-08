@@ -1,8 +1,9 @@
 # `<fig>`
 
-Figures
+##Figures
 
-## eLife
+
+###eLife
 
 ###Single figure
 
@@ -88,6 +89,78 @@ Figures
     <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="elife04316fs001"/>
   </fig>
 </fig-group>
-
 ```
 
+
+###Cambridge University Press
+
+###Figure example 1
+
+```xml
+<fig id="fig01" position="float">
+    <label>Figure 1:</label>
+    <caption>
+        <p>Distribution of applications from 1999 to 2009</p>
+    </caption>
+    <graphic xlink:type="simple" mime-subtype="jpeg"
+        xlink:href="S0021223715000047_fig1" mimetype="image" position="float"/>
+</fig>
+```
+
+###Figure example 2
+```xml
+<fig id="fig01" position="float">
+    <label>Fig. 1</label>
+    <caption>
+        <p>[<italic>colour online</italic>]. Number of notifications of Ross River virus
+            infection, received from State and Territory health authorities, 1993–2012. CT,
+            Capital Territory; NSW, New South Wales; NT, Northern Territory; Qld,
+            Queensland; SA, South Australia; Tas, Tasmania; Vic, Victoria; WA, West
+            Australia. (<italic>Source</italic>: Australian Department of Health and
+            Ageing. National Notifiable Diseases Surveillance System:   <uri
+                xlink:href="http://www9.health.gov.au/cda/source/Rpt_4.cfm"
+                xlink:type="simple"
+                >http://www9.health.gov.au/cda/source/Rpt_4.cfm</uri>).</p>
+    </caption>
+    <graphic mime-subtype="jpeg" mimetype="image" position="float"
+        xlink:href="S0950268814000399_fig1" xlink:type="simple"/>
+</fig>
+```
+
+###Figure example 3
+```xml
+<fig id="f3" position="float" fig-type="fig">
+    <label>Figure 3.</label>
+    <caption>
+        <p>Lift coefficient history for the NACA 0012 airfoil with <inline-formula>
+            <alternatives>
+                <inline-graphic xlink:href="S0022112015002803_inline98" mime-subtype="gif" xlink:type="simple"/>
+                <tex-math><![CDATA[$k=0.4$]]></tex-math>
+            </alternatives>
+        </inline-formula>, <inline-formula>
+            <alternatives>
+                <inline-graphic xlink:href="S0022112015002803_inline99" mime-subtype="gif" xlink:type="simple"/>
+                <tex-math><![CDATA[$\mathit{Ma}=0.1$]]></tex-math>
+            </alternatives>
+        </inline-formula>, <inline-formula>
+            <alternatives>
+                <inline-graphic xlink:href="S0022112015002803_inline100" mime-subtype="gif" xlink:type="simple"/>
+                <tex-math><![CDATA[$\mathit{Re}=10^{6}$]]></tex-math>
+            </alternatives>
+        </inline-formula>, <inline-formula>
+            <alternatives>
+                <inline-graphic xlink:href="S0022112015002803_inline101" mime-subtype="gif" xlink:type="simple"/>
+                <tex-math><![CDATA[${\it\alpha}_{0}=0^{\circ }$]]></tex-math>
+            </alternatives>
+        </inline-formula> and <inline-formula>
+            <alternatives>
+                <inline-graphic xlink:href="S0022112015002803_inline102" mime-subtype="gif" xlink:type="simple"/>
+                <tex-math><![CDATA[${\it\alpha}_{m}=6.7^{\circ }$]]></tex-math>
+            </alternatives>
+        </inline-formula>. (<italic>a</italic>) Comparison with experiments of Halfman (<xref ref-type="bibr" rid="r19">1952</xref>) and numerical computations of Lin <italic>et al.</italic> (<xref ref-type="bibr" rid="r32">2006</xref>). (<italic>b</italic>) Comparison with the analytical models of Theodorsen (<xref ref-type="bibr" rid="r44">1931</xref>) and McCroskey (<xref ref-type="bibr" rid="r33">1973</xref>).</p>
+    </caption>
+    <graphic xlink:href="S0022112015002803_fig3" mime-subtype="gif" position="float"
+        mimetype="image"
+        xlink:type="simple"/>
+</fig>
+```

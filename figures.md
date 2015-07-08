@@ -3,9 +3,9 @@
 Figures
 
 
-# eLife
+## eLife
 
-## Single figure
+### Single figure
 
 ```xml
 <fig id="fig1" position="float">
@@ -47,7 +47,7 @@ Figures
 </fig>
 ```
 
-## Figure group (figures and figure supplements)
+### Figure group (figures and figure supplements)
 
 ```xml
 <fig-group>
@@ -121,9 +121,9 @@ Figures
 ```
 
 
-# Cambridge University Press
+## Cambridge University Press
 
-## Figure example 1
+### Figure example 1
 
 ```xml
 <fig id="fig01" position="float">
@@ -136,7 +136,7 @@ Figures
 </fig>
 ```
 
-## Figure example 2
+### Figure example 2
 
 ```xml
 <fig id="fig01" position="float">
@@ -157,7 +157,7 @@ Figures
 </fig>
 ```
 
-## Figure example 3
+### Figure example 3
 
 ```xml
 <fig id="f3" position="float" fig-type="fig">
@@ -211,9 +211,9 @@ Figures
 </fig>
 ```
 
-# Frontiers
+## Frontiers
 
-## Figure with no title-example
+### Figure with no title-example
 
 ```xml 
 <fig id="F1" position="float">
@@ -225,4 +225,24 @@ Figures
 	<graphic xlink:href="fncom-09-00076-g0001.tif"/>
 </fig>  
 ```
+
+## Canadian Science Publishing
+
+```xml
+<fig id="f1" position="float" orientation="portrait">
+  <label><bold>Fig.&#xa0;1.</bold> </label>
+  <caption>
+    <title>Effects of a VAD or a VAS diet on the body mass of ZL and ZF rats after weaning.</title> Zucker lean (A) and fatty (B) rats at weaning (3&#xa0;weeks of age) were fed a VAD or a VAS diet for 8&#xa0;weeks. Individual body mass was recorded weekly and plotted. Animal numbers are shown in the parentheses (mean&#xa0;&#xb1; SEM, * <italic>p</italic>&#xa0;&lt; 0.05 for comparing VAD group with VAS group at indicated time point).
+  </caption>
+  <graphic xlink:href="o2012-012f1.eps" position="float" orientation="portrait" xlink:type="simple"/>
+</fig>
+```
+
+## Anonymous publisher #2
+
+```xml
+<fig id="f3">
+  <label>Fig. 3</label><caption><p>Droplet case setup: contours of volume fraction.</p></caption><graphic xlink:href="figure3.eps"/></fig>
+```
+
 

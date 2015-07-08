@@ -338,6 +338,17 @@ Tables
 </table-wrap>
 ```
 
+## Canadian Science Publishing
+
+```xml
+<table-wrap id="tab1" position="float" orientation="portrait">
+  <label><bold>Table 1.</bold> </label>
+  <caption><title id="ttl8">Curvilinear speeds (VCL) of individual male sperm samples, mixed-male sperm samples, and sperm samples combined with egg extract from <italic>Mytilus</italic> mussels.</title></caption>
+  <oasis:table>
+    ....
+</table-wrap>
+```
+
 ## Anonymous publisher #1
 
 ```xml

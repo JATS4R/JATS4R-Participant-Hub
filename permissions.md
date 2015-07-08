@@ -443,6 +443,21 @@ Compare @xlink:href with content of ext-link and text.
 </license>
 ```
 
+## Canadian Science Publishing
+
+```xml
+<permissions>
+  <copyright-statement>2013 Authors et al.</copyright-statement>
+  <copyright-year>2013</copyright-year>
+  <copyright-holder>Authors et al.</copyright-holder>
+  <license license-type="open-access" 
+    xlink:href="https://creativecommons.org/licenses/by/4.0/deed.en_GB">
+    <license-p>This article is open access. This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0) <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/deed.en_GB">http://creativecommons.org/licenses/by/4.0/deed.en_GB</ext-link></license-p>
+  </license>
+</permissions>
+```
+
+
 ## Anonymous publisher #1
 
 ```xml
@@ -468,3 +483,4 @@ Compare @xlink:href with content of ext-link and text.
     Inc.</copyright-holder>
 </permissions>
 ```
+

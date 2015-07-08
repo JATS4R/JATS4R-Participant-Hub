@@ -6,10 +6,17 @@
 <fn-group content-type="author-contributions">
   <title>Author Contributions</title>
   <fn id="contribution-1" fn-type="con">
-    <p><xref ref-type="contrib" rid="author-1">Mike Stock</xref> and <xref ref-type="contrib" rid="author-2">Matt Aitken</xref> conceived and designed the experiments, performed the experiments, analyzed the data, contributed reagents/materials/analysis tools, wrote the paper, prepared figures and/or tables, reviewed drafts of the paper.</p>
+    <p><xref ref-type="contrib" rid="author-1">Mike Stock</xref> and 
+      <xref ref-type="contrib" rid="author-2">Matt Aitken</xref> conceived and 
+      designed the experiments, performed the experiments, analyzed the data, 
+      contributed reagents/materials/analysis tools, wrote the paper, prepared 
+      figures and/or tables, reviewed drafts of the paper.</p>
   </fn>
   <fn id="contribution-2" fn-type="con">
-    <p><xref ref-type="contrib" rid="author-3">Pete Waterman</xref> conceived and designed the experiments, performed the experiments, analyzed the data, contributed reagents/materials/analysis tools, wrote the paper, reviewed drafts of the paper.</p>
+    <p><xref ref-type="contrib" rid="author-3">Pete Waterman</xref> conceived 
+      and designed the experiments, performed the experiments, analyzed the 
+      data, contributed reagents/materials/analysis tools, wrote the paper, 
+      reviewed drafts of the paper.</p>
   </fn>
 </fn-group>
 ```
@@ -21,29 +28,29 @@ Examples of contrib tag with attributes
 ```xml
 <contrib-group>
   <contrib contrib-type="author" equal-contrib="yes" id="author-23">
-....
-<contrib contrib-type="author" id="author-3">
-...
- <contrib contrib-type="author" deceased="yes" id="author-5">
-...
-<contrib contrib-type="author" corresp="yes" id="author-7">
-  ```
+  ....
+  <contrib contrib-type="author" id="author-3">
+  ...
+  <contrib contrib-type="author" deceased="yes" id="author-5">
+  ...
+  <contrib contrib-type="author" corresp="yes" id="author-7">
+```
 
 Group author:
 
 ```xml
 <contrib-group>
-...
+  ...
   <contrib contrib-type="author" corresp="yes">
-                    <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
-                    <collab>NISC Comparative Sequencing Program</collab>
+    <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
+    <collab>NISC Comparative Sequencing Program</collab>
   </contrib>
 </contrib-group>
 ...
 <contrib-group>
-                <contrib contrib-type="author non-byline">
-                    <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
-...
+  <contrib contrib-type="author non-byline">
+    <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
+  ...
 </contrib-group>
 ```
 
@@ -355,70 +362,72 @@ From Lupus Sci Med. 2014; 1(1): e000037; 10.1136/lupus-2014-000037
     </contrib>
 ```
 
-##Frontiers
+## Frontiers
 
-### simple collab
-
+### Simple collab
 
 ```xml
 <contrib contrib-type="author">
-	<collab>Cancer Immunotherapies Spanish Group (GETICA)</collab>
+  <collab>Cancer Immunotherapies Spanish Group (GETICA)</collab>
 </contrib>
 ```
 
-### collab with list of names
+### Collab with list of names
 
 ```xml
 <contrib-group>
-...
+  ...
   <contrib contrib-type="author" id="collab1">
-   <collab>The TESDAD Study Group</collab>
+    <collab>The TESDAD Study Group</collab>
   </contrib>
 </contrib-group>
+
 <contrib-group content-type="collab-list">
- <contrib contrib-type="collab" rid="collab1">
-  <name> 
-   <surname>Cuenca-Royo</surname>
-   <given-names>Aida</given-names>
-  </name>
- </contrib>
- <contrib contrib-type="collab" rid="collab1">
-  <name> 
-   <surname>Principe</surname>
-   <given-names>Alessandro</given-names>
-  </name>
- </contrib>
-...
+  <contrib contrib-type="collab" rid="collab1">
+    <name> 
+      <surname>Cuenca-Royo</surname>
+      <given-names>Aida</given-names>
+    </name>
+  </contrib>
+  <contrib contrib-type="collab" rid="collab1">
+    <name> 
+      <surname>Principe</surname>
+      <given-names>Alessandro</given-names>
+    </name>
+  </contrib>
+  ...
 </contrib-group>
 ```
-### editors and reviewers
 
-we are currently looking at using contrib-group to tag reviewers and editors. Any suggestions for improvements welcome.
+### Editors and reviewers
+
+We are currently looking at using contrib-group to tag reviewers and editors. Any 
+suggestions for improvements welcome.
 
 ```xml
 <contrib-group content-type="editors">
- <contrib id="editor-1" contrib-type="editor">
-  <name>
-   <surname>Smith</surname>
-   <given-names>John</given-names>
-  </name>
-  <aff>
-   <institution>University of Virginia</institution>, 
-   <country>USA</country>
-  </aff>
- </contrib>
+  <contrib id="editor-1" contrib-type="editor">
+    <name>
+      <surname>Smith</surname>
+      <given-names>John</given-names>
+    </name>
+    <aff>
+      <institution>University of Virginia</institution>, 
+      <country>USA</country>
+    </aff>
+  </contrib>
 </contrib-group>
 <contrib-group content-type="reviewers">
- <contrib id="reviewer-1" contrib-type="reviewer">
-  <name>
-   <surname>Konrad</surname>
-   <given-names>Charles</given-names>
-  </name>
-  <aff>
-   <institution>University of Munich</institution>, 
-   <country>Germany</country>
-  </aff>
- </contrib>
+  <contrib id="reviewer-1" contrib-type="reviewer">
+    <name>
+      <surname>Konrad</surname>
+      <given-names>Charles</given-names>
+    </name>
+    <aff>
+      <institution>University of Munich</institution>, 
+      <country>Germany</country>
+    </aff>
+  </contrib>
 </contrib-group>
 ```
 	

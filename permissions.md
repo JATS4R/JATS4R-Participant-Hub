@@ -442,3 +442,29 @@ Compare @xlink:href with content of ext-link and text.
   source are credited.</license-p>
 </license>
 ```
+
+## Anonymous publisher #1
+
+```xml
+<permissions>
+  <copyright-statement copyright-owner="AGU">Copyright 2010 by {org}</copyright-statement>
+  <copyright-year>2010</copyright-year>
+</permissions>
+```
+
+## Anonymous publisher #2
+
+```xml
+<permissions>
+  <copyright-statement>Copyright &#xA9; 2015 by the American Institute of 
+    Aeronautics and Astronautics, Inc. All rights reserved. Copies of this 
+    paper may be made for personal or internal use, on condition that the 
+    copier pay the $10.00 per-copy fee to the Copyright Clearance Center, 
+    Inc., 222 Rosewood Drive, Danvers, MA 01923; include the code 
+    <named-content content-type="ccc-code">1533-385X/15</named-content> and 
+    $10.00 in correspondence with the CCC.</copyright-statement>
+  <copyright-year>2015</copyright-year>
+  <copyright-holder>American Institute of Aeronautics and Astronautics, 
+    Inc.</copyright-holder>
+</permissions>
+```

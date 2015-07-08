@@ -337,3 +337,29 @@ Tables
   </table-wrap-foot>
 </table-wrap>
 ```
+
+## Anonymous publisher #1
+
+```xml
+<table-wrap id="tab01">
+  <label>Table 1.</label>
+  <title>Major Element, Trace Element Sr-Nd-Pb, and U Series Disequilibria of Flores and Corvo
+    Samples and the Faial Picrite Including International Rock Standard JA-2 Measured During
+    the Measurement Period<xref ref-type="table-fnote" rid="table01.a"
+      ><sup>a</sup></xref></title>
+  <table>         
+    ...
+  </table>
+</table-wrap>
+```
+
+## Anonymous publisher #2
+
+```xml
+<table-wrap id="t1">
+  <label>Table 1</label><caption><p>Material properties for water and ice.</p></caption>
+  <oasis:table>
+    ...
+  </oasis:table>
+</table-wrap>
+```

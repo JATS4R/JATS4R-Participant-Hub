@@ -164,3 +164,16 @@
         xlink:type="simple"/>
 </fig>
 ```
+
+## figure with no title-example from Frontiers
+
+```xml 
+<fig id="F1" position="float">
+	<label>Figure 1</label>
+	<caption>
+		<p><bold>(A)</bold>Schematic of the cellular correlate model for the value and the risk computation in the striatum...<bold>(B)</bold> The D1, D2, and D1D2 …</p>
+	</caption>
+	<graphic xlink:href="fncom-09-00076-g0001.tif"/>
+</fig>  
+```
+

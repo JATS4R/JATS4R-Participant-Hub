@@ -164,4 +164,20 @@ Footnote in author notes:
   Shanghai Majorbio Bio-pharm Technology Co., Ltd., Shanghai, China</p></fn>
 ```
 
+## BIR
+
+```xml
+<contrib contrib-type="author">
+<string-name>
+<given-names>P M</given-names><x> </x>
+<surname>Price</surname>
+</string-name><x> </x><email>PatPrice@patprice.co.uk</email>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="AF0002"><sup>2</sup></xref>
+</contrib>
+...
+
+<aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
+<aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
+```
 

@@ -245,4 +245,11 @@ Figures
   <label>Fig. 3</label><caption><p>Droplet case setup: contours of volume fraction.</p></caption><graphic xlink:href="figure3.eps"/></fig>
 ```
 
+## BIR
 
+'''xml
+<fig id="f1">
+<label>Figure 1.</label>
+<caption><p>A breast treatment of post-surgical breast (including the implant reconstruction) and axial and supraclavicular lymph nodes.<sup><xref ref-type="bibr" rid="b15">15</xref></sup> The treatment uses a single oblique field that covers all target (sub)volumes. The treatment field uses an 80-mm lucite absorber to lower the available energies from our cyclotron and deliver dose up to the skin. Clinically, the reduction in the dose to the left lung and the left anterior descending artery is of interest.</p></caption>
+<graphic xlink:href="bjr.20150195.g001.tif"/>
+</fig>

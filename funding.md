@@ -132,3 +132,12 @@ The funding section is cross linked to each author by, for example <xref ref-typ
             </funding-group>
 ```
 
+
+## PLOS
+
+
+```xml
+<funding-group>
+<funding-statement>This work was funded by Natural Sciences and Engineering Research Council of Canada, RGPIN-2014-06318, JD <ext-link ext-link-type="uri" xlink:href="http://www.nserc-crsng.gc.ca/index_eng.asp" xlink:type="simple">http://www.nserc-crsng.gc.ca/index_eng.asp</ext-link>; SensoriMotor Rehabilitation Research Team (SMRRT), Canadian Institutes of Health Research, RMF111622, JD <ext-link ext-link-type="uri" xlink:href="http://www.cihr-irsc.gc.ca/e/193.html" xlink:type="simple">http://www.cihr-irsc.gc.ca/e/193.html</ext-link>; and SensoriMotor Rehabilitation Research Team (SMRRT), Canadian Institutes of Health Research, postdoctoral fellowships, SV and OL; <ext-link ext-link-type="uri" xlink:href="http://www.cihr-irsc.gc.ca/e/193.html" xlink:type="simple">http://www.cihr-irsc.gc.ca/e/193.html</ext-link>. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+```

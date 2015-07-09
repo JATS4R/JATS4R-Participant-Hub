@@ -131,3 +131,54 @@ Examples with database entry ID as text and link (Full URL in HTML from lookup o
 </ref>
 
 ```
+
+##eLife
+
+Example 1
+
+```
+<ref id="bib46">
+  <element-citation publication-type="data">
+    <person-group person-group-type="author">
+      <name><surname>Ly</surname>
+        <given-names>T</given-names></name>, <name><surname>Endo</surname>
+        <given-names>A</given-names></name>, <name>
+        <surname>Lamond</surname><given-names>Angus I</given-names></name>
+    </person-group>
+    <year>2014</year>
+    <source>Proteomics dataset</source>
+    <ext-link ext-link-type="uri" xlink:href="http://proteomecentral.proteomexchange.org"
+      >http://proteomecentral.proteomexchange.org</ext-link>
+  </element-citation>
+</ref>
+```
+
+
+Example 2
+
+```
+<ref id="bib46">
+  <element-citation publication-type="web">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Schuman</surname>
+        <given-names>M</given-names>
+      </name>
+      <name>
+        <surname>Barthel</surname>
+        <given-names>K</given-names>
+      </name>
+      <name>
+        <surname>Baldwin</surname>
+        <given-names>IT</given-names>
+      </name>
+    </person-group>
+    <year>2012</year>
+    <comment>Data from: Herbivory-induced volatiles function as defenses increasing
+      fitness of the native plant <italic>Nicotiana attenuata</italic> in nature.
+      Dryad Digital Repository.</comment>
+    <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.gs45f"
+      >http://dx.doi.org/10.5061/dryad.gs45f</ext-link>
+  </element-citation>
+</ref>
+```

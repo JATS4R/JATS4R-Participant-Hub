@@ -146,15 +146,15 @@ The funding section is cross linked to each author by, for example <xref ref-typ
 ## Aries
 
 
- ```<funding-group>
-            <!-- the award group ID attribute is a unique ID that Aries assigns. It is not meaningful -->
-         <award-group id="ID0EMUAE54">
-         <!-- The Author entering the funding source chooses from a drop-down list prepopulated with the FundRef database of funders, or can type in free text. If the funder name is from the FundRef database, the named-content-type content-type attribute is hardcoded as "funder-id" and the FundRef funder ID is included as the value -->
-          <funding-source>Directorate for Mathematical and Physical Sciences<named-content content-type="funder-id">http://dx.doi.org/10.13039/100000086</named-content></funding-source>
+```<funding-group>
+<!-- the award group ID attribute is a unique ID that Aries assigns. It is not meaningful -->
+<award-group id="ID0EMUAE54">
+<!-- The Author entering the funding source chooses from a drop-down list prepopulated with the FundRef database of funders, or can type in free text. If the funder name is from the FundRef database, the named-content-type content-type attribute is hardcoded as "funder-id" and the FundRef funder ID is included as the value -->
+<funding-source>Directorate for Mathematical and Physical Sciences<named-content content-type="funder-id">http://dx.doi.org/10.13039/100000086</named-content></funding-source>
 <!-- the award ID is the grant number as entered by the Author -->          
-          <award-id>123456</award-id>
-   <!-- the principal-award-recipient is one of the authors, or set to the hardcoded string "Not Applicable" if none of the authors are the grant recipient -->
-          <principal-award-recipient>Buzz Aldrin</principal-award-recipient>
+<award-id>123456</award-id>
+<!-- the principal-award-recipient is one of the authors, or set to the hardcoded string "Not Applicable" if none of the authors are the grant recipient -->
+<principal-award-recipient>Buzz Aldrin</principal-award-recipient>
         </award-group>
         <award-group id="ID0E4UAE55">
           <funding-source>Division of Physics<named-content content-type="funder-id">http://dx.doi.org/10.13039/100000166</named-content></funding-source>
@@ -192,5 +192,5 @@ The funding section is cross linked to each author by, for example <xref ref-typ
           <award-id>5 R01 HL123451-01A2</award-id>
           <principal-award-recipient>John Nash</principal-award-recipient>
         </award-group>
-      </funding-group>
-      ```
+      </funding-group>```
+  

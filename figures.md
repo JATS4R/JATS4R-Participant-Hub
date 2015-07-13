@@ -232,9 +232,16 @@ Figures
 <fig id="f1" position="float" orientation="portrait">
   <label><bold>Fig.&#xa0;1.</bold> </label>
   <caption>
-    <title>Effects of a VAD or a VAS diet on the body mass of ZL and ZF rats after weaning.</title> Zucker lean (A) and fatty (B) rats at weaning (3&#xa0;weeks of age) were fed a VAD or a VAS diet for 8&#xa0;weeks. Individual body mass was recorded weekly and plotted. Animal numbers are shown in the parentheses (mean&#xa0;&#xb1; SEM, * <italic>p</italic>&#xa0;&lt; 0.05 for comparing VAD group with VAS group at indicated time point).
+    <title>Effects of a VAD or a VAS diet on the body mass of ZL and ZF rats after 
+      weaning.</title> 
+    Zucker lean (A) and fatty (B) rats at weaning (3&#xa0;weeks of 
+    age) were fed a VAD or a VAS diet for 8&#xa0;weeks. Individual body mass was 
+    recorded weekly and plotted. Animal numbers are shown in the parentheses 
+    (mean&#xa0;&#xb1; SEM, * <italic>p</italic>&#xa0;&lt; 0.05 for comparing VAD 
+    group with VAS group at indicated time point).
   </caption>
-  <graphic xlink:href="o2012-012f1.eps" position="float" orientation="portrait" xlink:type="simple"/>
+  <graphic xlink:href="o2012-012f1.eps" position="float" orientation="portrait" 
+    xlink:type="simple"/>
 </fig>
 ```
 
@@ -242,15 +249,24 @@ Figures
 
 ```xml
 <fig id="f3">
-  <label>Fig. 3</label><caption><p>Droplet case setup: contours of volume fraction.</p></caption><graphic xlink:href="figure3.eps"/></fig>
+  <label>Fig. 3</label>
+  <caption><p>Droplet case setup: contours of volume fraction.</p></caption>
+  <graphic xlink:href="figure3.eps"/>
+</fig>
 ```
 
 ## BIR
 
 ```xml
 <fig id="f1">
-<label>Figure 1.</label>
-<caption><p>A breast treatment of post-surgical breast (including the implant reconstruction) and axial and supraclavicular lymph nodes.<sup><xref ref-type="bibr" rid="b15">15</xref></sup> The treatment uses a single oblique field that covers all target (sub)volumes. The treatment field uses an 80-mm lucite absorber to lower the available energies from our cyclotron and deliver dose up to the skin. Clinically, the reduction in the dose to the left lung and the left anterior descending artery is of interest.</p></caption>
-<graphic xlink:href="bjr.20150195.g001.tif"/>
+  <label>Figure 1.</label>
+  <caption><p>A breast treatment of post-surgical breast (including the implant 
+    reconstruction) and axial and supraclavicular lymph nodes.<sup><xref 
+      ref-type="bibr" rid="b15">15</xref></sup> The treatment uses a single oblique 
+    field that covers all target (sub)volumes. The treatment field uses an 80-mm 
+    lucite absorber to lower the available energies from our cyclotron and deliver 
+    dose up to the skin. Clinically, the reduction in the dose to the left lung and 
+    the left anterior descending artery is of interest.</p></caption>
+  <graphic xlink:href="bjr.20150195.g001.tif"/>
 </fig>
 ```

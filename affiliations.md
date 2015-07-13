@@ -168,12 +168,12 @@ Footnote in author notes:
 
 ```xml
 <contrib contrib-type="author">
-<string-name>
-<given-names>P M</given-names><x> </x>
-<surname>Price</surname>
-</string-name><x> </x><email>PatPrice@patprice.co.uk</email>
-<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
-<xref ref-type="aff" rid="AF0002"><sup>2</sup></xref>
+  <string-name>
+    <given-names>P M</given-names><x> </x>
+    <surname>Price</surname>
+  </string-name><x> </x><email>PatPrice@patprice.co.uk</email>
+  <xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+  <xref ref-type="aff" rid="AF0002"><sup>2</sup></xref>
 </contrib>
 ...
 

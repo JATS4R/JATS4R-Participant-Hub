@@ -182,3 +182,48 @@ Example 2
   </element-citation>
 </ref>
 ```
+
+
+##JATS4R sample so far
+
+Example 1
+
+```
+<ref id="XXXX">
+    <element-citation publication-type="data">
+        <person-group person-group-type="author">
+            <contrib>
+            <collab>The JATS Standing Committee</collab>
+            </contrib>
+            <contrib>
+            <name>
+                <surname>Maloney</surname>
+                <given-names>Chris</given-names>
+            </name>
+            </contrib>
+            <contrib>
+            <contrib>
+                    <name>
+                        <surname>Seligy</surname>
+                    <given-names>M</given-names>
+            </name>
+            </contrib>
+            <contrib><name>
+                <surname>Randall</surname>
+                <given-names>L</given-names>
+            </name>
+            </contrib>
+        </person-group>
+        <person-group person-group-type="curator">
+        <contrib>
+            <collab>JATS4R Working Group</collab>
+        </contrib>
+        <contrib>
+        </person-group>
+           <<data-title>Elements</data-title>."
+           <source>GitHub</source>, available from 
+           <ext-link ext-link-type='uri' 
+               xlink:href='https://github.com/JATS4R/elements'>https://github.com/JATS4R/elements</ext-link>.
+         <element-citation/>
+    </ref>
+```

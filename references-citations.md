@@ -13,8 +13,7 @@ Data Citations
 
 Example with CrossRef DOI URL as text and link
 
-```xml
-
+```
 <ref-list content-type="data-citations">
   <ref id="d1">
     <element-citation>
@@ -36,14 +35,11 @@ Example with CrossRef DOI URL as text and link
     </element-citation>
   </ref>
 </ref-list>
-
-
 ```
 
 Example with database entry ID as text and full URL as link
 
-```xml
-
+```
 <ref id="d1">
   <element-citation>
     <source>Gene Expression Omnibus</source>
@@ -67,15 +63,12 @@ Example with database entry ID as text and full URL as link
     </collab>
   </element-citation>
 </ref>
-
-
 ```
 
 Examples with database entry ID as text and link (Full URL in HTML from lookup of database ID in @ext-link-type in ontology)
 
 
-```xml
-
+```
 <ref id="d5">
   <element-citation>
     <source>ArrayExpress</source>
@@ -129,7 +122,6 @@ Examples with database entry ID as text and link (Full URL in HTML from lookup o
     </collab>
   </element-citation>
 </ref>
-
 ```
 
 ##eLife
@@ -181,6 +173,105 @@ Example 2
       >http://dx.doi.org/10.5061/dryad.gs45f</ext-link>
   </element-citation>
 </ref>
+```
+
+##Examples from Adapting JATS to support data citation
+
+Database on CD-ROM, DVD, or disk
+
+```
+<mixed-citation publication-type="data" publication-format="disk">
+  <name><surname>Walker</surname><given-names>MM</given-names></name>, 
+  <name><surname>Keith</surname><given-names>LH</given-names></name>. 
+  <data-title>EPA's Clean Air Act air toxics database</data-title> [disk]. 
+  <publisher-loc>Boca Raton (FL)</publisher-loc>: 
+  <publisher-name>Lewis Publishers</publisher-name>; 
+  <date-in-citation content-type="copyright-year"
+    iso-8601-date="1992">1992-1993</date-in-citation>.
+  4 computer disks: 3 1/2 in.
+</mixed-citation>
+```
+
+Record from a web data repository
+
+```
+<mixed-citation publication-type='data'>
+  <name><surname>Benz</surname><given-names>Michael</given-names></name>;
+  <name><surname>Braband</surname><given-names>Henrik</given-names></name>;
+  <name><surname>Schmutz</surname><given-names>Paul</given-names></name>;
+  <name><surname>Halter</surname><given-names>Jonathan</given-names></name>; 
+  <name><surname>Alberto</surname><given-names>Roger</given-names></name>.
+  <data-title>C21 H49 Al Cl7 N7 O7 Tc</data-title>,
+  version <version>130981</version>. From
+  <source>Crystallography Open Database</source>,
+  accession <pub-id pub-id-type='accession' 
+    assigning-authority='crystallography open database'
+    xlink:href='http://www.crystallography.net/cod/1517518.html'>1517518</pub-id>.
+</mixed-citation>
+```
+                
+Record from the Protein Data Bank
+
+```
+<mixed-citation publication-type='data'>
+  <name><surname>Heinz</surname><given-names>D.W.</given-names></name>,
+  <name><surname>Baase</surname><given-names>W.A.</given-names></name>,
+  <etal>et. al.</etal>
+  <data-title>How amino-acid insertions are allowed in an alpha-helix of T4 
+  lysozyme</data-title>.
+  <source>RCSB Protein Data Bank</source>,
+  accession <pub-id pub-id-type='accession' assigning-authority='pdb'
+    xlink:href='http://www.rcsb.org/pdb/explore/explore.do?structureId=102l'>102l</pub-id>.
+  <pub-id pub-id-type='doi'
+    xlink:href='http://dx.doi.org/10.2210/pdb102l/pdb'>10.2210/pdb102l/pdb</pub-id>
+</mixed-citation>
+```
+
+Data record from FigShare
+
+```
+<mixed-citation>
+  <name><surname>Mulvany</surname><given-names>Ian</given-names></name>,
+  <data-title>citing-dataset-elements</data-title>.
+  <source>FigShare</source>, 
+  <date-in-citation content-type=’pub-date’ 
+    iso-8601-date='2014-06-30'><day>30</day><month>06</month>
+  <year>2014</year></date-in-citation>,
+  <pub-id pub-id-type='doi' xlink:href='http://dx.doi.org/10.6084/m9.figshare.1088363'
+    assigning-authority='figshare'>10.6084/m9.figshare.1088363</pub-id>.
+</mixed-citation>
+```
+
+Page from Encyclopedia of Life
+
+```
+<mixed-citation>
+  <person-group person-group-type='curator'>
+    <name><surname>Frankis</surname><given-names>Michael</given-names></name>
+  </person-group>, curator.
+  "<data-title>Mountain bluebird</data-title>."
+  <source>Encyclopedia of Life</source>, available from 
+  <ext-link ext-link-type='uri' 
+    xlink:href='http://eol.org/pages/1177542'>http://eol.org/pages/1177542</ext-link>.
+  Accessed 30 Mar 2015.
+</mixed-citation>
+```
+
+Add Health
+
+```
+<mixed-citation>
+  <name><surname>Harris</surname><given-names>Kathleen Mullan</given-names></name>.
+  <date-in-citation content-type="pub-date"><year>2009</year></date-in-citation>.
+  <data-title>The National Longitudinal Study of Adolescent to Adult Health (Add Health),
+    Waves I & II, 1994–1996; Wave III, 2001–2002; Wave IV, 2007-2009</data-title>
+  [machine-readable data file and documentation].
+  <publisher-loc>Chapel Hill, NC</publisher-loc>:
+  <publisher-name>Carolina Population Center, University of North Carolina at
+    Chapel Hill</publisher-name>. 
+  DOI: <pub-id pub-id-type='doi'
+    xlink:href='http://dx.doi.org/10.3886/ICPSR27021.v9'>10.3886/ICPSR27021.v9</pub-id>
+</mixed-citation>
 ```
 
 

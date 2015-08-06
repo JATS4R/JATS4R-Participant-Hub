@@ -43,31 +43,31 @@ Data Citations - citing data sets in references
 </ref>
 ```
 
-<ref id="d1">
-Use standard <ref> element, one per data citation.  Use an internally-consistent identifier for @id; best practice is an alphanumeric sequence common to all citations in your document, followed by an incremental number matching the sequential order of citations.
+&lt;ref id="d1"&gt;
+Use standard &lt;ref&gt; element, one per data citation.  Use an internally-consistent identifier for @id; best practice is an alphanumeric sequence common to all citations in your document, followed by an incremental number matching the sequential order of citations.
 
-<mixed-citation> / <element-citation> 
-Either of these elements could be used, depending on whether your practice is to include punctuation in your XML (<mixed-citation>) or to generate punctuation (<element-citation> ).
+&lt;mixed-citation&gt; / &lt;element-citation&gt; 
+Either of these elements could be used, depending on whether your practice is to include punctuation in your XML (&lt;mixed-citation&gt;) or to generate punctuation (&lt;element-citation&gt; ).
 publication-type="data"
 Use "data" as the value of @publication-type to indicate that the citation is to a data set, even if that data set is the entire data repository.
 
-<person-group>
-<person-group> is the element to contain authors in a citation.  Where the authors are identified by role, a separate <person-group> should be used for each role, with the @person-group-type attribute holding the role type; this attribute has a fixed list of allowed values.
+&lt;person-group&gt;
+&lt;person-group&gt; is the element to contain authors in a citation.  Where the authors are identified by role, a separate &lt;person-group&gt; should be used for each role, with the @person-group-type attribute holding the role type; this attribute has a fixed list of allowed values.
 
-<name> / <collab>
-The <name> element should be used for an individual named author; where groups of authors (consortia) have a group name, the <collab> element should be used.
+&lt;name&gt; / &lt;collab&gt;
+The &lt;name&gt; element should be used for an individual named author; where groups of authors (consortia) have a group name, the &lt;collab&gt; element should be used.
 
-<data-title> / <source>
-At least one of <data-title> or <source> must be present.
-Where JATS version 1.1d3 is being used, <data-title> should hold the title of the data set; while <source> should contain the name of the holding repository.
-Where an earlier version of JATS is being used, <source> should hold the name of the holding repository.
+&lt;data-title&gt; / &lt;source&gt;
+At least one of &lt;data-title&gt; or &lt;source&gt; must be present.
+Where JATS version 1.1d3 is being used, &lt;data-title&gt; should hold the title of the data set; while &lt;source&gt; should contain the name of the holding repository.
+Where an earlier version of JATS is being used, &lt;source&gt; should hold the name of the holding repository.
 
-<year>
+&lt;year&gt;
 This should contain the 4-digit year the data was deposited. (Or in the case of data sets updated regularly, the year the data was used in this work??)
 It is recommended to include the @iso-8601-date attribute, if used, should contain the same 4-digit year as the element content.
 
-<pub-id>
-<pub-id> should be used to hold both the repository ID for the data, in the element content, and the full URI to the data, in the @xlink:href attricute.
+&lt;pub-id&gt;
+&lt;pub-id&gt; should be used to hold both the repository ID for the data, in the element content, and the full URI to the data, in the @xlink:href attricute.
 The URI should be a DOI or similar persistent identifier.
 The @pub-id-type attribute must be used, and should contain the type of identifier, e.g. "doi" or "accession" (version 1.1d2 or above).  In the Archiving DTD, this attribute can contain any text, but in the Journal Publishing DTD, it's value must be one of a fixed list.
 

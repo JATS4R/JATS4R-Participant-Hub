@@ -24,4 +24,14 @@ Currently publish within a footnote group with other ethical information
 <fn-group>           
 ```
 
+## NIHR
+
+This information is currently included as free text within a long-form abstract. For future structured markup we are considering co-opting the related-object element:
+
+```xml
+<related-object id="trial1" content-type="clinical-trial" link-type="post-result" source-id="ISRCTN69423238" source-id-type="ISRCTN">
+   <source>Spontaneous Urinary Stone Passage ENabled by Drugs</source>
+   <ext-link ext-link-type="doi" xlink:href="http://dx.doi.org/10.1186/ISRCTN69423238">10.1186/ISRCTN69423238</ext-link>
+</related-object>
+```
 

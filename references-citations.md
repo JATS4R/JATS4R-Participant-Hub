@@ -2,84 +2,57 @@
 
 References (citation of software/data/versions/law cases)
 
-See [GitHub issues](https://github.com/JATS4R/elements/labels/references-citations).
+See:
+
+* [GitHub issues](https://github.com/JATS4R/elements/labels/references-citations).
+* [Draft recommendations](https://docs.google.com/document/d/13uGZ4UqplHkT9VvaXnuboLZ2IRCx3SH7PTQJk24CiRk/) (Google doc).
+  Most of the text from this document has moved there.
 
 Please add examples below.
 
-Data Citations - citing data sets in references
 
-## Best practice example with notes
-(this section under development)
+# Data Citations - citing data sets in references
+
+## Best practice example
+
+See [draft recommendations](https://docs.google.com/document/d/13uGZ4UqplHkT9VvaXnuboLZ2IRCx3SH7PTQJk24CiRk/)
 
 ```xml
 <ref id="d1">
-    <element-citation publication-type="data">
-        <person-group person-group-type="author">
-             <collab>The Concerto Consortium</collab>
-            <name>
-                <surname>van Beethoven</surname>
-                <given-names>Ludwig</given-names>
-            </name>
-            <name>
-                <surname>Liszt</surname>
-            <given-names>F</given-names>
-            </name>
-            <name>
-                <surname>Mozart</surname>
-                <given-names>WA</given-names>
-            </name>
-        </person-group>
-        <person-group person-group-type="curator">
-            <name>
-                <surname>Bach</surname>
-                <given-names>JS</given-names>
-            </name>
-        </person-group>
-        <data-title>Title of data set</data-title>
-        <year iso-8601-date="2014">2014</year> 
-        <source>Repository Name</source>
-        <pub-id pub-id-type="doi" xlink:href="http://dx.doi.org/99.1234/1234321">99.1234/1234321</pub-id>
-    </element-citation>
+  <element-citation publication-type="data">
+    <person-group person-group-type="author">
+      <collab>The Concerto Consortium</collab>
+      <name>
+        <surname>van Beethoven</surname>
+        <given-names>Ludwig</given-names>
+      </name>
+      <name>
+        <surname>Liszt</surname>
+        <given-names>F</given-names>
+      </name>
+    </person-group>
+    <person-group person-group-type="curator">
+      <name>
+        <surname>Bach</surname>
+        <given-names>JS</given-names>
+      </name>
+    </person-group>
+    <data-title>Title of data set</data-title>
+    <year iso-8601-date="2014">2014</year> 
+    <source>Repository Name</source>
+    <pub-id pub-id-type="doi" assigning-authority='figshare'
+      xlink:href="http://dx.doi.org/99.1234/1234321">99.1234/1234321</pub-id>
+    <version designator="16.2">16th version, second release</version>
+  </element-citation>
 </ref>
 ```
 
-&lt;ref id="d1"&gt;
-Use standard &lt;ref&gt; element, one per data citation.  Use an internally-consistent identifier for @id; best practice is an alphanumeric sequence common to all citations in your document, followed by an incremental number matching the sequential order of citations.
 
-&lt;mixed-citation&gt; / &lt;element-citation&gt; 
-Either of these elements could be used, depending on whether your practice is to include punctuation in your XML (&lt;mixed-citation&gt;) or to generate punctuation (&lt;element-citation&gt; ).
-publication-type="data"
-Use "data" as the value of @publication-type to indicate that the citation is to a data set, even if that data set is the entire data repository.
-
-&lt;person-group&gt;
-&lt;person-group&gt; is the element to contain authors in a citation.  Where the authors are identified by role, a separate &lt;person-group&gt; should be used for each role, with the @person-group-type attribute holding the role type; this attribute has a fixed list of allowed values.
-
-&lt;name&gt; / &lt;collab&gt;
-The &lt;name&gt; element should be used for an individual named author; where groups of authors (consortia) have a group name, the &lt;collab&gt; element should be used.
-
-&lt;data-title&gt; / &lt;source&gt;
-At least one of &lt;data-title&gt; or &lt;source&gt; must be present.
-Where JATS version 1.1d3 is being used, &lt;data-title&gt; should hold the title of the data set; while &lt;source&gt; should contain the name of the holding repository.
-Where an earlier version of JATS is being used, &lt;source&gt; should hold the name of the holding repository.
-
-&lt;year&gt;
-This should contain the 4-digit year the data was deposited. (Or in the case of data sets updated regularly, the year the data was used in this work??)
-It is recommended to include the @iso-8601-date attribute, if used, should contain the same 4-digit year as the element content.
-
-&lt;pub-id&gt;
-&lt;pub-id&gt; should be used to hold both the repository ID for the data, in the element content, and the full URI to the data, in the @xlink:href attricute.
-The URI should be a DOI or similar persistent identifier.
-The @pub-id-type attribute must be used, and should contain the type of identifier, e.g. "doi" or "accession" (version 1.1d2 or above).  In the Archiving DTD, this attribute can contain any text, but in the Journal Publishing DTD, it's value must be one of a fixed list.
-
-
-## Examples from various publishers
-
-### Nature Publishing Group
-
+### Nature Publishing Group examples
 
 Example with CrossRef DOI URL as text and link
 
-```
+```xml
 <ref-list content-type="data-citations">
   <ref id="d1">
     <element-citation>
@@ -105,11 +78,14 @@ Example with CrossRef DOI URL as text and link
 
 Example with database entry ID as text and full URL as link
 
-```
+```xml
 <ref id="d1">
   <element-citation>
     <source>Gene Expression Omnibus</source>
-    <ext-link ext-link-type="geo" specific-use="url" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59088">GSE59088</ext-link>
+    <ext-link ext-link-type="geo" 
+      specific-use="url" 
+      xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59088"
+      >GSE59088</ext-link>
     <year>2014</year>
     <collab>
       <contrib-group>
@@ -131,10 +107,10 @@ Example with database entry ID as text and full URL as link
 </ref>
 ```
 
-Examples with database entry ID as text and link (Full URL in HTML from lookup of database ID in @ext-link-type in ontology)
+Examples with database entry ID as text and link (Full URL in HTML from lookup 
+of database ID in @ext-link-type in ontology)
 
-
-```
+```xml
 <ref id="d5">
   <element-citation>
     <source>ArrayExpress</source>
@@ -190,11 +166,11 @@ Examples with database entry ID as text and link (Full URL in HTML from lookup o
 </ref>
 ```
 
-###eLife
+## eLife examples
 
 Example 1
 
-```
+```xml
 <ref id="bib46">
   <element-citation publication-type="data">
     <person-group person-group-type="author">
@@ -211,10 +187,9 @@ Example 1
 </ref>
 ```
 
-
 Example 2
 
-```
+```xml
 <ref id="bib46">
   <element-citation publication-type="web">
     <person-group person-group-type="author">
@@ -241,11 +216,11 @@ Example 2
 </ref>
 ```
 
-##Examples from Adapting JATS to support data citation
+## Examples from "Adapting JATS to support data citation"
 
 Database on CD-ROM, DVD, or disk
 
-```
+```xml
 <mixed-citation publication-type="data" publication-format="disk">
   <name><surname>Walker</surname><given-names>MM</given-names></name>, 
   <name><surname>Keith</surname><given-names>LH</given-names></name>. 
@@ -260,7 +235,7 @@ Database on CD-ROM, DVD, or disk
 
 Record from a web data repository
 
-```
+```xml
 <mixed-citation publication-type='data'>
   <name><surname>Benz</surname><given-names>Michael</given-names></name>;
   <name><surname>Braband</surname><given-names>Henrik</given-names></name>;
@@ -278,7 +253,7 @@ Record from a web data repository
                 
 Record from the Protein Data Bank
 
-```
+```xml
 <mixed-citation publication-type='data'>
   <name><surname>Heinz</surname><given-names>D.W.</given-names></name>,
   <name><surname>Baase</surname><given-names>W.A.</given-names></name>,
@@ -295,7 +270,7 @@ Record from the Protein Data Bank
 
 Data record from FigShare
 
-```
+```xml
 <mixed-citation>
   <name><surname>Mulvany</surname><given-names>Ian</given-names></name>,
   <data-title>citing-dataset-elements</data-title>.
@@ -310,7 +285,7 @@ Data record from FigShare
 
 Page from Encyclopedia of Life
 
-```
+```xml
 <mixed-citation>
   <person-group person-group-type='curator'>
     <name><surname>Frankis</surname><given-names>Michael</given-names></name>
@@ -325,12 +300,13 @@ Page from Encyclopedia of Life
 
 Add Health
 
-```
+```xml
 <mixed-citation>
   <name><surname>Harris</surname><given-names>Kathleen Mullan</given-names></name>.
   <date-in-citation content-type="pub-date"><year>2009</year></date-in-citation>.
-  <data-title>The National Longitudinal Study of Adolescent to Adult Health (Add Health),
-    Waves I & II, 1994–1996; Wave III, 2001–2002; Wave IV, 2007-2009</data-title>
+  <data-title>The National Longitudinal Study of Adolescent to Adult Health 
+    (Add Health), Waves I & II, 1994–1996; Wave III, 2001–2002; Wave IV, 
+    2007-2009</data-title>
   [machine-readable data file and documentation].
   <publisher-loc>Chapel Hill, NC</publisher-loc>:
   <publisher-name>Carolina Population Center, University of North Carolina at
@@ -341,46 +317,46 @@ Add Health
 ```
 
 
-###JATS4R sample so far
+## JATS4R sample so far
 
 Example 1
 
-```
+```xml
 <ref id="XXXX">
-    <element-citation publication-type="data">
-        <person-group person-group-type="author">
-            <contrib>
-            <collab>The JATS Standing Committee</collab>
-            </contrib>
-            <contrib>
-            <name>
-                <surname>Maloney</surname>
-                <given-names>Chris</given-names>
-            </name>
-            </contrib>
-            <contrib>
-            <contrib>
-                    <name>
-                        <surname>Seligy</surname>
-                    <given-names>M</given-names>
-            </name>
-            </contrib>
-            <contrib><name>
-                <surname>Randall</surname>
-                <given-names>L</given-names>
-            </name>
-            </contrib>
-        </person-group>
-        <person-group person-group-type="curator">
-        <contrib>
-            <collab>JATS4R Working Group</collab>
-        </contrib>
-        <contrib>
-        </person-group>
-           <<data-title>Elements</data-title>."
-           <source>GitHub</source>, available from 
-           <ext-link ext-link-type='uri' 
-               xlink:href='https://github.com/JATS4R/elements'>https://github.com/JATS4R/elements</ext-link>.
-         <element-citation/>
-    </ref>
+  <element-citation publication-type="data">
+    <person-group person-group-type="author">
+      <contrib>
+        <collab>The JATS Standing Committee</collab>
+      </contrib>
+      <contrib>
+        <name>
+          <surname>Maloney</surname>
+          <given-names>Chris</given-names>
+        </name>
+      </contrib>
+      <contrib>
+        <name>
+          <surname>Seligy</surname>
+          <given-names>M</given-names>
+        </name>
+      </contrib>
+      <contrib>
+        <name>
+          <surname>Randall</surname>
+          <given-names>L</given-names>
+        </name>
+      </contrib>
+    </person-group>
+    <person-group person-group-type="curator">
+      <contrib>
+        <collab>JATS4R Working Group</collab>
+      </contrib>
+    </person-group>
+    <data-title>Elements</data-title>
+    <source>GitHub</source>, available from 
+    <ext-link ext-link-type='uri' 
+      xlink:href='https://github.com/JATS4R/elements'
+      >https://github.com/JATS4R/elements</ext-link>.
+  </element-citation>
+</ref>
 ```

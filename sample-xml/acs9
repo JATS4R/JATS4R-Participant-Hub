@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://internal.acs.org/ACSJournal/JATS-archive-oasis-article1-mathml3.xsd"
+         article-type="reply"
+         dtd-version="1.1d1">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="acspubs">nn</journal-id>
+         <journal-id journal-id-type="coden">ancac3</journal-id>
+         <journal-title-group>
+            <journal-title>ACS Nano</journal-title>
+            <abbrev-journal-title>ACS Nano</abbrev-journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">1936-0851</issn>
+         <issn pub-type="epub">1936-086X</issn>
+         <publisher>
+            <publisher-name>American Chemical Society</publisher-name>
+         </publisher>
+         <self-uri>www.acsnano.org</self-uri>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="doi">10.1021/acsnano.5b00021</article-id>
+         <article-categories>
+            <subj-group subj-group-type="document-type-name">
+               <subject>Perspective</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Elucidating the Fundamental Mechanisms of Cell Death Triggered by Photothermal Therapy</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author" id="ath1">
+               <name name-style="western">
+                  <surname>Melamed</surname>
+                  <given-names>Jilian R.</given-names>
+               </name>
+               <xref rid="notes-1"/>
+            </contrib>
+            <contrib contrib-type="author" id="ath2">
+               <name name-style="western">
+                  <surname>Edelstein</surname>
+                  <given-names>Rachel S.</given-names>
+               </name>
+               <xref rid="notes-1"/>
+            </contrib>
+            <contrib contrib-type="author" corresp="yes" id="ath3">
+               <name name-style="western">
+                  <surname>Day</surname>
+                  <given-names>Emily S.</given-names>
+               </name>
+               <xref rid="cor1"/>
+            </contrib>
+            <aff id="aff1"><institution id="d16e50" content-type="dept">Biomedical Engineering</institution>, <institution>University of Delaware</institution>, <addr-line content-type="city">Newark</addr-line>, <addr-line content-type="state-csu">Delaware</addr-line> <addr-line content-type="postal-code">19716</addr-line>, <country>United States</country></aff>
+         </contrib-group>
+         <author-notes>
+            <corresp id="cor1"><label>*</label>Address correspondence to <email>emilyday@udel.edu</email>.</corresp>
+         </author-notes>
+         <pub-date pub-type="epub">
+            <day/>
+            <month/>
+            <year/>
+         </pub-date>
+         <volume/>
+         <issue/>
+         <fpage/>
+         <lpage/>
+         <history/>
+         <permissions>
+            <copyright-statement>Copyright ©  American Chemical Society</copyright-statement>
+            <copyright-year/>
+            <copyright-holder>American Chemical Society</copyright-holder>
+         </permissions>
+         <related-article related-article-type="article" id="art1" elocation-id="10.1021/nn505468v" ext-link-type="doi"/>
+         <abstract>
+            <p content-type="toc-graphic"><graphic xlink:href="nn-2015-00021m_0005.tif" orientation="portrait" position="float"/></p>
+            <p content-type="abstract-graphic"><graphic xlink:href="nn-2015-00021m_0004.tif" id="abs1" orientation="portrait" position="float"/></p>
+            <p>Photothermal therapy (PTT) utilizes nanoparticles embedded within tumors as exogenous energy absorbers to convert laser light energy into heat to ablate cancer cells. While PTT is a promising alternative to conventional cancer therapy, under certain irradiation conditions, it can produce cellular necrosis, and this necrosis may lead to pro-inflammatory responses that are detrimental to treatment success. Recent studies have shown that PTT can be modulated to induce apoptosis rather than necrosis, which is appealing since apoptosis discourages an inflammatory response. In this issue of <italic toggle="yes">ACS Nano</italic>, del Pino, Pardo, de la Fuente, and colleagues reveal the intracellular signaling cascades involved in the apoptotic response to PTT using cells harboring photothermal transducing nanoprisms. In this Perspective, we present an overview of nanoparticle-mediated PTT and discuss photothermally induced apoptosis as a potential therapeutic pathway.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>document-id-old-9</meta-name>
+               <meta-value>nn5b00021</meta-value>
+            </custom-meta>
+            <custom-meta>
+               <meta-name>document-id-new-14</meta-name>
+               <meta-value>nn-2015-00021m</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <body>
+      <sec id="sec1">
+         <p>The past decade has experienced explosive growth in the development and implementation of photothermal therapy (PTT) for the ablation of solid tumors. In PTT, plasmonic nanoparticles (NPs) are delivered to tumors either intravenously or intratumorally. Subsequent exposure of the tumor to light at the NP resonant energy causes synchronized oscillation of the NP conduction-band electrons that results in heat production. This heat can increase the tumor temperature sufficiently to cause irreversible cellular damage and subsequent tumor regression. The temperature rise in the tumor depends on the photothermal conversion efficiency of the NPs, the concentration of NPs in the tumor, and the dosage of light delivered. To maximize the probability of successful thermal ablation, NPs are designed to absorb near-infrared (NIR) wavelengths of light (λ ≈ 650–1064 nm), which penetrate more deeply into biological tissues than visible wavelengths due to minimal absorbance by water and hemoglobin in this regime. In this Perspective, we provide a brief overview of NP-mediated PTT and describe recent advances in our fundamental understanding of the mechanisms of cell death triggered by PTT. We also explore future directions in this field that will accelerate progress toward improved patient outcomes.</p>
+         <p>Researchers are exploring many compositions of NPs as transducers for PTT. The key design criteria include (i) minimal toxicity/maximal biocompatibility, (ii) diameter between 30 and 200 nm to promote long circulation and enhanced tumor accumulation,<xref rid="ref1" ref-type="bibr"/> (iii) the ability to absorb NIR light, and (iv) a high absorption cross section to maximize light-to-heat conversion. Based upon these criteria, gold-based nanomaterials have received the most attention for PTT because their optical properties (resonance and absorbance cross section) can be tuned by adjusting NP size, shape, and structure. The types of gold-based NPs furthest along in development are silica core/gold shell nanoshells,<named-content content-type="bibref-group"><xref rid="ref2" ref-type="bibr"/>−<xref rid="ref3" specific-use="suppress-in-print" ref-type="bibr"/><xref rid="ref4" ref-type="bibr"/></named-content> nanorods,<xref rid="ref5" ref-type="bibr"/> and nanocages.<xref rid="ref6" ref-type="bibr"/> Nanoshells are currently being investigated in two clinical trials of PTT for treatment of human cancers.<named-content content-type="bibref-group"><xref rid="ref7" ref-type="bibr"/>,<xref rid="ref8" ref-type="bibr"/></named-content> While PTT has progressed from concept to clinical testing at an extraordinary pace, there have been few detailed studies to investigate the basic cellular response to PTT. It is important to understand the kinetics and mechanisms of cell death induced by this technique to maximize therapeutic efficacy and minimize potential for undesirable side effects. In this issue of <italic toggle="yes">ACS Nano</italic>, <xref rid="art1">del Pino, Pardo, de la Fuente</xref>, and colleagues use gold nanoprisms (NPRs), which are particularly efficient photothermal transducers, to improve our fundamental understanding of the intracellular signaling cascades activated by PTT. This information provides critical insight into how to control cellular response to PTT by modifying treatment parameters.<xref rid="ref9" ref-type="bibr"/></p>
+         <disp-quote id="pq1" specific-use="pull-quote">
+            <p><named-content content-type="pull-quote-attr-maintext" specific-use="quote-only"/><named-content content-type="pull-quote-attr-position" specific-use="float"/>In this issue of <italic toggle="yes">ACS Nano</italic>, del Pino, Pardo, de la Fuente, and colleagues use gold nanoprisms, which are particularly efficient photothermal transducers, to improve our fundamental understanding of the intracellular signaling cascades activated by photothermal therapy.</p>
+         </disp-quote>
+         <p>The possible modes of cell death triggered by PTT include necrosis and apoptosis. Necrosis is characterized by loss of plasma membrane integrity and subsequent release of intracellular contents including damage-associated molecular patterns (DAMPs) into the extracellular milieu (<xref rid="fig1">Figure <xref rid="fig1"/></xref>).<xref rid="ref10" ref-type="bibr"/> This abnormal release can trigger detrimental inflammatory and immunogenic responses, making necrosis an undesirable pathway for cell death.<xref rid="ref10" ref-type="bibr"/> By comparison, cell membrane integrity is maintained during apoptosis, and “eat me” signals like phosphatidylserine (PS) relocate to the extracellular portion of the membrane to mark the cell for phagocytosis. Upon encountering phagocytes, apoptotic cells become transformed in a way that discourages inflammation, a distinct and more appealing outcome than that which occurs during necrosis (<xref rid="fig1">Figure <xref rid="fig1"/></xref>).<xref rid="ref10" ref-type="bibr"/> However, if phagocytes do not rapidly clear an apoptotic cell, it can also experience loss of membrane integrity and release its intracellular contents, including DAMPs. This process is known as secondary necrosis and can be observed during <italic toggle="yes">in vitro</italic> studies in the absence of phagocytes.<xref rid="ref10" ref-type="bibr"/></p>
+         <fig id="fig1" position="float" orientation="portrait">
+            <label>1</label>
+            <caption>
+               <p>Apoptosis and necrosis are the two mechanisms of cell death induced by photothermal therapy. A cell undergoing apoptosis maintains its membrane integrity and produces “eat me” signals to mark the cell for phagocytosis without incurring inflammation. Apoptosis may lead to secondary necrosis in which the cell experiences loss of membrane integrity and release of damage-associated molecular patterns (DAMPs), but without activating phagocytosis. Conversely, primary necrosis destroys plasma membrane integrity to cause the release of DAMPs, leading to an inflammatory response. Modified and reproduced with permission from ref <xref specific-use="ref-style=base-text" rid="ref10" ref-type="bibr"/>. Copyright 2012 Elsevier.</p>
+            </caption>
+            <graphic xlink:href="nn-2015-00021m_0001.tif"
+                     id="gr1"
+                     position="float"
+                     orientation="portrait"/>
+         </fig>
+         <p>To date, the most commonly reported <italic toggle="yes">in vitro</italic> cellular response to PTT is necrosis, although a few studies have suggested that apoptosis is the primary mechanism of cell death under certain light exposure conditions.<named-content content-type="bibref-group"><xref rid="ref11" ref-type="bibr"/>−<xref rid="ref12" specific-use="suppress-in-print" ref-type="bibr"/><xref rid="ref13" specific-use="suppress-in-print" ref-type="bibr"/><xref rid="ref14" ref-type="bibr"/></named-content> More specifically, high-energy irradiation can lead to necrosis while low-energy irradiation can promote apoptosis. Given the diverse biological consequences of inducing necrosis <italic toggle="yes">versus</italic> apoptosis, it would be beneficial to understand how the activated pathway can be controlled by tailoring treatment parameters such as laser power and exposure time. Cell response to PTT is typically evaluated with simple fluorescent reporters such as the acetomethoxy derivative of calcein (calcein AM) and ethidium homodimer-1 (EthD-1), as demonstrated in <xref rid="fig2">Figure <xref rid="fig2"/></xref>.<xref rid="ref4" ref-type="bibr"/> In live cells, the nonfluorescent calcein AM molecule is converted to green fluorescent calcein after hydrolysis by intracellular esterases. Because dead cells lack active esterases, only live cells fluoresce green. In comparison, EthD-1 is weakly fluorescent until it binds to DNA, at which point it emits strong red fluorescence. Because EthD-1 is impermeable to cells with an intact plasma membrane, it can be used to indicate loss of membrane integrity and is accepted to signify cell death. While EthD-1 and similar molecules are valuable tools to confirm cell death following PTT, they cannot discern whether loss of membrane integrity is due to direct or secondary necrosis (<italic toggle="yes">i.e.</italic>, apoptosis). The report by <xref rid="art1">Pérez-Hernández</xref> <italic toggle="yes">et al.</italic> in this issue of <italic toggle="yes">ACS Nano</italic> uses more sophisticated biological reporters and assays to investigate the mechanism of cell death following PTT.<xref rid="ref9" ref-type="bibr"/> For example, Annexin V (AnnV) and 7-aminoactinomycin D (7AAD) incorporation are used to delineate apoptotic and necrotic cells. AnnV is a protein that specifically binds PS on apoptotic cells, and 7AAD is a fluorophore that intercalates DNA and is used to analyze loss of membrane integrity. Thus, AnnV+7AAD– cells are apoptotic and AnnV+7AAD+ cells are secondary necrotic. Using these reporters and other advanced techniques, the authors obtained several key findings, as discussed in detail below.</p>
+         <fig id="fig2" position="float" orientation="portrait">
+            <label>2</label>
+            <caption>
+               <p>Success of photothermal therapy <italic toggle="yes">in vitro</italic> is typically determined with live/dead fluorescence reporters such as calcein AM (calcein acetoxymethyl ester), which is converted to a green fluorescent molecule in live cells, and ethidium homodimer-1, which is excluded from cells with an intact plasma membrane and emits red fluorescence upon binding DNA. Only cells harboring plasmonic nanoparticles within the region exposed to light lose viability. Scale bar = 250 μm. Reproduced with permission from ref <xref specific-use="ref-style=base-text" rid="ref4" ref-type="bibr"/>. Copyright 2012 Future Medicine Ltd.</p>
+            </caption>
+            <graphic xlink:href="nn-2015-00021m_0002.tif"
+                     id="gr2"
+                     position="float"
+                     orientation="portrait"/>
+         </fig>
+         <p>In agreement with conventional thought that the mode of cell death depends on light exposure conditions, a previous study by the authors showed that cells loaded with NPRs and irradiated at 30 W/cm<sup>2</sup> for 2 min are immediately necrotic.<xref rid="ref15" ref-type="bibr"/> In comparison, the current study shows that cells loaded with NPRs and irradiated at 5 W/cm<sup>2</sup> for up to 10 min are primarily apoptotic.<xref rid="ref9" ref-type="bibr"/> The ability to induce apoptosis depends upon the starting temperature of the cells. Cells treated with NPRs and irradiated beginning at a baseline of room temperature (29 °C) or body temperature (37 °C) experience &lt;10 or 58% apoptosis, respectively, according to AnnV+ staining.<xref rid="ref9" ref-type="bibr"/> This observation suggests that other researchers studying PTT should also perform their <italic toggle="yes">in vitro</italic> studies beginning at a baseline that mimics body temperature to reflect more accurately the anticipated results of <italic toggle="yes">in vivo</italic> treatment. Accordingly, all subsequent experiments performed by the authors to analyze the mode of cell death induced by PTT were conducted at a baseline temperature of 37 °C.</p>
+         <p>To understand the kinetics of cell death following PTT, the authors evaluated PS translocation and membrane integrity at several time points post-irradiation. Cells treated with NPRs and irradiated for times ranging from 30 s to 10 min were analyzed 1, 5, 12, and 18 h later. The results revealed that (i) cells irradiated for longer times experience a higher percentage of death than those irradiated for shorter times, (ii) the percentage of death increases in all groups with extended incubation (evidenced by increasing AnnV+ fractions), and (iii) cells are initially apoptotic and later become secondary necrotic (<italic toggle="yes">i.e.</italic>, the ratio of AnnV+7AAD+ to AnnV+7AAD– cells increases with time).<xref rid="ref9" ref-type="bibr"/> Further analysis of the apoptosis marker caspase-3 by fluorescence-activated cell sorting (FACS) confirmed these findings, as trends in caspase-3 expression mimicked trends in AnnV+7AAD–.<xref rid="ref9" ref-type="bibr"/> Together, these findings confirm that PTT can induce apoptosis rather than necrosis when using suitable irradiation conditions.</p>
+         <p>Knowing that PTT can induce apoptosis raises the interesting question of whether the extrinsic or intrinsic mitochondrial pathway of apoptosis is the major route to cell death. Examining the molecular signaling pathways involved in the cellular response to PTT can reveal this information. Since the extrinsic pathway is activated when specific ligands bind aptly named “death receptors” on the cell surface, it is unlikely to be the major mode of PTT-mediated apoptosis. Alternatively, the intrinsic pathway is activated by cell stress, such as DNA damage and heat shock, and appears more likely to mediate cell response to PTT. In the intrinsic pathway, cell stress activates the molecules Bak and Bax, which, in turn, trigger mitochondrial outer membrane permeabilization and release of cytochrome <italic toggle="yes">c</italic> into the cytoplasm. Cytochrome <italic toggle="yes">c</italic> then interacts with Apaf-1, deoxyadenosine triphosphate (dATP), and pro-caspase 9 to form the apoptosome. Finally, the apoptosome activates caspase-9, which cleaves and activates caspase-3, setting off a chain of events downstream that ultimately results in the death and phagocytosis of the cell. It should be noted that there is a degree of crosstalk between the extrinsic and intrinsic apoptosis pathways. Upon ligation of death receptors with their respective ligands, caspase-8 is activated and functions to cleave Bid into tBid, which then translocates to mitochondria to activate Bax/Bak and initiate release of cytochrome <italic toggle="yes">c</italic>.</p>
+         <p>Through a series of elegant studies, <xref rid="art1">Pérez-Hernández</xref> <italic toggle="yes">et al.</italic> revealed which components of the extrinsic and intrinsic apoptosis pathways are activated by PTT, leading to the conclusion that the intrinsic pathway is the major mediator of PTT-induced apoptosis under low-energy irradiation.<xref rid="ref9" ref-type="bibr"/> We summarize the current hypothesis of how PTT triggers apoptosis in <xref rid="fig3">Figure <xref rid="fig3"/></xref>. Evidence supporting this hypothesis includes (i) loss of Bid and increased production of tBid determined by Western blotting following PTT, (ii) loss of mitochondrial membrane potential assessed by flow cytometry following PTT, and (iii) activation of caspase-3 determined by FACS following PTT. The percentage of cells experiencing loss of mitochondrial membrane potential correlates closely with the percentage undergoing apoptosis according to AnnV staining, supporting that the intrinsic mitochondrial pathway mediates cell death. A sophisticated study using mutant cells lacking expression of Bax/Bak, Bid, caspase-3, or caspase-9 further confirmed these results. Compared to the wild-type cells, all of the knockout cell lines were resistant to PTT-triggered apoptosis, evidenced by lack of AnnV staining and maintenance of mitochondrial membrane potential. Together, this evidence confirms that PTT can initiate apoptosis through the intrinsic pathway under appropriate therapeutic conditions.</p>
+         <fig id="fig3" position="float" orientation="portrait">
+            <label>3</label>
+            <caption>
+               <p>Proposed apoptosis mechanism resulting from gold nanoprism-mediated photothermal therapy. Lysosome rupture following laser irradiation activates Bid, inducing Bax/Bak oligomerization and pore formation in the mitochondrial outer membrane. Cytochrome <italic toggle="yes">c</italic> is released, leading to apoptosome assembly facilitated by Apaf-1. The apoptosome then activates caspase-9, which subsequently activates caspase-3. Caspase-3 then acts as the executioner initiating apoptotic cell death. This figure was produced using Servier Medical Art.</p>
+            </caption>
+            <graphic xlink:href="nn-2015-00021m_0003.tif"
+                     id="gr3"
+                     position="float"
+                     orientation="portrait"/>
+         </fig>
+      </sec>
+      <sec id="sec2">
+         <title>Outlook and Future Challenges</title>
+         <p>Until now, there have been few investigations into the fundamental mechanisms underlying cell death triggered by PTT. In this issue of <italic toggle="yes">ACS Nano</italic>, del Pino, Pardo, de la Fuente, and colleagues provide a thorough investigation of the signaling pathways involved in cellular response to PTT and demonstrate that PTT can initiate cell death through the intrinsic apoptosis pathway under appropriate irradiation conditions. This study provides the basis for future work to define the parameters (NP dosage, NP type, and laser irradiation conditions) that should be utilized when treating cancer patients with PTT in order to elicit the desired cellular outcome. Toward this goal, there are several milestones that remain to be achieved.</p>
+         <p>First, while Bid is activated upon PTT, the mechanism of activation remains to be clarified.<xref rid="ref9" ref-type="bibr"/> Bid is typically activated by caspase-8 within the extrinsic apoptosis pathway, but in this study, treatment of cells with a caspase-8 inhibitor did not prevent apoptosis upon PTT.<xref rid="ref9" ref-type="bibr"/> This suggests that caspase-8 is not necessary for PTT-induced cell death and that cleavage of Bid into tBid is occurring through an unknown mechanism. The most likely explanation is that lysosomal cathepsins, which have been shown to directly cleave Bid,<xref rid="ref16" ref-type="bibr"/> are released into the cytosol following PTT due to partial permeabilization or complete rupture of lysosomes induced by NP heating. Fluorescence and electron microscopy confirm that NPRs colocalize with lysosomes prior to PTT, but not following PTT,<xref rid="ref9" ref-type="bibr"/> supporting the hypothesis that PTT induces lysosomal rupture and cathepsin release, resulting in cleavage of Bid and induction of apoptosis. Additional studies investigating cathepsins must be performed to confirm this hypothesis.</p>
+         <p>The ability to induce apoptosis or necrosis on-demand with PTT will likely depend on several factors. The study by del Pino, Pardo, de la Fuente, and colleagues reveals the conditions appropriate to induce apoptosis rather than necrosis with NPRs in a single type of cell.<xref rid="ref9" ref-type="bibr"/> <italic toggle="yes">In vitro</italic> data must be collected with other types of gold-based nanostructures since various NPs have different photothermal conversion efficiencies and other physical and chemical attributes of NPs that were not considered in this work may influence cellular response. It is likely that NP type, concentration, surface chemistry, and irradiation conditions will all need to be tailored to induce apoptosis or necrosis on-demand. Since the factors that determine whether a cell will die by apoptosis or necrosis remain unclear, detailed studies of the mechanisms of PTT should be performed in multiple cell types to determine if the conditions to induce apoptosis are consistent across disease states. For similar reasons, <italic toggle="yes">in vitro</italic> data must be correlated with <italic toggle="yes">in vivo</italic> data. Translation may be difficult since temperature changes in tumors will depend on location (distance from the light source), density of the tumor and its surrounding tissue, vascularization of the tissue, and other uncontrollable factors. Developing a computational model that includes all of these factors to predict therapeutic response to PTT will be complex but will greatly benefit the clinical application of PTT since efficacy depends on both the magnitude and duration of temperature applied.</p>
+         <p>Looking forward, if researchers and clinicians choose to pursue apoptosis rather than necrosis as the preferred mechanism of cell death for PTT, there are potential consequences and opportunities to consider. One of the benefits of inducing necrosis <italic toggle="yes">via</italic> physical disruption of the cell membrane is that this method of cell death is immediate and unsusceptible to the resistance that plagues other therapies. Because cancer cells can develop resistance to apoptosis mediated by chemotherapy and radiation, it is possible they could also develop resistance to apoptosis mediated by PTT. This should be studied in detail, both <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in vivo.</italic> Studies should also be performed to determine if massive apoptosis induced by PTT <italic toggle="yes">in vivo</italic> could overwhelm phagocytes, resulting in failure to properly remove dying cells. This is an important question to answer since it may influence the inflammatory response to PTT as well as the overall therapeutic efficacy. While we note precautions that must be made as PTT is further developed, we also wish to highlight the unique and exciting opportunity of combining apoptosis-inducing PTT with other pro-apoptotic agents that operate through either Bid-dependent or Bid-independent pathways for synergistic effects and/or prevention of resistance to PTT. For example, small interfering RNA designed to silence the expression of anti-apoptotic genes like members of the Bcl2 family could be delivered to tumors using nanostructures such as spherical nucleic acids or layer-by-layer NPs.<named-content content-type="bibref-group"><xref rid="ref17" ref-type="bibr"/>,<xref rid="ref18" ref-type="bibr"/></named-content> Using this approach or a similar strategy to “prime” tumors for PTT may result in enhanced tumor regression.</p>
+         <disp-quote id="pq4" specific-use="pull-quote">
+            <p><named-content content-type="pull-quote-attr-maintext" specific-use="quote-only"/><named-content content-type="pull-quote-attr-position" specific-use="float"/>One of the benefits of inducing necrosis <italic toggle="yes">via</italic> physical disruption of the cell membrane is that this method of cell death is immediate and unsusceptible to the resistance that plagues other therapies.</p>
+         </disp-quote>
+         <p>The development of a robust PTT approach will require additional research, but tremendous accomplishments have been made over the past decade. We anticipate that research and clinical translation will continue to progress at an unprecedented pace. The results obtained by del Pino, Pardo, de la Fuente, and colleagues underscore the importance of tailoring treatment parameters and performing detailed mechanistic studies of intracellular signaling cascades to build a model that can predict how to achieve the desired cellular or tissue level response to PTT. Along these lines, we have outlined several questions that remain to be answered in the development of PTT. Addressing these questions will accelerate progress toward utilization of PTT for improved patient outcome.</p>
+      </sec>
+   </body>
+   <back>
+      <notes id="notes-1" notes-type="author-contributions">
+         <p><sup>†</sup> These authors (J.R.M. and R.S.E.) contributed equally.</p>
+      </notes>
+      <notes notes-type="conflict-of-interest">
+         <p>The authors declare no competing financial interest.</p>
+      </notes>
+      <ref-list>
+         <title>References</title>
+         <ref id="ref1">
+            <element-citation publication-type="journal" id="cit1">
+               <name name-style="western">
+                  <surname>Jain</surname>
+                  <given-names>R. K.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Stylianopoulous</surname>
+                  <given-names>T.</given-names>
+               </name>
+               <article-title>Delivering Nanomedicine to Solid Tumors</article-title>
+               <source>Nat. Rev. Clin. Oncol.</source>
+               <year>2010</year>
+               <volume>7</volume>
+               <fpage>653</fpage>
+               <lpage>664</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref2">
+            <element-citation publication-type="journal" id="cit2">
+               <name name-style="western">
+                  <surname>Hirsch</surname>
+                  <given-names>L. R.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Stafford</surname>
+                  <given-names>R. J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Bankson</surname>
+                  <given-names>J. A.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Sershen</surname>
+                  <given-names>S. R.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Rivera</surname>
+                  <given-names>B.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Price</surname>
+                  <given-names>R. E.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Hazle</surname>
+                  <given-names>J. D.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Halas</surname>
+                  <given-names>N. J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>West</surname>
+                  <given-names>J. L.</given-names>
+               </name>
+               <article-title>Nanoshell-Mediated Near-Infrared Thermal Therapy of Tumors under Magnetic Resonance Guidance</article-title>
+               <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+               <year>2003</year>
+               <volume>100</volume>
+               <fpage>13549</fpage>
+               <lpage>13554</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref3">
+            <element-citation publication-type="journal" id="cit3">
+               <name name-style="western">
+                  <surname>Day</surname>
+                  <given-names>E.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Thompson</surname>
+                  <given-names>P.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Zhang</surname>
+                  <given-names>L.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Lewinski</surname>
+                  <given-names>N.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Ahmed</surname>
+                  <given-names>N.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Drezek</surname>
+                  <given-names>R.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Blaney</surname>
+                  <given-names>S.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>West</surname>
+                  <given-names>J.</given-names>
+               </name>
+               <article-title>Nanoshell-Mediated Photothermal Therapy Improves Survival in a Murine Glioma Model</article-title>
+               <source>J. Neuro-Oncol.</source>
+               <year>2011</year>
+               <volume>104</volume>
+               <fpage>55</fpage>
+               <lpage>63</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref4">
+            <element-citation publication-type="journal" id="cit4">
+               <name name-style="western">
+                  <surname>Day</surname>
+                  <given-names>E. S.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Zhang</surname>
+                  <given-names>L.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Thompson</surname>
+                  <given-names>P. A.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Zawaski</surname>
+                  <given-names>J. A.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Kaffes</surname>
+                  <given-names>C. C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Gaber</surname>
+                  <given-names>M. W.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Blaney</surname>
+                  <given-names>S. M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>West</surname>
+                  <given-names>J. L.</given-names>
+               </name>
+               <article-title>Vascular-Targeted Photothermal Therapy of an Orthotopic Murine Glioma Model</article-title>
+               <source>Nanomedicine</source>
+               <year>2012</year>
+               <volume>7</volume>
+               <fpage>1133</fpage>
+               <lpage>1148</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref5">
+            <element-citation publication-type="journal" id="cit5">
+               <name name-style="western">
+                  <surname>Dickerson</surname>
+                  <given-names>E. B.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Dreaden</surname>
+                  <given-names>E. C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Huang</surname>
+                  <given-names>X. H.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>El-Sayed</surname>
+                  <given-names>I. H.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Chu</surname>
+                  <given-names>H. H.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Pushpanketh</surname>
+                  <given-names>S.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>McDonald</surname>
+                  <given-names>J. F.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>El-Sayed</surname>
+                  <given-names>M. A.</given-names>
+               </name>
+               <article-title>Gold Nanorod Assisted Near-Infrared Plasmonic Photothermal Therapy (PPTT) of Squamous Cell Carcinoma in Mice</article-title>
+               <source>Cancer Lett.</source>
+               <year>2008</year>
+               <volume>269</volume>
+               <fpage>57</fpage>
+               <lpage>66</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref6">
+            <element-citation publication-type="journal" id="cit6">
+               <name name-style="western">
+                  <surname>Chen</surname>
+                  <given-names>J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Glaus</surname>
+                  <given-names>C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Laforest</surname>
+                  <given-names>R.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Zhang</surname>
+                  <given-names>Q.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Yang</surname>
+                  <given-names>M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Gidding</surname>
+                  <given-names>M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Welch</surname>
+                  <given-names>M. J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Xia</surname>
+                  <given-names>Y.</given-names>
+               </name>
+               <article-title>Gold Nanocages as Photothermal Transducers for Cancer Treatment</article-title>
+               <source>Small</source>
+               <year>2010</year>
+               <volume>6</volume>
+               <fpage>811</fpage>
+               <lpage>817</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref7">
+            <mixed-citation publication-type="report" id="cit7"><collab>Nanospectra Biosciences, Inc.</collab> Pilot Study of AuroLase Therapy in Refractory and/or Recurrent Tumors of the Head and Neck. In ClinicalTrials.gov [Internet]; <publisher-name>National Library of Medicine</publisher-name>: <publisher-loc>Bethesda, MD</publisher-loc>, <year>2000</year> (cited 2014 Dec 20). Available from <uri>https://clinicaltrials.gov/ct2/show/NCT00848042</uri>; NLM identifier: NCT00848042.</mixed-citation>
+         </ref>
+         <ref id="ref8">
+            <mixed-citation publication-type="weblink" id="cit8"><collab>Nanospectra Biosciences, Inc.</collab> <article-title>Efficacy Study of AuroLase Therapy in Subjects with Primary and/or Metastatic Lung Tumors</article-title>. In ClinicalTrials.gov [Internet]; <publisher-name>National Library of Medicine</publisher-name>: <publisher-loc>Bethesda, MD</publisher-loc>, <year>2000</year> [cited 2014 Dec 20]. Available from <uri>https://clinicaltrials.gov/ct2/show/NCT01679470</uri>; NLM Identifier: NCT01679470.</mixed-citation>
+         </ref>
+         <ref id="ref9">
+            <element-citation publication-type="journal" id="cit9">
+               <name name-style="western">
+                  <surname>Pérez-Hernández</surname>
+                  <given-names>M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>del Pino</surname>
+                  <given-names>P.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Mitchell</surname>
+                  <given-names>S. G.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Moros</surname>
+                  <given-names>M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Stepian</surname>
+                  <given-names>G.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Pelaz</surname>
+                  <given-names>B.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Parak</surname>
+                  <given-names>W. J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Gálvez</surname>
+                  <given-names>E. M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Pardo</surname>
+                  <given-names>J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>de la Fuente</surname>
+                  <given-names>J. M.</given-names>
+               </name>
+               <article-title>Dissecting the Molecular Mechanism of Apoptosis during Photothermal Therapy Using Gold Nanoprisms</article-title>
+               <source>ACS Nano</source>
+               <year>2014</year>
+               <pub-id pub-id-type="doi">10.1021/nn505468v</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref10">
+            <element-citation publication-type="journal" id="cit10">
+               <name name-style="western">
+                  <surname>Martin</surname>
+                  <given-names>S. J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Henry</surname>
+                  <given-names>C. M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Cullen</surname>
+                  <given-names>S. P.</given-names>
+               </name>
+               <article-title>A Perspective on Mammalian Caspases as Positive and Negative Regulators of Inflammation</article-title>
+               <source>Mol. Cell</source>
+               <year>2012</year>
+               <volume>46</volume>
+               <fpage>387</fpage>
+               <lpage>397</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref11">
+            <element-citation publication-type="journal" id="cit11">
+               <name name-style="western">
+                  <surname>Mocan</surname>
+                  <given-names>T.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Matea</surname>
+                  <given-names>C. T.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Cojocaru</surname>
+                  <given-names>I.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Ilie</surname>
+                  <given-names>I.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Tabaran</surname>
+                  <given-names>F. A.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Zaharie</surname>
+                  <given-names>F.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Iancu</surname>
+                  <given-names>C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Batrtos</surname>
+                  <given-names>D.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Mocan</surname>
+                  <given-names>L.</given-names>
+               </name>
+               <article-title>Photothermal Treatment of Human Pancreatic Cancer Using PEGylated Multi-walled Carbon Nanotubes Induces Apoptosis by Triggering Mitochondrial Membrane Depolarization Mechanism</article-title>
+               <source>J. Cancer</source>
+               <year>2014</year>
+               <volume>5</volume>
+               <fpage>679</fpage>
+               <lpage>688</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref12">
+            <element-citation publication-type="journal" id="cit12">
+               <name name-style="western">
+                  <surname>Huang</surname>
+                  <given-names>X.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Kang</surname>
+                  <given-names>B.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Qian</surname>
+                  <given-names>W.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Mackey</surname>
+                  <given-names>M. A.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Chen</surname>
+                  <given-names>P. C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Oyelere</surname>
+                  <given-names>A. K.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>El-Sayed</surname>
+                  <given-names>I. H.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>El-Sayed</surname>
+                  <given-names>M. A.</given-names>
+               </name>
+               <article-title>Comparative Study of Photothermolysis of Cancer Cells with Nuclear-Targeted or Cytoplasm-Targeted Gold Nanospheres: Continuous Wave or Pulsed Lasers</article-title>
+               <source>J. Biomed. Opt.</source>
+               <year>2010</year>
+               <volume>15</volume>
+               <fpage>058002</fpage>
+            </element-citation>
+         </ref>
+         <ref id="ref13">
+            <element-citation publication-type="journal" id="cit13">
+               <name name-style="western">
+                  <surname>Tong</surname>
+                  <given-names>L.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Cheng</surname>
+                  <given-names>J. X.</given-names>
+               </name>
+               <article-title>Gold Nanorod-Mediated Photothermolysis Induces Apoptosis of Macrophages <italic toggle="yes">via</italic> Damage of Mitochondria</article-title>
+               <source>Nanomedicine</source>
+               <year>2009</year>
+               <volume>4</volume>
+               <fpage>265</fpage>
+               <lpage>276</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref14">
+            <element-citation publication-type="journal" id="cit14">
+               <name name-style="western">
+                  <surname>Li</surname>
+                  <given-names>J.-L.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Gu</surname>
+                  <given-names>M.</given-names>
+               </name>
+               <article-title>Surface Plasmonic Gold Nanorods for Enhanced Two-Photon Microscopic Imaging and Apoptosis Induction of Cancer Cells</article-title>
+               <source>Biomaterials</source>
+               <year>2010</year>
+               <volume>31</volume>
+               <fpage>9492</fpage>
+               <lpage>9498</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref15">
+            <element-citation publication-type="journal" id="cit15">
+               <name name-style="western">
+                  <surname>Pelaz</surname>
+                  <given-names>B.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Grazu</surname>
+                  <given-names>V.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Ibarra</surname>
+                  <given-names>A.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Magen</surname>
+                  <given-names>C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>del Pino</surname>
+                  <given-names>P.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>de la Fuente</surname>
+                  <given-names>J. M.</given-names>
+               </name>
+               <article-title>Tailoring the Synthesis and Heating Ability of Gold Nanoprisms for Bioapplications</article-title>
+               <source>Langmuir</source>
+               <year>2012</year>
+               <volume>28</volume>
+               <fpage>8965</fpage>
+               <lpage>8970</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref16">
+            <element-citation publication-type="journal" id="cit16">
+               <name name-style="western">
+                  <surname>Cirman</surname>
+                  <given-names>T.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Oresic</surname>
+                  <given-names>K.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Mazovec</surname>
+                  <given-names>G. D.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Turk</surname>
+                  <given-names>V.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Reed</surname>
+                  <given-names>J. C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Myers</surname>
+                  <given-names>R. M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Salvesen</surname>
+                  <given-names>G. S.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Turk</surname>
+                  <given-names>B.</given-names>
+               </name>
+               <article-title>Selective Disruption of Lysosomes in HeLa Cells Triggers Apoptosis Mediated by Cleavage of Bid by Multiple Papain-like Lysosomal Cathepsins</article-title>
+               <source>J. Biol. Chem.</source>
+               <year>2004</year>
+               <volume>279</volume>
+               <fpage>3578</fpage>
+               <lpage>3587</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref17">
+            <element-citation publication-type="journal" id="cit17">
+               <name name-style="western">
+                  <surname>Jensen</surname>
+                  <given-names>S. A.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Day</surname>
+                  <given-names>E. S.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Ko</surname>
+                  <given-names>C. H.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Hurley</surname>
+                  <given-names>L. A.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Luciano</surname>
+                  <given-names>J. P.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Kouri</surname>
+                  <given-names>F. M.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Merkel</surname>
+                  <given-names>T. J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Luthi</surname>
+                  <given-names>A. J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Patel</surname>
+                  <given-names>P. C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Cutler</surname>
+                  <given-names>J. I.</given-names>
+               </name>
+               <etal><italic toggle="yes">et al.</italic></etal>
+               <article-title>Spherical Nucleic Acid Nanoparticle Conjugates as an RNAi-Based Therapy for Glioblastoma</article-title>
+               <source>Sci. Transl. Med.</source>
+               <year>2013</year>
+               <volume>5</volume>
+               <fpage>209ra152</fpage>
+            </element-citation>
+         </ref>
+         <ref id="ref18">
+            <element-citation publication-type="journal" id="cit18">
+               <name name-style="western">
+                  <surname>Deng</surname>
+                  <given-names>Z. J.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Morton</surname>
+                  <given-names>S. W.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Ben-Akiva</surname>
+                  <given-names>E.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Dreaden</surname>
+                  <given-names>E. C.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Shopsowitz</surname>
+                  <given-names>K. E.</given-names>
+               </name>
+               <name name-style="western">
+                  <surname>Hammond</surname>
+                  <given-names>P. T.</given-names>
+               </name>
+               <article-title>Layer-by-Layer Nanoparticles for Systemic Codelivery of an Anticancer Drug and siRNA for Potential Triple-Negative Breast Cancer Treatment</article-title>
+               <source>ACS Nano</source>
+               <year>2013</year>
+               <volume>7</volume>
+               <fpage>9571</fpage>
+               <lpage>9584</lpage>
+            </element-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

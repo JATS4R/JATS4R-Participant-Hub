@@ -1,0 +1,167 @@
+<!DOCTYPE article 
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" 
+  "JATS-archivearticle1.dtd">
+<article>
+  <front>
+    <article-meta>
+      <!-- This article's IDs. 
+        Note that the DOI is not version-specific; every
+        version should have the same DOI. That necessitates a different ID 
+        scheme to distinguish versions. -->
+      <article-id pub-id-type="doi">10.12345/publisher.87654</article-id>
+      <article-id pub-id-type="publisher-id">87654.1</article-id>
+
+      <!-- Formal publication dates. 
+        There can be at most two, and they
+        must have corresponding entries in the history section. Note that there
+        is no reference to version here. Indeed, this article's version might
+        be different from the version that was published on these dates. -->
+      <pub-date date-type="issued-online" 
+                iso-8601-date='2016-06-01'>
+        <day>01</day><month>06</month><year>2016</year>
+      </pub-date>
+      <pub-date date-type="issued"
+                iso-8601-date="2016-06-15">
+        <day>15</day><month>06</month><year>2016</year>
+      </pub-date>
+      
+      <!-- The history section 
+        This lists events, with: 
+        A. the type of event, specified in @date-type attribute
+        B. a reference to the metadata about the corresponding version, in the
+          @specific-use attribute
+        C. the date
+      -->
+      <history>
+
+        <!-- This date may have been recorded by the author's manuscript editing
+          software. Note that there is no formal ID associated with this version. -->
+        <date date-type='original' 
+              specific-use='rid: original.1'
+              iso-8601-date='2016-03-01'>
+          <day>01</day><month>03</month><year>2016</year>
+        </date>
+
+        <!-- The author posted his original version online on this date. -->
+        <date date-type='author-posted' 
+              specific-use='rid: original.1'
+              iso-8601-date='2016-03-05'>
+          <day>15</day><month>03</month><year>2016</year>
+        </date>
+
+        <!-- This manuscript went through two rounds of review/revisions, so
+          was "received" two times, each with a different version. -->
+        <date date-type='received' 
+              specific-use='rid: 87654.1'
+              iso-8601-date='2016-04-01'>
+          <day>01</day><month>04</month><year>2016</year>
+        </date>
+        <date date-type='received' 
+              specific-use='rid: 87654.2'
+              iso-8601-date='2016-04-15'>
+          <day>15</day><month>04</month><year>2016</year>
+        </date>
+
+        <!-- Manuscript accepted - note that this is the same version as the 
+          final manuscript under review above (it got "promoted"). -->
+        <date date-type='accepted' 
+              specific-use='rid: 87654.2'
+              iso-8601-date='2016-04-20'>
+          <day>20</day><month>04</month><year>2016</year>
+        </date>
+
+        <!-- During the review process, there were two distinct proof
+          versions created. In this example, the first proof has no formal 
+          ID, and the second proof, because it was promoted to the VoR
+          (later, as a separate event) does. -->
+        <date date-type='proof' 
+              specific-use='rid: proof.1'
+              iso-8601-date='2016-05-01'>
+          <day>01</day><month>05</month><year>2016</year>
+        </date>
+        <date date-type='proof' 
+              specific-use='rid: 87654.3'
+              iso-8601-date='2016-05-15'>
+          <day>15</day><month>05</month><year>2016</year>
+        </date>
+
+        <!-- In this event, the AM was posted online. Note that the 
+          "posted" event type doesn't imply a particular stage (just 
+          that it was a pre-VoR stage). -->
+        <date date-type='posted' 
+              specific-use='rid: 87654.2'
+              iso-8601-date='2016-05-20'>
+          <day>20</day><month>05</month><year>2016</year>
+        </date>
+
+        <!-- Formal publication online of the VoR. Note that this is
+          the same version as the final proof. This is the only event
+          type that implies a format. -->
+        <date date-type='issued-online' 
+              specific-use='rid: 87654.3'
+              iso-8601-date='2016-06-01'>
+          <day>01</day><month>06</month><year>2016</year>
+        </date>
+        
+        <!-- Formal publication in print. Note that this is the same
+          version as the online version that was published. This is 
+          necessary because there can be at most one VoR. If it's a
+          different version, then it would have @date-type of "corrected"
+          or "enhanced". -->
+        <date date-type='issued' 
+              specific-use='rid: 87654.3'
+              iso-8601-date='2016-06-15'>
+          <day>15</day><month>06</month><year>2016</year>
+        </date>
+        
+        <!-- Followed by multiple corrections and enhancements, in any
+          order. Each one of these should be a distinct version, with a
+          distinct ID. -->
+        <date date-type='corrected' 
+              specific-use='rid: 87654.4'
+              iso-8601-date='2016-07-15'>
+          <day>15</day><month>07</month><year>2016</year>
+        </date>
+        <date date-type='enhanced' 
+              specific-use='rid: 87654.5'
+              iso-8601-date='2016-07-30'>
+          <day>30</day><month>07</month><year>2016</year>
+        </date>
+      </history>
+      
+      <!-- This custom-meta-group gives information about the versions. 
+        There should be one custom-meta per version. Each custom-meta
+        element should have an @id attribute to identify it within this
+        document, so it can be linked to. The <related-article> element
+        within that gives the formal ID of the article version, if there
+        is one, and links to it, if the URL is available. -->
+      <custom-meta-group>
+
+        <!-- Author original version: no formal ID, but it does have a
+          link to a URL (which, ideally, is to a persistent archive). -->
+        <custom-meta id='original.1'>
+          <meta-name>alt-version</meta-name>
+          <meta-value>
+            <related-article xlink:href='http://arxiv.org/abs/1601.02861'/>
+          </meta-value>
+        </custom-meta>
+        
+        <!-- First of the two received manuscripts. Note that the value of
+          the @id attribute isn't necessarily the same as the publisher's
+          formal ID, but it makes sense to reuse the same value, for
+          simplicity. -->          
+        <custom-meta id='87654.1'>
+          <meta-name>alt-version</meta-name>
+          <meta-value>
+            <related-article>
+              <pub-id pub-id-type="publisher-id">87654.1</pub-id>
+            </related-article>
+          </meta-value>
+        </custom-meta>
+        
+        <!-- ... each version gets a <custom-meta> ... -->
+      </custom-meta-group>
+      
+    </article-meta>
+  </front>
+</article>

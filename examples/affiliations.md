@@ -181,3 +181,25 @@ Footnote in author notes:
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
 
+## Aries
+
+```xml
+   <aff id="aff1">
+           <institution-wrap>
+          <institution>University of Massachusetts</institution>
+          <institution-id institution-id-type="Ringgold">14707</institution-id>
+          </institution-wrap>
+          <institution content-type="position">Director</institution>
+          <institution content-type="dept">Admissions</institution>
+          <addr-line content-type="addrline1">110 Thatcher Rd</addr-line>
+          <addr-line content-type="addrline2">Administration Building</addr-line>
+          <addr-line content-type="addrline3">Suite 204</addr-line>
+          <addr-line content-type="addrline4">Mail Drop 1501</addr-line>
+          <country>UNITED STATES</country>
+          <addr-line content-type="city">Amherst</addr-line>
+          <addr-line content-type="state">MA</addr-line>
+          <addr-line content-type="zipcode">01003</addr-line>
+          <fax>978-975-6813</fax>
+          <phone content-type="primary">978-975-7570</phone>
+</aff>
+```

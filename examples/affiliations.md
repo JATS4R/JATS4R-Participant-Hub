@@ -203,3 +203,37 @@ Footnote in author notes:
           <phone content-type="primary">978-975-7570</phone>
 </aff>
 ```
+
+## SciELO
+
+
+```
+ <aff id="aff2">
+    <label>2</label>
+    <institution content-type="normalized">University School of Physical Education in Wroclaw</institution>
+    <institution content-type="orgname">Univ. School of Physical Educ. in Wroclaw</institution>
+    <institution content-type="orgdiv1">Faculty of Physiotherapy</institution>
+    <institution content-type="orgdiv2">Department of Physiotherapy in Internal Diseases</institution>   
+    <addr-line>
+        <named-content content-type="state">Wroclaw</named-content>
+    </addr-line>
+    <country country="PL">Poland</country>
+    <institution content-type="original">Department of Physiotherapy in Internal Diseases, Faculty of Physiotherapy, Univ. School of Physical Educ. in Wroclaw, Wroclaw, Poland</institution>
+                </aff>
+```
+
+```
+<aff id="aff3">
+    <label>3</label>
+    <institution content-type="normalized">Universidade de São Paulo</institution>
+    <institution content-type="orgname">USP</institution>
+    <institution content-type="orgdiv1">Faculdade de Medicina de Ribeirão Preto</institution>
+    <institution content-type="orgdiv2">Departamento de Cirurgia e Anatomia</institution>   
+    <addr-line>
+        <named-content content-type="city">Ribeirão Preto</named-content>
+        <named-content content-type="state">SP</named-content>
+    </addr-line>
+    <country country="BR">Brasil</country>
+    <institution content-type="original">Departamento de Cirurgia e Anatomia, Faculdade de Medicina de Ribeirão Preto, USP, Ribeirão Preto, SP, Brasil</institution>
+</aff>
+```

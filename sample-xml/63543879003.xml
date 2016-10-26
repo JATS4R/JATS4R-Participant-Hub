@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="MarcALyC 1.1" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="MarcALyC 1.1">635</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="es">Anales de Documentación</journal-title>
+<abbrev-journal-title abbrev-type="publisher" xml:lang="es">An. doc.</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1575-2437</issn>
+<issn pub-type="epub">1697-7904</issn>
+<publisher>
+<publisher-name>Universidad de Murcia</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">63543879003</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Sin sección</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">EFICACIA DE LOS MAPAS CONCEPTUALES EN EL DESARROLLO DE LAS COMPETENCIAS INFORMACIONALES: EL CASO DE LA UNIVERSIDAD DE PUERTO RICO EN BAYAMÓN</article-title>
+<trans-title-group>
+<trans-title xml:lang="en">EFFECTIVENESS OF CONCEPT MAPPING IN DEVELOPING
+INFORMATION SEARCH AND EVALUATION SKILLS</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Maldonado Rivera</surname>
+<given-names>Ivette</given-names>
+</name>
+<xref ref-type="aff" rid="aff1"/>
+<email>ivette.maldonado1@upr.edu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Romero</surname>
+<given-names>Liz</given-names>
+</name>
+<xref ref-type="aff" rid="aff2"/>
+<email>lisbia@nova.edu</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Centro de Recursos para el
+Aprendizaje, Universidad de Puerto Rico en Bayamón. ivette.maldonado1@upr.edu</institution>
+<institution content-type="orgname">Universidad de Puerto Rico</institution>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Abraham S. Fischler College
+of Education, Nova Southeastern University. lisbia@nova.edu</institution>
+<institution content-type="orgname">Nova Southeastern University</institution>
+</aff>
+<pub-date pub-type="epub-ppub">
+<season>Enero-Junio</season>
+<year>2016</year>
+</pub-date>
+<volume>19</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>18</lpage>
+<history>
+<date date-type="received">
+<day>07</day>
+<month>07</month>
+<year>2015</year>
+</date>
+<date date-type="corrected">
+<day>12</day>
+<month>11</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>25</day>
+<month>11</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+<license-p>Esta obra está bajo una <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</ext-link>
+</license-p>
+</license>
+</permissions>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>Para determinar la eficacia de los mapas conceptuales en el desarrollo de las competencias informacionales se seleccionaron, mediante la técnica de muestreo no probabilístico, 30 estudiantes matriculados en un curso de Gerencia en la Universidad de Puerto Rico en Bayamón (UPRB) durante el año académico 2012-2013. Se utilizó un enfoque de investigación cuantitativo y un diseño cuasi-experimental. Los estudiantes participaron en una unidad instruccional sobre búsqueda y evaluación de información, basada en mapas conceptuales. Para determinar el aprendizaje de los estudiantes se administró un examen que también fue utilizado comopreprueba. Para conocer su opinión sobre la estrategia implementada se administró un cuestionario de opinión. Debido a que hubo un aumento significativo en las medias aritméticas de lapospruebacuando se comparó con las medias de laprepruebase concluyó que los mapas conceptuales representan una estrategia efectiva para el aprendizaje de competencias de búsqueda y evaluación de información.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>To determine the effectiveness of concept mapping in developing information skills, through nonprobability sampling technique were selected 30 students enrolled in a Management course at the University of Puerto Rico at Bayamon during the academic year 2012-2013. A quantitative research approach and aquasiexperimentaldesignwasused. The students participated in an instructional unit on searching and evaluating information, based on concept maps. To determine student learning a test was used as a pre and posttest. To know the opinion of students on the strategy implemented an opinion questionnaire was administered. Because there was a significant increase in the arithmetic means of the posttest when compared with average pretest it was concluded that concept maps represent an effective strategy for learning skills of finding and evaluating information.</p>
+</trans-abstract>
+<counts>
+<ref-count count="43"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+<title/>
+<p>MALDONADO RIVERA, I. y ROMERO, L. Eficacia de los mapas conceptuales en el desarrollo de las competencias informacionales: el caso de la Universidad de Puerto Rico en Bayamón. Anales de Documentación, 2016, vol. 19, nº 1. Disponible en: http://dx.doi.org/10.6018/analesdoc.19.1.231871.</p>
+</sec>
+<sec>
+<title>1. INTRODUCCIÓN</title>
+<p>El desarrollo tecnológico y la disponibilidad de información, ha traído consigo la necesidad de aprender a seleccionar objetivamente la información ( <xref ref-type="bibr" rid="redalyc_63543879003_ref21">Márquez, 2002, p. 13</xref> ). Este es un nuevo reto para el estudiante universitario actual. La búsqueda eficaz de información requiere el desarrollo de competencias de delimitación ( <xref ref-type="bibr" rid="redalyc_63543879003_ref11">Creswell, 2008, p. 103-104</xref> ) y evaluación de la misma ( <xref ref-type="bibr" rid="redalyc_63543879003_ref4">Association of Colleges and Research Libraries, en adelante denominado ACRL, 2000</xref> ). Sin embargo, la mayoría de los estudiantes no son capaces de sintetizar la información ( <xref ref-type="bibr" rid="redalyc_63543879003_ref37">Rosler, Zaaloff, Hernández, Torino, Socolovsky y Santiago, 2008, p. 101</xref> ) ni de cuestionarla ( <xref ref-type="bibr" rid="redalyc_63543879003_ref6">Aguilera, Zubizarreta y Castillo, 2006, p. 4</xref> ).</p>
+<p>Los estudiantes matriculados en la UPRB no son la excepción a este problema. En un instrumento administrado a 900 estudiantes de nuevo ingreso en el 2010, sólo el 10% demostró competencias informales aceptables ( <xref ref-type="bibr" rid="redalyc_63543879003_ref39">UPRB, DAA, OAAE, 2011</xref> ). En un estudio de seguimiento con 90 estudiantes, las puntuaciones medias mejoraron, pero la diferencia no fue la deseada. Por lo tanto, falta mucho para alcanzar el nivel óptimo en el desarrollo de las competencias informacionales ( <xref ref-type="bibr" rid="redalyc_63543879003_ref40">UPRB, DAA, OAAE, 2010</xref> ). Sin embargo, esta mejoría demuestra que dichas competencias se pueden desarrollar durante la vida universitaria ( <xref ref-type="bibr" rid="redalyc_63543879003_ref22">Martínez, 2003</xref> ).</p>
+<p>Este problema también se evidencia en la literatura. De acuerdo con <xref ref-type="bibr" rid="redalyc_63543879003_ref41">Van de Vord (2009, p. 1)</xref> , para los estudiantes representa un reto el seleccionar la información dada la excesiva cantidad disponible. <xref ref-type="bibr" rid="redalyc_63543879003_ref21">Márquez (2002, p. 5)</xref> encontró que los estudiantes no demostraron capacidad para utilizar los recursos informativos; eran incapaces de extraer la información relevante de las fuentes seleccionadas, organizar la información, y fallaron al citar.</p>
+<p>Por otro lado, <xref ref-type="bibr" rid="redalyc_63543879003_ref38">Talero, Romero, Ortiz y Vélez (2009, p. 112)</xref> establecen que se ha hecho muy poco para incorporar métodos de enseñanza que promuevan el desarrollo de competencias informacionales a pesar de ser uno de los aspectos más importantes en la vida profesional. <xref ref-type="bibr" rid="redalyc_63543879003_ref6">Aguilera, Zubizarreta y Castillo (2006, p. 6)</xref> recomiendan trabajar con el estudiantado para que desarrollen la habilidad de buscar información y que sientan mayor seguridad y confianza.</p>
+<p>El enfoque educativo actual enfatiza la formación integral del individuo; por ende, las universidades tienen la responsabilidad de formar profesionales con las competencias informacionales. <xref ref-type="bibr" rid="redalyc_63543879003_ref37">Rosler, Zaaloff, Hernández, Torino, Socolovsky y Santiago (2008, p. 103)</xref> exponen que ante la necesidad de formar estudiantes con pensamiento crítico en el acceso y uso de la información, se debe velar que el mismo se dé en contextos de aprendizaje dirigidos a la construcción del conocimiento para lograr que el estudiante sea capaz de reorganizar la información, plantearse preguntas, encontrar información relevante y resolver problemas. Por lo antes expuesto, es importante integrar la alfabetización informacional en el currículo universitario.</p>
+<p>El término alfabetización informacional, se refiere al conjunto de conocimientos, habilidades y actitudes que permiten a una persona interactuar eficazmente con la información ( <xref ref-type="bibr" rid="redalyc_63543879003_ref33">Ortoll, 2004, p. 342</xref> ) en todos los ámbitos de su vida ( <xref ref-type="bibr" rid="redalyc_63543879003_ref26">MSCHE, 2003, p. 2</xref> ). Incluye las siguientes fases: definir la necesidad de información; planificar, localizar y acceder a la información; evaluar información y sus fuentes; analizar, sintetizar y presentar la información; y utilizar la información de forma ética ( <xref ref-type="bibr" rid="redalyc_63543879003_ref3">ACRL, 2006</xref> ; <xref ref-type="bibr" rid="redalyc_63543879003_ref26">MSCHE, 2003, p. 69-73</xref> ).</p>
+<p>Aunque guarda estrecha relación con las competencias tecnológicas, la alfabetización informacional es un área más amplia de competencia que enfatiza el contenido, la comunicación, el análisis, la búsqueda, la evaluación y el uso de la información ( <xref ref-type="bibr" rid="redalyc_63543879003_ref36">Rodríguez, Pineda y Sarrión, 2006</xref> ), el pensamiento crítico y la reflexión ( <xref ref-type="bibr" rid="redalyc_63543879003_ref14">Dewald, Scholtz, Booth y Levine, 2000, p. 33</xref> ). Sus ventajas son: facilita el aprendizaje ( <xref ref-type="bibr" rid="redalyc_63543879003_ref27">MSCHE, 2007, p. 6</xref> ); responde a los múltiples estilos de aprendizaje; promueve el éxito académico ( <xref ref-type="bibr" rid="redalyc_63543879003_ref35">Rockman, 2002, p. 185</xref> ) y el desarrollo de personas capaces de aprender a lo largo de toda su vida ( <xref ref-type="bibr" rid="redalyc_63543879003_ref3">ACRL, 2006</xref> ); respalda los paradigmas educacionales centrados en el estudiante ( <xref ref-type="bibr" rid="redalyc_63543879003_ref5">ACRL Institute for Information Literacy, en adelante denominado IIL, 2003, p. 70-71</xref> ); ayuda a los estudiantes a usar los recursos de información electrónica ( <xref ref-type="bibr" rid="redalyc_63543879003_ref35">Rockman, 2002, p. 186</xref> ) y en sus procesos de análisis, síntesis, conceptualización de la información e investigación ( <xref ref-type="bibr" rid="redalyc_63543879003_ref24">Moreno, 2008, p. 143</xref> ). Además, los capacita para enfrentarse críticamente con los contenidos, hacerse autosuficientes y asumir un mayor control sobre su aprendizaje ( <xref ref-type="bibr" rid="redalyc_63543879003_ref16">Fernández, 2008, p. 2</xref> ).</p>
+<p>Desafortunadamente, las instituciones educativas no siempre están acordes con este tipo de enseñanza ( <xref ref-type="bibr" rid="redalyc_63543879003_ref2">Acosta, 2002, p. 3</xref> ). La <xref ref-type="bibr" rid="redalyc_63543879003_ref4">ACRL (2000)</xref> recomienda que la alfabetización informacional se integre en asignaturas apropiadas dentro del currículo. Ésta es una responsabilidad compartida entre la administración universitaria, los bibliotecarios, los profesores y los estudiantes ( <xref ref-type="bibr" rid="redalyc_63543879003_ref10">Cochrane, 2006, p. 110</xref> ). Los profesores y los bibliotecarios deben establecer acuerdos colaborativos para integrar la alfabetización informacional en el currículo ( <xref ref-type="bibr" rid="redalyc_63543879003_ref35">Rockman, 2002, p. 191</xref> ). De esta forma, los estudiantes logran un aprendizaje significativo para la solución de problemas informacionales ( <xref ref-type="bibr" rid="redalyc_63543879003_ref10">Cochrane, 2006, p. 114</xref> ), ya que retendrán y transferirán el aprendizaje si la enseñanza está atada a una materia en particular ( <xref ref-type="bibr" rid="redalyc_63543879003_ref18">Holliday y Fagerheim, 2006, p. 169</xref> ).</p>
+<p>En este estudio se seleccionó el uso del mapa conceptual como estrategia para el desarrollo de las competencias informacionales. Según, <xref ref-type="bibr" rid="redalyc_63543879003_ref42">Vidal, Vialart y Ríos (2007, p. 1</xref> ), el mapa conceptual ayuda a los estudiantes a organizar la información y en el caso de búsqueda de información puede proporcionar una guía que el estudiante puede seguir para llegar a la mejor fuente.</p>
+</sec>
+<sec>
+<title>2. MARCO TEÓRICO</title>
+<p>A finales de los años 50, la teoría de aprendizaje comenzó a apartarse de los modelos conductistas acercándose más a la perspectiva cognitiva ( <xref ref-type="bibr" rid="redalyc_63543879003_ref15">Ertmer y Newby, 1993</xref> ). El cognitivismo se enfoca en los procesos de pensamiento que se dan en el aprendizaje humano los cuales consideran cómo las personas perciben, interpretan, recuerdan y piensan acerca de los eventos de su entorno ( <xref ref-type="bibr" rid="redalyc_63543879003_ref31">Ormrod, 2009, p. 177</xref> ). Debido al énfasis en las estructuras mentales, se considera a las teorías cognitivas más apropiadas para explicar formas complejas de aprendizaje como el razonamiento, la solución de problemas y el procesamiento de información ( <xref ref-type="bibr" rid="redalyc_63543879003_ref15">Ertmer y Newby, 1993</xref> ).</p>
+<p>Muchas teorías cognitivas se centran en cómo piensan las personas o cómo perciben los estímulos que les rodean, cómo los almacenan en su memoria y cómo recuperan lo aprendido. Dichas teorías se conocen de manera colectiva como teoría del procesamiento de información ( <xref ref-type="bibr" rid="redalyc_63543879003_ref31">Ormrod, 2009, p. 205</xref> ), la cual asume al ser humano como un ente procesador de información ( <xref ref-type="bibr" rid="redalyc_63543879003_ref43">Leiva, s.f.</xref> ) y se aborda el aprendizaje a partir de las semejanzas entre los programas de computación y los procesos cognitivos ( <xref ref-type="bibr" rid="redalyc_63543879003_ref32">Ortíz, 2006, p. 21</xref> ).</p>
+<p>De los modelos planteados por la teoría de procesamiento de la información en torno al proceso de almacenaje, el más influyente fue propuesto por Atkinson y Shiffrin en 1968 ( <xref ref-type="bibr" rid="redalyc_63543879003_ref13">Dehn, 2008</xref> ). En este modelo, la memoria humana se concibe como el conjunto de tres almacenes: la memoria sensorial, la memoria a corto plazo (MCP) y la memoria a largo plazo (MLP). La información llega por los sentidos a la memoria sensorial donde se mantiene por menos de un segundo mientras sufre un procesamiento cognitivo preliminar. Luego, la información puede desaparecer o ser transferida a la MCP donde permanece alrededor de 20 segundos. Finalmente si no desaparece, se dirige a la MLP donde puede permanecer el resto de la vida ( <xref ref-type="bibr" rid="redalyc_63543879003_ref31">Ormrod, 2009, p. 213-233</xref> ).</p>
+<p>Para que la información pase de la MCP a la MLP, es necesario que la información se relacione con los conocimientos previos de los estudiantes, lo que se conoce como aprendizaje significativo ( <xref ref-type="bibr" rid="redalyc_63543879003_ref8">Ausubel, Novak y Hanesian, 1983, p. 79</xref> ). En este sentido, el contenido que se aprende depende, en gran medida, de aquello que ya se conoce y, al aprender, se relaciona la nueva información con conceptos relevantes preexistentes en la estructura cognitiva ( <xref ref-type="bibr" rid="redalyc_63543879003_ref30">Ojeda, Díaz, González, Pinedo y Hernández, 2007</xref> ). Este tipo de aprendizaje promueve la adquisición de conocimientos de forma duradera ( <xref ref-type="bibr" rid="redalyc_63543879003_ref12">Dávila, 2000</xref> ).</p>
+<p>Según <xref ref-type="bibr" rid="redalyc_63543879003_ref7">Ausubel (2002, p. 25)</xref> , el aprendizaje significativo es ventajoso para el aprendizaje cuando el material tiene significado psicológico y lógico, y cuando tiene la intencionalidad. La significatividad psicológica del material se refiere a que el material siga una secuencia ordenada para que promueva la construcción de significados ( <xref ref-type="bibr" rid="redalyc_63543879003_ref12">Dávila, 2000</xref> ). La significatividad lógica del material se refiere a que permita su enlace sustancial con ideas disponibles en la estructura cognitiva del aprendiz ( <xref ref-type="bibr" rid="redalyc_63543879003_ref7">Ausubel, 2002, p. 25</xref> ). Finalmente, la intencionalidad se refiere a que es necesario que el estudiante quiera aprender ( <xref ref-type="bibr" rid="redalyc_63543879003_ref12">Dávila, 2000</xref> ).</p>
+<p>La teoría del aprendizaje significativo sirvió de pauta a Joseph Novak para crear los mapas conceptuales, ya que la base de estos es el conocimiento previo ( <xref ref-type="bibr" rid="redalyc_63543879003_ref28">Novak y Cañas, 2006</xref> ). Estos constituyen una estrategia para captar lo más significativo de un tema ( <xref ref-type="bibr" rid="redalyc_63543879003_ref30">Ojeda, Díaz, González, Pinedo y Hernández, 2007</xref> ) mediante la representación gráfica de relaciones significativas entre conceptos en forma de proposiciones ( <xref ref-type="bibr" rid="redalyc_63543879003_ref29">Novak y Gowin, 1988, p. 33</xref> ).</p>
+<p>Los mapas conceptuales son una estrategia eficaz en el desarrollo de la estructura cognitiva ( <xref ref-type="bibr" rid="redalyc_63543879003_ref23">Monagas, 1998</xref> ); y de procesamiento de información que permite organizar y estructurar la información ( <xref ref-type="bibr" rid="redalyc_63543879003_ref9">Cañas, Ford, Hayes, Reichherzer, Suri, Coffey y Hill, 1997, p. 4</xref> ). Además, favorecen la MLP al crear una imagen visual simple de los conceptos, la cual se transforma en una imagen mental ( <xref ref-type="bibr" rid="redalyc_63543879003_ref20">Maricoy y Vergara, 2002</xref> ).</p>
+<p>Los mapas conceptuales, ayudan a los estudiantes a convertirse en aprendices más profundos, ya que internalizan los conceptos pues hay relaciones entre ellos ( <xref ref-type="bibr" rid="redalyc_63543879003_ref28">Novak y Cañas, 2006</xref> ). Además, su uso permite vincular la nueva información con los conceptos ya aprendidos, de manera que pueden darle sentido a lo que están aprendiendo para un mejor desarrollo cognitivo ( <xref ref-type="bibr" rid="redalyc_63543879003_ref34">Pérez, 2008, p. 79</xref> ). Por ello se determinó usar la herramienta de los mapas conceptuales en el desarrollo de competencias de búsqueda y evaluación de información lo que lleva a los objetivos de este estudio.</p>
+</sec>
+<sec>
+<title>3. OBJETIVOS</title>
+<p>El objetivo general de este estudio fue determinar la eficacia de los mapas conceptuales en el desarrollo de competencias de búsqueda y evaluación de información en estudiantes universitarios sub-graduados. Los objetivos específicos fueron: determinar la efectividad de los mapas conceptuales en el desarrollo de las competencias de búsqueda y evaluación de información; determinar las áreas de mayor y menor dominio en relación con los mapas conceptuales; y conocer la opinión de los estudiantes sobre el uso de los mapas conceptuales en el desarrollo de las competencias de búsqueda y evaluación de información.</p>
+</sec>
+<sec>
+<title>4. METODOLOGÍA</title>
+<p>La población de este estudio estuvo compuesta por todos los estudiantes subgraduados matriculados en la UPRB durante el segundo semestre del año académico 2012-2013. Esta institución cuenta con una población aproximada de 5.000 estudiantes. La gran mayoría es de origen puertorriqueño y vive en diversos pueblos de Puerto Rico, en especial los del área norte central de la isla.</p>
+<p>En este estudio se implementó un diseño cuasi-experimental. Es decir se utilizó un grupo intacto. Para la conformación de la muestra se utilizó la técnica del muestreo no probabilístico. La muestra de participantes fue de 30 estudiantes de segundo, tercero o cuarto año de estudio y a su vez matriculados en una sección de un curso de Gerencia, denominado REHU 4407 Sistemas de compensación. Se seleccionó dicho curso, ya que su currículo incluía el dominio de competencias informacionales.</p>
+<p>La instrucción se impartió a través de un módulo audiovisual en formato electrónico el cual contenía información textual y se complementó con mapas conceptuales. El mismo tenía los siguientes componentes: introducción, información de contacto de la facilitadora, guía de estudio, objetivos, lecciones, ejercicios y evaluación. Todas las secciones eran accesibles directamente desde el menú principal y en cualquiera de las etapas de la unidad instruccional. Las lecciones fueron tres: la primera sobre definir la necesidad de información, la segunda sobre cómo buscar información en bases de datos y en la internet y la tercera sobre cómo evaluar la información recuperada. Las lecciones estuvieron alineadas a los objetivos instruccionales y a los estándares de alfabetización informacional de la <xref ref-type="bibr" rid="redalyc_63543879003_ref4">ACRL (2000)</xref> .</p>
+<p>Para medir si hubo algún efecto sobre la variable dependiente (competencias de búsqueda y evaluación de información), se administró una preprueba y una posprueba ( <xref ref-type="app" rid="app1">véase Anexo 1</xref> ) a través de la plataforma de educación a distancia Moodle. Ambas pruebas tuvieron los mismos 30 reactivos cerrados de selección múltiple, pareo y cierto y falso. 15 de dichos reactivos evaluaban las competencias de búsqueda de información y 15 midieron aspectos relacionados con la evaluación de la información.</p>
+<p>También se administró un cuestionario ( <xref ref-type="app" rid="app2">véase Anexo 2</xref> ) para conocer la opinión de los estudiantes participantes sobre los siguientes aspectos: datos demográficos, eficacia de la herramienta, aplicación del conocimiento y conocimiento y adiestramiento previo. Este cuestionario constaba de reactivos cerrados, de selección múltiple o alternativas, algunas de las cuales son respuestas de tipo ordinal mediante escala Likert.</p>
+<p>Debido a que ambos instrumentos fueron creados por la investigadora se realizó un proceso de validación para evaluar la calidad y realizar los ajustes necesarios. El mismo constó de dos etapas: una validación por expertos y una prueba piloto con 4 estudiantes.</p>
+<p>Una vez validados los instrumentos se procedió a recoger los datos. El proceso consistió de las siguientes etapas:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Se orientó a los posibles participantes sobre el estudio. En dicha reunión se ofreció un adiestramiento sobre cómo acceder al módulo y a los instrumentos a través de Moodle. Además, se explicó el calendario de actividades para que supiesen el periodo de tiempo en que estarían disponibles las lecciones y los instrumentos.</p>
+</list-item>
+<list-item>
+<p>Una vez que se constituyó el grupo, se envió un mensaje electrónico a los participantes notificándoles que contaban con una semana de plazo para contestar la preprueba.</p>
+</list-item>
+<list-item>
+<p>Al culminar el periodo de la preprueba, se notificó a los participantes que accediesen al módulo instruccional.</p>
+</list-item>
+<list-item>
+<p>Luego de participar en la unidad instruccional, se les administró la posprueba a través de Moodle.</p>
+</list-item>
+<list-item>
+<p>Finalmente, se procedió a recolectar los datos del cuestionario de opinión. Para esto, se colocó un enlace en Moodle, el cual dirigía a los estudiantes al instrumento trabajado a través de la herramienta Survey Monkey.</p>
+</list-item>
+</list>
+</p>
+<p>Los datos recopilados se sometieron a análisis estadístico a través del programa SPSS, que ayudó a presentar el resumen estadístico de los mismos. Para responder la primera pregunta de investigación sobre el efecto de los mapas conceptuales en el desarrollo de las competencias de búsqueda y evaluación de información se compararon los datos cuantitativos de laprepruebay lapospruebamediante una prueba <italic>t </italic> para grupos pareados. La prueba <italic>t </italic> es una prueba estadística que permite apreciar si dos grupos difieren entre sí significativamente en relación con las medias aritméticas en una variable ( <xref ref-type="bibr" rid="redalyc_63543879003_ref17">Hernández, Fernández y Baptista, 2010, p. 319</xref> ). En relación con la segunda pregunta de investigación sobre las áreas de mayor y menor dominio se compararon los datos cuantitativos de los 5 <italic>ítem</italic> s de mayor dominio versus los 5 <italic>ítem</italic> s de menor dominio de laprepruebay lapospruebamediante una prueba <italic>t </italic> para grupos pareados. Para responder la tercera pregunta de investigación sobre la opinión de los estudiantes sobre el uso de los mapas conceptuales y la experiencia de aprendizaje a través del módulo instruccional se llevó a cabo un análisis cuantitativo de los resultados del cuestionario mediante medidas estadísticas como la frecuencia y el por ciento con el fin de organizar sistemáticamente y analizar la información.</p>
+<p>Antes de presentar los resultados producto del análisis de datos, se presenta alguna información demográfica y educativa de los participantes.</p>
+</sec>
+<sec>
+<title>5. RESULTADOS</title>
+<p>Con respecto a las características de los participantes 53.3% eran mujeres y 46.7% eran hombres. En relación con el año de estudio de los participantes, poco más de la mitad (53.3%) cursaba el cuarto año de la carrera, menos de la mitad (30%) cursaba el tercer año y una minoría (16.7%) cursaba su segundo año de estudio.</p>
+<p>Con respecto a las preguntas de investigación, la primera pregunta de investigación que se planteó fue: ¿Cuál es la efectividad de los mapas conceptuales en el desarrollo de competencias de búsqueda y evaluación de información? Para responder a esta pregunta se analizaron las respuestas de los estudiantes en el examen que sirvió de preprueba y posprueba.</p>
+<p>Para realizar el análisis estadístico se utilizó la prueba t para grupos pareados dado que se trata de una muestra correlacionada, lo cual significa que el mismo grupo se midió dos veces (antes y después del tratamiento). La prueba t permitió determinar si hubo diferencia significativa en el aprovechamiento de los participantes. Se llevaron a cabo análisis estadísticos por componente de búsqueda de información y evaluación de información en forma separada. Los resultados se muestran a continuación.</p>
+<p>
+<fig id="gf22" fig-type="diagram">
+<label>Tabla I</label>
+<caption>
+<title>Medias aritméticas de las variables búsqueda y evaluación de información.</title>
+</caption>
+<alt-text>Tabla I Medias aritméticas de las variables búsqueda y evaluación de información.</alt-text>
+<graphic xlink:href="63543879003_gf2.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>
+<fig id="gf23">
+<label>Tabla II</label>
+<caption>
+<title>Diferencia entre las medias aritméticas de las variables búsqueda y evaluación de información.</title>
+</caption>
+<alt-text>Tabla II Diferencia entre las medias aritméticas de las variables búsqueda y evaluación de información.</alt-text>
+<graphic xlink:href="63543879003_gf3.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>En cuanto a la variable búsqueda de información la <xref ref-type="fig" rid="gf22">Tabla I</xref> muestra que la media aritmética en lapospruebafue de 8.80 con una desviación estándar de 2.427 y la media aritmética en laprepruebafue de 7.00 con una desviación estándar de 2.334. Según la <xref ref-type="fig" rid="gf23">Tabla II</xref> el valor de <italic>t </italic> fue de -5.396 con un nivel de significancia de <italic>p</italic> &lt;0.05, lo que indica que hubo diferencias significativas en la nota obtenida en laprepruebayposprueba.</p>
+<p>En cuanto a la variable evaluación de información, según la <xref ref-type="fig" rid="gf22">Tabla I</xref> , la media aritmética en lapospruebafue de 9.00 con una desviación estándar de 2.000 y la media aritmética en laprepruebafue de 8.03 con una desviación estándar de 1.956. De acuerdo con la Tabla II el valor de <italic>t </italic> fue de -3.093 con un nivel de significancia de <italic>p</italic> &lt;0.01, lo que indica que hubo diferencias significativas en la nota obtenida en laprepruebayposprueba.</p>
+<p>La segunda pregunta que se planteó fue: ¿Cuáles son las áreas de mayor y menor dominio en relación con los mapas conceptuales para el desarrollo de las competencias de búsqueda y evaluación de información? Se llevaron a cabo análisis estadísticos por componente de búsqueda de información y evaluación de información en forma separada mediante el análisis de cinco <italic>ítem</italic> s en los cuales los estudiantes demostraron mayor dominio y otros cinco en los cuales demostraron menor dominio.</p>
+<p>En cuanto a la variable búsqueda de información se seleccionaron los reactivos 1, 3, 10, 19 y 20 como <italic>ítems </italic> de mayor dominio. La <xref ref-type="fig" rid="gf24">Tabla III</xref> muestra que la media aritmética de lapospruebafue de 18.60 con una desviación estándar de 3.715 y la media aritmética en laprepruebafue de 10.00 con una desviación estándar de 3.082. Según la <xref ref-type="fig" rid="gf25">Tabla IV</xref> el valor de <italic>t </italic> fue de -6.306 con un nivel de significancia de <italic>p</italic> &lt;0.05, lo que indica que hubo diferencias significativas en la nota obtenida en laprepruebayposprueba.</p>
+<p>
+<fig id="gf24" fig-type="diagram">
+<label>Tabla III</label>
+<caption>
+<title>Estadísticas de muestras pareadas de los ítems de mayor dominio en la variable búsqueda de información.</title>
+</caption>
+<alt-text>Tabla III Estadísticas de muestras pareadas de los ítems de mayor dominio en la variable búsqueda de información.</alt-text>
+<graphic xlink:href="63543879003_gf20.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>
+<fig id="gf25" fig-type="diagram">
+<label>Tabla IV</label>
+<caption>
+<title>Prueba de muestras pareadas de los ítems de mayor dominio en la variable búsqueda de información.</title>
+</caption>
+<alt-text>Tabla IV Prueba de muestras pareadas de los ítems de mayor dominio en la variable búsqueda de información.</alt-text>
+<graphic xlink:href="63543879003_gf4.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>Siguiendo con la variable búsqueda de información se seleccionaron los reactivos 9, 21, 23, 25 y 26 como <italic>ítems </italic> de menor dominio. La <xref ref-type="fig" rid="gf26">Tabla V</xref> muestra que la media aritmética en lapospruebafue de 19.00 con una desviación estándar de 5.523 y la media aritmética en laprepruebafue de 16.40 con una desviación estándar de 4.393. Según la <xref ref-type="fig" rid="gf27">Tabla VI</xref> el valor de <italic>t </italic> fue de -3.833 con un nivel de significancia de <italic>p</italic> &lt;0.05, lo que indica que hubo diferencias significativas en la nota obtenida en laprepruebayposprueba.</p>
+<p>
+<fig id="gf26" fig-type="diagram">
+<label>Tabla V</label>
+<caption>
+<title>Estadísticas de muestras pareadas de los ítems de menor dominio en la variable búsqueda de información.</title>
+</caption>
+<alt-text>Tabla V Estadísticas de muestras pareadas de los ítems de menor dominio en la variable búsqueda de información.</alt-text>
+<graphic xlink:href="63543879003_gf8.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>
+<fig id="gf27" fig-type="diagram">
+<label>Tabla VI</label>
+<caption>
+<title>Prueba de muestras pareadas de los ítems de menor dominio en la variable búsqueda de información.</title>
+</caption>
+<alt-text>Tabla VI Prueba de muestras pareadas de los ítems de menor dominio en la variable búsqueda de información.</alt-text>
+<graphic xlink:href="63543879003_gf5.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>En cuanto a la variable evaluación de información se seleccionaron los reactivos 2, 5, 11, 12 y 14 como <italic>ítems </italic> de mayor dominio. La Tabla <xref ref-type="fig" rid="gf28">VII</xref> muestra que la media aritmética de lapospruebafue de 24.40 con una desviación estándar de 3.050 y la media aritmética en laprepruebafue de 19.60 con una desviación estándar de 3.435. Según la Tabla <xref ref-type="fig" rid="gf29">VIII</xref> el valor de <italic>t </italic> fue de -5.580 con un nivel de significancia de <italic>p</italic> &lt;0.05, lo que indica que hubo diferencias significativas en la nota obtenida en laprepruebayposprueba.</p>
+<p>
+<fig id="gf28" fig-type="diagram">
+<label>Tabla VII</label>
+<caption>
+<title>Estadísticas de muestras pareadas de los ítems mayor dominio en la variable evaluación de información.</title>
+</caption>
+<alt-text>Tabla VII Estadísticas de muestras pareadas de los ítems mayor dominio en la variable evaluación de información.</alt-text>
+<graphic xlink:href="63543879003_gf16.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>
+<fig id="gf29" fig-type="diagram">
+<label>Tabla VIII</label>
+<caption>
+<title>Prueba de muestras pareadas de los ítems de mayor dominio en la variable evaluación de información.</title>
+</caption>
+<alt-text>Tabla VIII Prueba de muestras pareadas de los ítems de mayor dominio en la variable evaluación de información.</alt-text>
+<graphic xlink:href="63543879003_gf21.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>En relación con la variable evaluación de información, se seleccionaron los reactivos 6, 13, 18, 27 y 28 como <italic>ítems </italic> de menor dominio. La <xref ref-type="fig" rid="gf30">Tabla IX</xref> muestra que la media aritmética en lapospruebafue de 24.60 con una desviación estándar de 5.357 y la media aritmética en laprepruebafue de 23.80 con una desviación estándar de 5.128. Según la <xref ref-type="fig" rid="gf31">Tabla X</xref> el valor de <italic>t </italic> fue de 2.138 con un nivel de significancia de <italic>p</italic> &gt;0.05, lo que indica que no hubo diferencias significativas en la nota obtenida en laprepruebayposprueba, o sea, que la diferencia no pudo ser detectada. Sin embargo, de acuerdo con <xref ref-type="bibr" rid="redalyc_63543879003_ref25">Morgan, Reichert y Harrison (2002, p. 12)</xref> , aunque los resultados obtenidos no se consideren significativos, la información sobre las medias aritméticas puede ayudar a tener una idea de la diferencia de la ejecución.</p>
+<p>
+<fig id="gf30" fig-type="diagram">
+<label>Tabla IX</label>
+<caption>
+<title>Estadísticas de muestras pareadas de los ítems de menor dominio en la variable evaluación de información.</title>
+</caption>
+<alt-text>Tabla IX Estadísticas de muestras pareadas de los ítems de menor dominio en la variable evaluación de información.</alt-text>
+<graphic xlink:href="63543879003_gf9.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>
+<fig id="gf31" fig-type="diagram">
+<label>Tabla X</label>
+<caption>
+<title>Prueba de muestras pareadas de los ítems de menor dominio en la variable evaluación de información.</title>
+</caption>
+<alt-text>Tabla X Prueba de muestras pareadas de los ítems de menor dominio en la variable evaluación de información.</alt-text>
+<graphic xlink:href="63543879003_gf10.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>La tercera y última pregunta que se planteó en esta investigación fue: ¿Cuál es la opinión de los estudiantes sobre el uso de mapas conceptúales para el desarrollo de las competencias de búsqueda y evaluación de información? Para responder a esta pregunta se analizaron las respuestas a las preguntas 3 a la 20 del cuestionario de opinión, las cuales se relacionaban con la eficacia de la herramienta, la aplicación del conocimiento y el conocimiento y adiestramiento previo.</p>
+<p>Sobre la eficacia de la herramienta, la <xref ref-type="fig" rid="gf32">Tabla XI</xref> refleja que la gran mayoría (97%) estaba completamente de acuerdo o de acuerdo con la aseveración que expresaba que los mapas conceptúales les ayudaron a desarrollar las competencias de búsqueda de información. Con respecto a si los mapas conceptuales les ayudaron a desarrollar las competencias de evaluación de información la gran mayoría (97%) expresó estar completamente de acuerdo o de acuerdo. Por otra parte, en relación con la aseveración sobre si los mapas conceptuales les indujeron al procesamiento de la información, una gran mayoría (97%) estuvo completamente de acuerdo o de acuerdo.</p>
+<p>Con respecto a si los mapas conceptuales les motivaron en el aprendizaje de estrategias de búsqueda de información, la gran mayoría (93%) estuvo completamente de acuerdo o de acuerdo. La gran mayoría (97%) manifestó estar completamente de acuerdo o de acuerdo en que los mapas conceptuales les motivaron en el aprendizaje de estrategias de evaluación de información.</p>
+<p>En cuanto a la aseveración sobre si los mapas conceptuales les ayudaron a sentirse seguros en el aprendizaje de estrategias de búsqueda de información, la mayoría (90%) mostró estar completamente de acuerdo o de acuerdo. Por otra parte, con respecto a si los mapas conceptuales les ayudaron a sentirse seguros en el aprendizaje de estrategias de evaluación de información, la gran mayoría (93%) expresó estar completamente de acuerdo o de acuerdo.La mayoría (90%) indicó estar completamente de acuerdo o de acuerdo en la idea de que los mapas conceptuales aumentaron su interés por buscar información de calidad en internet. Por último, la gran mayoría (93%) indicó estar completamente de acuerdo o de acuerdo en que los mapas conceptuales aumentaron su interés por evaluar la calidad de la información en internet.</p>
+<p>
+<fig id="gf32" fig-type="diagram">
+<label>Tabla XI</label>
+<caption>
+<title>Eficacia de la herramienta.</title>
+</caption>
+<alt-text>Tabla XI Eficacia de la herramienta.</alt-text>
+<graphic xlink:href="63543879003_gf13.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>En cuanto a la aplicación del conocimiento, la <xref ref-type="fig" rid="gf33">Tabla XII</xref> muestra que el 100% de los participantes expresaron estar completamente de acuerdo o de acuerdo en que lo aprendido les ayudaría en las tareas del curso. Igualmente, el 100% de los estudiantes opinó estar completamente de acuerdo o de acuerdo en que lo aprendido les ayudó a mejorar su desempeño para investigar. La gran mayoría (97%) expresó estar completamente de acuerdo o de acuerdo en que los conocimientos adquiridos tenían aplicación en otras clases y en su vida profesional.</p>
+<p>Con respecto a si aprendió a buscar información de calidad en internet, la gran mayoría (97%) expresó estar completamente de acuerdo o de acuerdo. Finalmente, la gran mayoría (93%) señaló estar completamente de acuerdo o de acuerdo con la aseveración de sentirse cómodo con el dominio adquirido en el uso de las bases de datos.</p>
+<p>
+<fig id="gf33" fig-type="diagram">
+<label>Tabla XII</label>
+<caption>
+<title>Aplicación del conocimiento.</title>
+</caption>
+<alt-text>Tabla XII Aplicación del conocimiento.</alt-text>
+<graphic xlink:href="63543879003_gf11.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>En relación con el conocimiento y adiestramiento previo, la <xref ref-type="fig" rid="gf34">Tabla XIII</xref> muestra que poco más de dos terceras partes (69%) expresó que antes de la exposición al módulo había usado las bases de datos. Por otra parte, sobre si había sido adiestrado en el uso de las bases de datos previamente, poco más de la mitad (53%) contestó afirmativamente. Finalmente, más de la mitad (57%) indicó no haber sido adiestrado para investigar a través de internet.</p>
+<p>
+<fig id="gf34" fig-type="diagram">
+<label>Tabla XIII</label>
+<caption>
+<title>Conocimiento y adiestramiento previo.</title>
+</caption>
+<alt-text>Tabla XIII Conocimiento y adiestramiento previo.</alt-text>
+<graphic xlink:href="63543879003_gf12.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+</sec>
+<sec>
+<title>6. INTERPRETACIÓN Y DISCUSIÓN DE LOS RESULTADOS</title>
+<p>La primera pregunta de investigación indagó sobre la efectividad de los mapas conceptuales en el desarrollo de las competencias de búsqueda y evaluación de información. La prueba t reflejó un aumento significativo en las medias aritméticas en las variables búsqueda de información y evaluación de información correspondiente a (M = 1.80) y (M = 0.967) respectivamente, según expuesto en las <xref ref-type="fig" rid="gf22">Tablas I</xref> y <xref ref-type="fig" rid="gf23">II</xref> . Esto demuestra la efectividad de los mapas conceptuales en el desarrollo de las competencias de búsqueda y evaluación de información. Un dato que destaca de los resultados obtenidos en la variable búsqueda de información es que se puede observar un mayor aumento en la ejecución de los estudiantes en comparación con la variable evaluación de información.</p>
+<p>La segunda pregunta de investigación evaluaba las áreas de mayor y menor dominio en relación con los mapas conceptuales. Según las <xref ref-type="fig" rid="gf24">Tablas III</xref> , <xref ref-type="fig" rid="gf25">IV</xref> , <xref ref-type="fig" rid="gf26">V</xref> , <xref ref-type="fig" rid="gf27">VI</xref> , <xref ref-type="fig" rid="gf28">VII</xref> , <xref ref-type="fig" rid="gf29">VIII</xref> , <xref ref-type="fig" rid="gf30">IX</xref> , <xref ref-type="fig" rid="gf31">X</xref> , la prueba t para grupos pareados reveló un aumento significativo en las medias aritméticas en ambas variables tanto en los ítems en los cuales los estudiantes demostraron mayor dominio como en los ítems en los cuales los estudiantes demostraron menor dominio.</p>
+<p>Los resultados obtenidos sobre la variable búsqueda de información en relación con las estadísticas de muestras pareadas correspondientes a los ítems en los cuales los estudiantes demostraron mayor dominio, según se desprende de las <xref ref-type="fig" rid="gf24">Tablas III</xref> y I <xref ref-type="fig" rid="gf25">V</xref> , refleja un aumento de (M = 8.60). Según las <xref ref-type="fig" rid="gf26">Tablas V</xref> y <xref ref-type="fig" rid="gf27">VI</xref> , hubo un aumento de (M = 2.60) en las estadísticas de muestras pareadas de los ítems en los cuales los estudiantes demostraron menos dominio en cuanto a la variable búsqueda de información. Hubo una diferencia mayor entre las estadísticas de muestras pareadas correspondientes a los ítems de mayor y de menor dominio en la variable búsqueda de información.</p>
+<p>Por otro lado, hubo un aumento de (M = 4.80) en los resultados obtenidos sobre la variable evaluación de información en relación con las estadísticas de muestras pareadas de los ítems en los cuales los estudiantes demostraron mayor dominio, según las <xref ref-type="fig" rid="gf28">Tablas VII</xref> y <xref ref-type="fig" rid="gf29">VIII</xref> . Finalmente, los datos de las <xref ref-type="fig" rid="gf30">Tablas IX</xref> y <xref ref-type="fig" rid="gf31">X</xref> , reflejan un aumento de (M = .80) en las estadísticas de muestras pareadas de los ítems en los cuales los estudiantes demostraron menos dominio en cuanto a la variable evaluación de información.</p>
+<p>La tercera pregunta de investigación indagó la opinión de los estudiantes sobre el uso de los mapas conceptuales para el desarrollo de las competencias de búsqueda y evaluación de información. En relación con la eficacia de la herramienta, la <xref ref-type="fig" rid="gf32">Tabla XI</xref> revela que los estudiantes percibieron que los mapas conceptuales son adecuados para desarrollar las competencias de búsqueda y evaluación de información. La mayoría cree que los mapas conceptuales les indujo al procesamiento de la información. Por otro lado, los estudiantes consideran que los mapas conceptuales les motivaron y les ayudaron a sentirse seguros en el aprendizaje de estrategias de búsqueda y evaluación de información. Finalmente, los estudiantes afirmaron que el uso de los mapas conceptuales aumentó su interés por buscar información de calidad.</p>
+<p>Con respecto a la aplicación del conocimiento, como se indica en la <xref ref-type="fig" rid="gf33">Tabla XII</xref> , los estudiantes consideraron que lo aprendido les ayudará en las tareas del curso, en otras clases y en su vida profesional. Además, los estudiantes manifestaron sentirse cómodos con el dominio adquirido en el uso de las bases de datos. De la misma manera, consideraron que lo aprendido les ayudó a mejorar su desempeño para investigar y para buscar información de calidad en internet.</p>
+<p>Finalmente, sobre el conocimiento y adiestramiento previo, los resultados de la <xref ref-type="fig" rid="gf34">Tabla XIII</xref> indican que casi la mitad de los estudiantes admitió que previo a la exposición al módulo no había recibido adiestramiento en el uso de las bases de datos. De la misma forma, más de la mitad indicó también que no había sido adiestrado en cómo investigar a través de internet. Poco más de dos terceras partes habían usado las bases de datos electrónicas antes de la exposición al módulo instruccional. Se puede extrapolar que es necesario y ventajoso capacitar a los estudiantes para desarrollar en estos las competencias informacionales, ya que según se desprende de la Tabla XII, la totalidad de los estudiantes expresó que tras la exposición al módulo instruccional mejoró su desempeño para investigar. Por otro lado, la mayoría expresó que aprendió a buscar información de calidad en internet y admitió sentirse cómodo con el dominio adquirido en el uso de las bases de datos.</p>
+</sec>
+<sec>
+<title>7. CONCLUSIONES</title>
+<p>Los mapas conceptuales pueden utilizarse como una estrategia adecuada para desarrollar en los estudiantes universitarios las competencias informacionales, ya que se registró un aumento significativo en las medias aritméticas en las variables búsqueda y evaluación de información. Además, hubo un aumento significativo en las medias aritméticas de las variables búsqueda de información y evaluación de información en los ítems en los cuales los estudiantes demostraron mayor y menor dominio. La diferencia mayor entre las estadísticas de muestras pareadas correspondientes a los ítems de mayor y de menor dominio fue en la variable búsqueda de información.</p>
+<p>La mayoría de los estudiantes participantes tiene una opinión favorable sobre los mapas conceptuales pues expresaron que les ayudaron a desarrollar y sentirse seguros en sus competencias de búsqueda y evaluación de información; les indujo al procesamiento de la información; se sintieron motivados en el aprendizaje; aumentaron su interés por buscar información de calidad y por evaluar la calidad de la información; lo aprendido tiene aplicación en las tareas del curso, en otras clases y en su vida profesional; aprendieron a buscar información de calidad en internet y mejoraron su desempeño para investigar. Los instrumentos utilizados para la recopilación de datos resultaron herramientas adecuadas para la obtención de datos confiables, por lo que proveen la oportunidad para su uso y empleo en futuras investigaciones.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<ref id="redalyc_63543879003_ref2">
+<mixed-citation>ACOSTA, B.C. Efectos del diálogo socrático sobre el pensamiento crítico en estudiantes universitarios. Psicología desde el Caribe, 2002, vol. 10, p. 1-26.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>ACOSTA</surname>
+<given-names>B.C.</given-names>
+</name>
+</person-group>
+<article-title>Efectos del diálogo socrático sobre el pensamiento crítico en estudiantes universitarios</article-title>
+<source>Psicología desde el Caribe</source>
+<year>2002</year>
+<volume>10</volume>
+<fpage>1</fpage>
+<lpage>26</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref3">
+<mixed-citation>ACRL. Introduction to information literacy, 2006. Disponible en: http://www.ala.org/ala/acrl/acrlissues/acrlinfolit_infolit/overview/infolit/introinfolit.htm=what [Consulta: 6 de julio de 2012].</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>ACRL</collab>
+</person-group>
+<source>Introduction to information literacy</source>
+<year>2006</year>
+<comment>Disponible en: http://www.ala.org/ala/acrl/acrlissues/acrlinfolit_infolit/overview/infolit/introinfolit.htm=what [Consulta: 6 de julio de 2012]</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref4">
+<mixed-citation>ACRL. Normas sobre aptitudes para el acceso y uso de la información en la enseñanza superior, 2000. Disponible en: http://www.ala.org/acrl/standards/informationliteracycompetencystandards [Consulta: 27 de agosto de 2009].</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>ACRL</collab>
+</person-group>
+<source>Normas sobre aptitudes para el acceso y uso de la información en la enseñanza superior</source>
+<year>2000</year>
+<comment>Disponible en: http://www.ala.org/acrl/standards/informationliteracycompetencystandards [Consulta: 27 de agosto de 2009].</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref5">
+<mixed-citation>ACRL, IIL. Características de los programas de alfabetización en información que sirven como ejemplo de las mejores prácticas. Boletín de la Asociación Andaluza de Bibliotecarios, 2003, vol. 18, nº 70, p. 67-72.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<collab>ACRL</collab>
+<collab>IIL</collab>
+</person-group>
+<article-title>Características de los programas de alfabetización en información que sirven como ejemplo de las mejores prácticas</article-title>
+<source>Boletín de la Asociación Andaluza de Bibliotecarios</source>
+<year>2003</year>
+<volume>18</volume>
+<issue>70</issue>
+<fpage>67</fpage>
+<lpage>72</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref6">
+<mixed-citation>AGUILERA SERRANO, Y.; ZUBIZARRETA ESTÉVEZ, M.; CASTILLO MAYEDO, J.A. Constatación de las habilidades del pensamiento crítico en los estudiantes de licenciatura en enfermería. Revista Cubana de Educación Médica Superior, 2006, vol. 20, nº 3, p. 1-13.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>AGUILERA SERRANO</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>ZUBIZARRETA ESTÉVEZ</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>CASTILLO MAYEDO</surname>
+<given-names>J.A.</given-names>
+</name>
+</person-group>
+<article-title>Constatación de las habilidades del pensamiento crítico en los estudiantes de licenciatura en enfermería</article-title>
+<source>Revista Cubana de Educación Médica Superior</source>
+<year>2006</year>
+<volume>20</volume>
+<issue>3</issue>
+<fpage>1</fpage>
+<lpage>13</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref7">
+<mixed-citation>AUSUBEL, D.P. Adquisición y retención del conocimiento: una perspectiva cognitiva. Barcelona: Paidós, 2002.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>AUSUBEL</surname>
+<given-names>D.P.</given-names>
+</name>
+</person-group>
+<source>Adquisición y retención del conocimiento: una perspectiva cognitiva</source>
+<year>2002</year>
+<publisher-loc>Barcelona</publisher-loc>
+<publisher-name>Paidós</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref8">
+<mixed-citation>AUSUBEL, D.P.; NOVAK, J.D.; HANESIAN, H. Psicología educativa: un punto de vista cognoscitivo (2ª ed.). México: Trillas, 1983.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>AUSUBEL</surname>
+<given-names>D.P.</given-names>
+</name>
+<name>
+<surname>NOVAK</surname>
+<given-names>J.D.</given-names>
+</name>
+<name>
+<surname>HANESIAN</surname>
+<given-names>H.</given-names>
+</name>
+</person-group>
+<source>Psicología educativa: un punto de vista cognoscitivo</source>
+<year>1983</year>
+<publisher-loc>México</publisher-loc>
+<publisher-name>Trillas</publisher-name>
+<edition>2ª</edition>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref9">
+<mixed-citation>CAÑAS, A.J. et al. Colaboración en la construcción de conocimiento mediante mapas conceptuales, 1997. Trabajo presentado en el VIII Congreso Internacional sobre Tecnología y Educación a Distancia, San José, Costa Rica. Disponible en: http://www.ihmc.us/users/acanas/ColabCon.pdf [Consulta: 3 de diciembre de 2011].</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>CAÑAS</surname>
+<given-names>A.J.</given-names>
+</name>
+</person-group>
+<source>Colaboración en la construcción de conocimiento mediante mapas conceptuales</source>
+<year>1997</year>
+<comment>Disponible en: http://www.ihmc.us/users/acanas/ColabCon.pdf [Consulta: 3 de diciembre de 2011].</comment>
+<conf-name>VIII Congreso Internacional sobre Tecnología y Educación a Distancia</conf-name>
+<conf-loc>San José, Costa Rica</conf-loc>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref10">
+<mixed-citation>COCHRANE, C. Embedding information literacy in an undergraduate management degree: lecturers and students perspectives. Education for Information, 2006, vol. 24, nº 2/3, p. 97-123.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>COCHRANE</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<article-title>Embedding information literacy in an undergraduate management degree: lecturers and students perspectives</article-title>
+<source>Education for Information</source>
+<year>2006</year>
+<volume>24</volume>
+<issue>2/3</issue>
+<fpage>97</fpage>
+<lpage>123</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref11">
+<mixed-citation>CRESWELL, J.W. Educational research: Planning, conducting, and evaluating quantitative and qualitative research (3ª ed.). Upper Saddle River, NJ: Pearson, 2008.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>CRESWELL</surname>
+<given-names>J.W.</given-names>
+</name>
+</person-group>
+<source>Educational research: Planning, conducting, and evaluating quantitative and qualitative research</source>
+<year>2008</year>
+<publisher-loc>Upper Saddle River, NJ</publisher-loc>
+<publisher-name>Pearson</publisher-name>
+<edition>3ª</edition>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref12">
+<mixed-citation>DÁVILA ESPINOSA, S. El aprendizaje significativo: esa extraña expresión (utilizada por todos y comprendida por pocos). Revista Digital de Educación y Nuevas Tecnologías, vol. 2000, p. 9. Disponible en: http://contextoeducativo. com.ar/2000/7/nota-08.htm [Consulta: 4 de febrero de 2012].</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>DÁVILA ESPINOSA</surname>
+<given-names>S.</given-names>
+</name>
+</person-group>
+<article-title>El aprendizaje significativo: esa extraña expresión (utilizada por todos y comprendida por pocos)</article-title>
+<source>Revista Digital de Educación y Nuevas Tecnologías</source>
+<year>2000</year>
+<volume>2000</volume>
+<fpage>9</fpage>
+<comment>Disponible en: http://contextoeducativo. com.ar/2000/7/nota-08.htm [Consulta: 4 de febrero de 2012].</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref13">
+<mixed-citation>DEHN, M.J. Working memory and academic learning: Assessment and intervention. Hoboken, NY: John Wiley &amp; Sons, 2008. Disponible en: http://books.google.com.pr/books?id=ukLgrF9SE58C&amp;pg=PT20&amp;dq=atkinson+%2Bshiffrin+%2B%22informati on+processing+model+%22&amp;hl=es&amp;sa=X&amp;ei=qAIvTSPHc7iggfftPWoCg&amp; sqi=2&amp;redir_esc=y#v=onepage&amp;q=atkinson%20%2Bshiffrin%20%2B%22information%20 processing%20model%20%22&amp;f=false [ Consulta: 4 de febrero de 2012].</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>DEHN</surname>
+<given-names>M.J.</given-names>
+</name>
+</person-group>
+<source>Working memory and academic learning: Assessment and intervention</source>
+<year>2008</year>
+<publisher-loc>Hoboken, NY</publisher-loc>
+<publisher-name>John Wiley &amp; Sons</publisher-name>
+<comment>Disponible en: http://books.google.com.pr/books?id=ukLgrF9SE58C&amp;pg=PT20&amp;dq=atkinson+%2Bshiffrin+%2B%22informati on+processing+model+%22&amp;hl=es&amp;sa=X&amp;ei=qAIvTSPHc7iggfftPWoCg&amp; sqi=2&amp;redir_esc=y#v=onepage&amp;q=atkinson%20%2Bshiffrin%20%2B%22information%20 processing%20model%20%22&amp;f=false [ Consulta: 4 de febrero de 2012].</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref14">
+<mixed-citation>DEWALD, N.; SCHOLTZ CRANE, A.; BOOTH, A.; LEVINE, C. Information literacy at a distance: Instructional design issues. Journal of Academic Librarianship, 2000, vol. 26, nº 1, p. 33-44.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>DEWALD</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>SCHOLTZ CRANE</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>BOOTH</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>LEVINE</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<article-title>Information literacy at a distance: Instructional design issues</article-title>
+<source>Journal of Academic Librarianship</source>
+<year>2000</year>
+<volume>26</volume>
+<issue>1</issue>
+<fpage>33</fpage>
+<lpage>44</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref15">
+<mixed-citation>ERTMER, P.; NEWBY, T. Conductismo, cognitivismo y constructivismo: una comparación de los aspectos críticos desde la perspectiva del diseño de instrucción. Performance Improvement Quartely, 1993, vol. 6, nº 4, p. 50-72.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>ERTMER</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>NEWBY</surname>
+<given-names>T.</given-names>
+</name>
+</person-group>
+<article-title>Conductismo, cognitivismo y constructivismo: una comparación de los aspectos críticos desde la perspectiva del diseño de instrucción</article-title>
+<source>Performance Improvement Quartely</source>
+<year>1993</year>
+<volume>6</volume>
+<issue>4</issue>
+<fpage>50</fpage>
+<lpage>72</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref16">
+<mixed-citation>FERNÁNDEZ VALDÉS, M. Metodología para el desarrollo y aplicación del programa de alfabetización informacional en las bibliotecas y centros de información en ciencias de la salud. ACIMED, 2008, vol. 18, nº 5, p. 1-8.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>FERNÁNDEZ VALDÉS</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Metodología para el desarrollo y aplicación del programa de alfabetización informacional en las bibliotecas y centros de información en ciencias de la salud</article-title>
+<source>ACIMED</source>
+<year>2008</year>
+<volume>18</volume>
+<issue>5</issue>
+<fpage>1</fpage>
+<lpage>8</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref17">
+<mixed-citation>HERNÁNDEZ SAMPIERI, R.; FERNÁNDEZ COLLADO, C.; BAPTISTA LUCIO, P. Metodología de la investigación (5a ed.). México: McGraw-Hill, 2010.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>HERNÁNDEZ SAMPIERI</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>FERNÁNDEZ COLLADO</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>BAPTISTA LUCIO</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<source>Metodología de la investigación</source>
+<year>2010</year>
+<publisher-loc>México</publisher-loc>
+<publisher-name>McGraw-Hill</publisher-name>
+<edition>5a</edition>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref18">
+<mixed-citation>HOLLIDAY, W.; FAGERHEIM, B. Integrating information literacy with a sequenced English composition curriculum. Libraries &amp; the Academy, 2006, vol. 6, nº 2, p. 169-184.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>HOLLIDAY</surname>
+<given-names>W.</given-names>
+</name>
+<name>
+<surname>FAGERHEIM</surname>
+<given-names>B.</given-names>
+</name>
+</person-group>
+<article-title>Integrating information literacy with a sequenced English composition curriculum</article-title>
+<source>Libraries &amp; the Academy</source>
+<year>2006</year>
+<volume>6</volume>
+<issue>2</issue>
+<fpage>169</fpage>
+<lpage>184</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref20">
+<mixed-citation>MARICOY, V.; VERGARA, J.A. Taller para profesores: Mapas conceptuales como herramienta de aprendizaje, 2002. Trabajo presentado en el ABSCH Expotaller V, Santiago, Chile. Disponible en: http://www.saladehistoria.com/biblioteca/educacion/Taller-Mapas-Conceptuales.pdf [Consulta: 2 de noviembre de 2011];</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>MARICOY</surname>
+<given-names>V.</given-names>
+</name>
+<name>
+<surname>VERGARA</surname>
+<given-names>J.A.</given-names>
+</name>
+</person-group>
+<source>Taller para profesores: Mapas conceptuales como herramienta de aprendizaje</source>
+<year>2002</year>
+<conf-name>ABSCH Expotaller V</conf-name>
+<conf-loc>Santiago, Chile</conf-loc>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref21">
+<mixed-citation>MÁRQUEZ, N.J. Improving the information problem-solving skills of physical therapist and occupational therapy assistant students through course-integrated instructions and faculty/academic librarian collaboration (Tesis de maestría), 2002.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>MÁRQUEZ</surname>
+<given-names>N.J.</given-names>
+</name>
+</person-group>
+<source>Improving the information problem-solving skills of physical therapist and occupational therapy assistant students through course-integrated instructions and faculty/academic librarian collaboratio</source>
+<year>2002</year>
+<comment>Tesis de maestría</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref22">
+<mixed-citation>MARTÍNEZ OTERO PÉREZ, V. Teoría y práctica de la educación. Madrid: CCS, 2003.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>MARTÍNEZ OTERO PÉREZ</surname>
+<given-names>V.</given-names>
+</name>
+</person-group>
+<source>Teoría y práctica de la educación</source>
+<year>2003</year>
+<publisher-loc>Madrid</publisher-loc>
+<publisher-name>CCS</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref23">
+<mixed-citation>MONAGAS, O. Mapas conceptuales como herramienta didáctica, 1998. Universidad Nacional Abierta, Venezuela. Disponible en: http://members.tripod.com/DE_VISU/mapas_conceptuales.html [Consulta: 2 de noviembre de 2011].</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>MONAGAS</surname>
+<given-names>O.</given-names>
+</name>
+</person-group>
+<source>Mapas conceptuales como herramienta didáctica</source>
+<year>1998</year>
+<publisher-loc>Venezuela</publisher-loc>
+<publisher-name>Universidad Nacional Abierta</publisher-name>
+<comment>Disponible en: http://members.tripod.com/DE_VISU/mapas_conceptuales.html [Consulta: 2 de noviembre de 2011];.</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref24">
+<mixed-citation>MORENO RODRÍGUEZ, M. Alfabetización digital: el pleno dominio del lápiz y el ratón. Comunicar, 2008, vol. 16, nº 30, p. 137-146.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>MORENO RODRÍGUEZ</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Alfabetización digital: el pleno dominio del lápiz y el ratón</article-title>
+<source>Comunicar</source>
+<year>2008</year>
+<volume>16</volume>
+<issue>30</issue>
+<fpage>137</fpage>
+<lpage>146</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref25">
+<mixed-citation>MORGAN, S.E.; REICHERT, T.; HARRISON, T.R. From numbers to words: Reporting statistical results for the social sciences. Boston, MA: Allyn and Bacon, 2002.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>MORGAN</surname>
+<given-names>S.E.</given-names>
+</name>
+<name>
+<surname>REICHERT</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>HARRISON</surname>
+<given-names>T.R.</given-names>
+</name>
+</person-group>
+<source>From numbers to words: Reporting statistical results for the social sciences</source>
+<year>2002</year>
+<publisher-loc>Boston, MA</publisher-loc>
+<publisher-name>Allyn and Bacon</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref26">
+<mixed-citation>MSCHE. Developing research and communication skills: Guidelines international literacy in the curriculum. Philadelphia PA: Author, 2003.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>MSCHE</collab>
+</person-group>
+<source>Developing research and communication skills: Guidelines international literacy in the curriculum</source>
+<year>2003</year>
+<publisher-loc>Philadelphia PA</publisher-loc>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref27">
+<mixed-citation>MSCHE. Students learning assessment: Options and resources (3a ed.). Philadelphia, PA: Autor, 2007.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>MSCHE</collab>
+</person-group>
+<source>Students learning assessment: Options and resources</source>
+<year>2007</year>
+<publisher-loc>Philadelphia, PA</publisher-loc>
+<edition>3a</edition>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref28">
+<mixed-citation>NOVAK, J.D.; CAÑAS, A.J.Del origen de los mapas conceptuales al desarrollo de CmapTools. 2006. Disponible en: http://www.eduteka.org/Entrevista22.php [Consulta: 3 de diciembre de 2011];.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>NOVAK</surname>
+<given-names>J.D.</given-names>
+</name>
+<name>
+<surname>CAÑAS</surname>
+<given-names>A.J.</given-names>
+</name>
+</person-group>
+<source>Del origen de los mapas conceptuales al desarrollo de CmapTools</source>
+<year>2006</year>
+<comment>Disponible en: http://www.eduteka.org/Entrevista22.php [Consulta: 3 de diciembre de 2011];.</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref29">
+<mixed-citation>NOVAK, J.D.y GOWIN, D.B. Aprendiendo a aprender. Barcelona: Martínez Roca, 1988.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>NOVAK</surname>
+<given-names>J.D.</given-names>
+</name>
+<name>
+<surname>GOWIN</surname>
+<given-names>D.B.</given-names>
+</name>
+</person-group>
+<source>Aprendiendo a aprender</source>
+<year>1988</year>
+<publisher-loc>Barcelona</publisher-loc>
+<publisher-name>Martínez Roca</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref30">
+<mixed-citation>OJEDA CABRERA, A. et al. Los mapas conceptuales: una poderosa herramienta para el aprendizaje significativo. ACIMED, 2007, vol. 15, nº 5, p. 1.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>OJEDA CABRERA</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Los mapas conceptuales: una poderosa herramienta para el aprendizaje significativo</article-title>
+<source>ACIMED</source>
+<year>2007</year>
+<volume>15</volume>
+<issue>5</issue>
+<fpage>1</fpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref31">
+<mixed-citation>ORMROD, J.E. Human learning (5ª ed.). London: Pearson; Prentice Hall, 2009.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>ORMROD</surname>
+<given-names>J.E.</given-names>
+</name>
+</person-group>
+<source>Human learning</source>
+<year>2009</year>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Pearson; Prentice Hall</publisher-name>
+<edition>5ª</edition>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref32">
+<mixed-citation>ORTÍZ TORRES, C.E. Las concepciones contemporáneas sobre el aprendizaje. Pedagogía Universitaria, 2006, vol. 11, nº 5, p. 3-34.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>ORTÍZ TORRES</surname>
+<given-names>C.E. </given-names>
+</name>
+</person-group>
+<article-title>Las concepciones contemporáneas sobre el aprendizaje. Pedagogía Universitaria</article-title>
+<source>Pedagogía Universitaria</source>
+<year>2006</year>
+<volume>11</volume>
+<issue>5</issue>
+<fpage>3</fpage>
+<lpage>34</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref33">
+<mixed-citation>ORTOLL, E. Competencias profesionales y uso de la información en el lugar de trabajo. El profesional de la información, 2004, vol. 13, nº 5, p. 338-345.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>ORTOLL</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Competencias profesionales y uso de la información en el lugar de trabajo</article-title>
+<source>El profesional de la información</source>
+<year>2004</year>
+<volume>13</volume>
+<issue>5</issue>
+<fpage>338</fpage>
+<lpage>345</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref34">
+<mixed-citation>PÉREZ FLORES, R. Mapas conceptuales como una manera de repensar la enseñanza. Gestión y Estrategia, 2008, nº 33, p. 75-88.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>PÉREZ FLORES</surname>
+<given-names>R. </given-names>
+</name>
+</person-group>
+<article-title>Mapas conceptuales como una manera de repensar la enseñanza</article-title>
+<source>Gestión y Estrategia</source>
+<year>2008</year>
+<issue>33</issue>
+<fpage>75</fpage>
+<lpage>88</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref35">
+<mixed-citation>ROCKMAN, I. Strengthening connections between information literacy, general education, and assessment efforts. Library Trends, 2002, vol. 51, nº 2, p. 185.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>ROCKMAN</surname>
+<given-names>I. </given-names>
+</name>
+</person-group>
+<article-title>Strengthening connections between information literacy, general education, and assessment efforts</article-title>
+<source>Library Trends</source>
+<year>2002</year>
+<volume>51</volume>
+<issue>2</issue>
+<fpage>185</fpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref36">
+<mixed-citation>RODRÍGUEZ CAMIÑO, R.; PINEDA FERNÁNDEZ, C.; SARRIÓN NAVARRO, A. La alfabetización informacional en la educación médica superior en Cuba. ACIMED, 2006, vol. 14, nº 4, p. 1.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>RODRÍGUEZ CAMIÑO</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>PINEDA
+FERNÁNDEZ</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>SARRIÓN NAVARRO</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>La alfabetización informacional en la educación médica superior en Cuba</article-title>
+<source>ACIMED</source>
+<year>2006</year>
+<volume>14</volume>
+<issue>4</issue>
+<fpage>1</fpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref37">
+<mixed-citation>ROSLER, R. et al. La insoportable pasividad de la clase teórica. Revista Argentina de Neurocirugía, 2008, vol. 22, p. 101-105.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>ROSLER</surname>
+<given-names>R.</given-names>
+</name>
+</person-group>
+<article-title>La insoportable pasividad de la clase teórica</article-title>
+<source>Revista Argentina de Neurocirugía</source>
+<year>2008</year>
+<volume>22</volume>
+<fpage>101</fpage>
+<lpage>105</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref38">
+<mixed-citation>TALERO GUTIÉRREZ, C.; ROMERO LÓPEZ, L.; ORTIZ SALAS, P.; VÉLEZ VAN MEERBEKE, A. Efectos en la calidad del aprendizaje como consecuencia del uso de computador en escolares. Avances en Psicología Latinoamericana, 2009, vol. 27, nº 1, p. 111-125.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>TALERO GUTIÉRREZ</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>OMERO
+LÓPEZ</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>ORTIZ SALAS</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>VÉLEZ VAN MEERBEKE</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Efectos en la calidad del aprendizaje como consecuencia del uso de computador en escolares</article-title>
+<source>Avances en Psicología Latinoamericana</source>
+<year>2009</year>
+<volume>27</volume>
+<issue>1</issue>
+<fpage>111</fpage>
+<lpage>125</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref39">
+<mixed-citation>UNIVERSIDAD DE PUERTO RICO EN BAYAMÓN (UPRB), Decanato de Asuntos Académicos (DAA), Oficina de Avalúo del Aprendizaje Estudiantil (OAAE). Logros sobresalientes: Avalúo institucional de aprendizaje estudiantil relacionado con las metas educativas institucionales (MEI). Entérate: Boletín Informático de los Procesos de Avalúo del Aprendizaje Estudiantil, 2011, vol. 2, nº 2, p. 1-3. Disponible en: http://www.uprb.edu/es/academico/oaae/documentos/OAAE_Boletin_mar2011.pdf [Consulta: 5 de septiembre de 2011];.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<collab>UNIVERSIDAD DE PUERTO RICO EN
+BAYAMÓN (UPRB), Decanato de Asuntos Académicos (DAA), Oficina de Avalúo del
+Aprendizaje Estudiantil (OAAE)</collab>
+</person-group>
+<article-title>Logros sobresalientes: Avalúo institucional de aprendizaje estudiantil relacionado con las metas educativas institucionales (MEI)</article-title>
+<source>Entérate: Boletín Informático de los Procesos de Avalúo del Aprendizaje Estudiantil</source>
+<year>2011</year>
+<volume>2</volume>
+<issue>2</issue>
+<fpage>1</fpage>
+<lpage>3</lpage>
+<comment>Disponible en: http://www.uprb.edu/es/academico/oaae/documentos/OAAE_Boletin_mar2011.pdf [Consulta: 5 de septiembre de 2011].</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref40">
+<mixed-citation>UNIVERSIDAD DE PUERTO RICO EN BAYAMÓN (UPRB), Decanato de Asuntos Académicos (DAA), Oficina de Avalúo del Aprendizaje Estudiantil (OAAE). MEI #6: Acceso y uso de información: Gráfica de caja: Análisis del aprendizaje del estudiantado con 90 créditos o más (marzo 2011): Preprueba NI 2010-2011 (agosto 2010) vs post-prueba 90 créditos o más (marzo 2011). Bayamón, PR: Autor, 2010.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>UNIVERSIDAD DE PUERTO RICO EN
+BAYAMÓN (UPRB), Decanato de Asuntos Académicos (DAA), Oficina de Avalúo del
+Aprendizaje Estudiantil (OAAE)</collab>
+</person-group>
+<source>MEI #6: Acceso y uso de información: Gráfica de caja: Análisis del aprendizaje del estudiantado con 90 créditos o más (marzo 2011): Preprueba NI 2010-2011 (agosto 2010) vs post-prueba 90 créditos o más (marzo 2011)</source>
+<year>2010</year>
+<publisher-loc>Bayamón, PR</publisher-loc>
+<publisher-name>UNIVERSIDAD DE PUERTO RICO EN BAYAMÓN</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref41">
+<mixed-citation>VAN DE VORD, R. Predictors of credibility assessments in online information seeking of college students (Tesis doctoral), 2009.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>VAN DE VORD</surname>
+<given-names>R.</given-names>
+</name>
+</person-group>
+<source>Predictors of credibility assessments in online information seeking of college students</source>
+<year>2009</year>
+<comment>esis doctoral</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref42">
+<mixed-citation>VIDAL LEDO, M.; VIALART VIDAL, N.; RÍOS VIALART, D. Mapas conceptuales: Una estrategia para el aprendizaje. Revista Cubana de Educación Médica Superior, 2007, vol. 21, nº 3, p. 1-5.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>VIDAL
+LEDO</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>VIALART VIDAL</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>RÍOS VIALART</surname>
+<given-names>D.</given-names>
+</name>
+</person-group>
+<article-title>Mapas conceptuales: Una estrategia para el aprendizaje</article-title>
+<source>Revista Cubana de Educación Médica Superior</source>
+<year>2007</year>
+<volume>21</volume>
+<issue>3</issue>
+<fpage>1</fpage>
+<lpage>5</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_63543879003_ref43">
+<mixed-citation>LEIVA, C. Conductismo, cognitivismo y aprendizaje. Tecnología en marcha, s.f., vol. 18, nº 1, p. 66-73. Disponible en: http://www.tec.cr/sitios/Vicerrectoria/vie/editorial_tecnologica/Revista_Tecnologia_Marcha/pdf/tecnologia_marc ha4/conductismo,%20cognitivismo%20y%20aprendizaje.pdf [Consulta: 17 de septiembre de 2011];.</mixed-citation>
+</ref>
+</ref-list>
+<app-group>
+<app id="app1">
+<title>Anexo 1 - Examen</title>
+<sec>
+<title>Instrucciones al acceder al examen en Moodle:</title>
+<p>Mediante esta evaluación se pretende medir la utilidad de la herramienta de los mapas conceptuales en el desarrollo de las competencias en información. No hay límite de tiempo para contestar el mismo. Recuerde que sus respuestas son confidenciales y su contribución será más eficaz si responde a todas las preguntas en forma detenida (con cuidado). Los resultados de esta evaluación no afectarán la nota del curso, pero serán de gran ayuda para el estudio en que está participando. Gracias por su colaboración.</p>
+<p>Selección múltiple - Seleccione e identifique con una marca de cotejo ( x ) la opción que mejor responda a cada una de las siguientes preguntas.</p>
+<p>1. ¿Cuál de los siguientes comandos de búsqueda es el más adecuado para encontrar rápidamente en Google, información sobre el principio: la conducta es voluntaria?</p>
+<p>___ a. La conducta es voluntaria principio</p>
+<p>___ b. “Principio la conducta es voluntaria”</p>
+<p>___ c. La + conducta + es + voluntaria</p>
+<p>___ d. “La conducta es voluntaria”</p>
+<p>2. Si busca información sobre “desempeño organizacional”, ¿qué comando de búsqueda sería el más eficaz en Google Scholar (Google Académico) para excluir información sobre “cultura o clima organizacional”?</p>
+<p>___ a. Desempeño organizacional - cultura - clima</p>
+<p>___ b. "Desempeño organizacional” - cultura o “clima organizacional”</p>
+<p>___ c. "Desempeño organizacional" - cultura - clima</p>
+<p>___ d. "Desempeño organizacional” - “cultura o clima organizacional”</p>
+<p>3. ¿Qué grupo de términos sería más útil para investigar cómo la composición racial de un jurado afectaría la probabilidad de que se elija la pena de muerte para un asesino convicto?</p>
+<p>___ a. race, jury, affect</p>
+<p>___ b. murder, race, death penalty</p>
+<p>___ c. likelihood, jury, death penalty</p>
+<p>___ d. jury, race, death penalty</p>
+<p>4. ¿Qué debe hacer para encontrar artículos de varias revistas de manera simultánea sobre un tema en particular?</p>
+<p>___ a. Buscar en el catálogo en línea</p>
+<p>___ b. Buscar en una base de datos</p>
+<p>___ c. Hojear en las revistas de la biblioteca</p>
+<p>___ d. Buscar en una biblioteca virtual</p>
+<p>5. ¿Qué puede hacer a través del uso de las bases de datos?</p>
+<p>___ a. Identificar los libros disponibles en la biblioteca</p>
+<p>___ b. Buscar, imprimir, grabar o enviar los artículos a una cuenta de correo electrónico</p>
+<p>___ c. Ver artículos, pero no imprimirlos</p>
+<p>___ d. Solo conocer los datos bibliográficos para buscar los recursos en la biblioteca</p>
+<p>6. ¿Cuál de los siguientes comandos de búsqueda es el mejor para localizar documentos que contengan información sobre “la comunicación eficaz en las relaciones humanas” al buscar en una base de datos?</p>
+<p>___ a. Human relations AND effective communication</p>
+<p>___ b. Relations AND communication</p>
+<p>___ c. “Human relations” AND “effective communication”</p>
+<p>___ d. “Human relations” AND “effective communication” AND business</p>
+<p>7. Para buscar información sobre “las tendencias y retos en las relaciones humanas en las organizaciones”, ¿cuál comando de búsqueda recuperaría los mejores resultados?</p>
+<p>___ a. "Human relations” OR “organizational behavior" AND performance</p>
+<p>___ b. "Human relations” AND performance OR productivity</p>
+<p>___ c. "Human relations” OR “organizational behavior" AND performance OR productivity</p>
+<p>___ d. “Organizational behavior" AND performance OR productivity</p>
+<p>8. Necesita buscar información sobre el hostigamiento, pero ante la cantidad excesiva de resultados decide excluir los que tratan sobre el hostigamiento de índole sexual. Existen varios métodos para la búsqueda del término sexual, que incluyen las formas variantes de la palabra en inglés: sex, sexual, sexuality, sexually, y otras semejantes. ¿Cuál comando de búsqueda permite recuperar todas las variantes de la palabra?</p>
+<p>___ a. Harassment NOT sex?</p>
+<p>___ b. Harassment NOT sex*</p>
+<p>___ c. “Sex* harassment”</p>
+<p>___ d. “Sex* NOT harassment”</p>
+<p>9. Si una búsqueda en EbscoHost produce demasiados resultados, ¿cuál sería el mejor paso siguiente para enfocar la búsqueda? Puede seleccionar más de una opción.</p>
+<p>___ a. Buscar los dos términos de nuevo, pero como materias (“subject”)</p>
+<p>___ b. Escribir los términos en español pues hay menos artículos</p>
+<p>___ c. Leer los “abstracts” (resúmenes) de los primeros resultados</p>
+<p>___ d. Añadir otro término relacionado en el comando de búsqueda</p>
+<p>___ e. Cambiar su tema por uno que recupere menos resultados</p>
+<p>___ f. Limitar la fecha de publicación de los artículos a recuperarse</p>
+<p>10. ¿Para qué se usa el conector AND entre dos términos de búsqueda en una base de datos?</p>
+<p>___ a. Asegurarse que uno de los términos está presente en los resultados de la búsqueda</p>
+<p>___ b. Asegurarse que ambos términos están presentes en los resultados de búsqueda</p>
+<p>___ c. Asegurarse que el primer término está presente en los resultados de búsqueda</p>
+<p>___ d. Asegurarse que el segundo término está presente en los resultados de búsqueda</p>
+<p>11. Si una búsqueda en EbscoHost produce muy pocos resultados, ¿cómo puede aumentar dicha cantidad?</p>
+<p>___ a. Cambiando los términos de búsqueda por sinónimos</p>
+<p>___ b. Haciendo una búsqueda más sencilla, con menos conceptos</p>
+<p>___ c. Abandonando la base de datos y buscando en la internet</p>
+<p>___ d. Cambiando su tema por uno que recupere más resultados</p>
+<p>12. ¿Cuál de estos elementos le permite determinar si la información que aparece en un portal de internet está actualizada?</p>
+<p>___ a. El prestigio del autor</p>
+<p>___ b. La fecha de publicación</p>
+<p>___ c. La rapidez de acceso</p>
+<p>___ d. La bibliografía</p>
+<p>13. ¿Cuáles criterios permiten determinar la calidad de una página electrónica? Puede seleccionar más de una opción.</p>
+<p>___ a. Fecha de publicación</p>
+<p>___ b. Enlaces no objetivos</p>
+<p>___ c. Muchos usuarios</p>
+<p>___ d. País de renombre</p>
+<p>___ e. Autor con credibilidad</p>
+<p>___ f. Características especiales</p>
+<p>___ g. Redactado en forma clara</p>
+<p>___ h. Respaldado por un organismo confiable</p>
+<p>___ i. Información de contacto del autor</p>
+<p>___ j. Información parcializada</p>
+<p>14. ¿Qué puede encontrar en las bases de datos de EbscoHost? Puede seleccionar más de una opción.</p>
+<p>___ a. Artículos de revistas y periódicos de todo tipo</p>
+<p>___ b. Información actualizada de temas mundiales</p>
+<p>___ c. Artículos de investigación revisados por profesionales</p>
+<p>___ d. Videos, podcasts y fotografías de naturaleza académica</p>
+<p>___ e. Artículos recuperados por materia, tema y autor</p>
+<p>___ f. Los datos bibliográficos de los libros de la biblioteca</p>
+<p>___ g. Texto completo de artículos de revistas</p>
+<p>15. ¿Cuál de las siguientes revistas se considera profesional?</p>
+<p>___ a. Time</p>
+<p>___ b. Imagen</p>
+<p>___ c. Car and Driver</p>
+<p>___ d. Journal of Management</p>
+<p>16. ¿Qué tipo de recurso debe consultar si necesita información actualizada sobre un tema?</p>
+<p>___ a. Revistas</p>
+<p>___ b. Libros</p>
+<p>___ c. Manuales</p>
+<p>___ d. Diccionarios</p>
+<p>17. ¿Cuál es la ventaja principal de usar una base de datos en formato electrónico?</p>
+<p>___ a. Contiene documentos académicos y profesionales</p>
+<p>___ b. Contiene documentos sobre cualquier tema</p>
+<p>___ c. Se puede acceder en cualquier momento</p>
+<p>___ d. Permite imprimir los documentos</p>
+<p>18. ¿Por qué la información encontrada a través de internet no siempre se puede utilizar en las asignaciones de un curso? Puede seleccionar más de una opción.</p>
+<p>___ a. La información educativa no se publica en la internet</p>
+<p>___ b. En ocasiones se desconocen los datos bibliográficos</p>
+<p>___ c. La información publicada en internet no es confiable</p>
+<p>___ d. Existe mucha información incorrecta en la internet</p>
+<p>___ e. La internet contiene principalmente información popular</p>
+<p>___ f. La internet contiene información de calidad variada</p>
+<p>___ g. En la internet se consigue información sobre cualquier tema</p>
+<p>19. ¿Cuál dominio representaría mayor calidad de la información que provee?</p>
+<p>___ a. .com</p>
+<p>___ b. .org</p>
+<p>___ c. .pr</p>
+<p>___ d. .edu</p>
+<p>Pareo - En el blanco provisto escribe la letra que corresponda a la aseveración.</p>
+<p>20. ___ Enterprise OR Company</p>
+<p>21. ___ Revista que publica artículos de actualidad y de interés general</p>
+<p>22. ___ "Employment discrimination" AND age</p>
+<p>23. ___ “Equal employment” NOT sex</p>
+<p>24. ___ Revista que publica artículos por expertos en el tema</p>
+<p>25. ___ Agregador de bases de datos (muchos de los documentos se ofrecen completos)</p>
+<p>26. ___ Resumen del contenido de un artículo</p>
+<p>a. Amplía la cantidad de resultados de búsqueda</p>
+<p>b. Revista popular magazine</p>
+<p>c. EbscoHost</p>
+<p>d. Abstract</p>
+<p>e. Disminuye la cantidad de resultados de búsqueda</p>
+<p>f. Revista profesional journal</p>
+<p>g. Excluye los posibles resultados engañosos</p>
+<p>h. Seriado</p>
+<p>Cierto o falso - Lea cada una de las siguientes aseveraciones e indique si es cierta o falsa mediante una marca de cotejo ( x ) en el espacio provisto.</p>
+<p>27. Cuando se busca información sobre un tema, el internet es el único lugar donde se puede encontrar la misma.</p>
+<p>___ a. Cierto</p>
+<p>___ b. Falso</p>
+<p>28. Toda la información en internet es verdadera y exacta.</p>
+<p>___ a. Cierto</p>
+<p>___ b. Falso</p>
+<p>29. El internet ofrece mejor información que las bases de datos en formato electrónico.</p>
+<p>___ a. Cierto</p>
+<p>___ b. Falso</p>
+<p>30. Para acceder a las bases de datos en formato electrónico fuera del campus universitario, los estudiantes primero deben conectarse al servidor proxy de la UPRB.</p>
+<p>___ a. Cierto</p>
+<p>___ b. Falso</p>
+</sec>
+</app>
+<app id="app2">
+<title>Anexo 2 - Cuestionario para estudiantes</title>
+<sec>
+<title>Instrucciones ofrecidas al acceder al cuestionario electrónico:</title>
+<p>Mediante este cuestionario se pretende conocer su percepción sobre la utilidad de los mapas conceptuales en el desarrollo de las competencias en información. Sus aportes son muy valiosos y muy significativos en la medida que sea sincero en sus respuestas. Tenga en cuenta las instrucciones antes de marcar la respuesta. Sus respuestas son confidenciales y no hay respuestas correctas o erróneas. Tampoco hay límite de tiempo para contestar el Cuestionario. Sin embargo, no le ocupará más de 10 minutos. Gracias por su colaboración.</p>
+<p>Tema 1: Preguntas demográficas</p>
+<p>Seleccione con una marca de cotejo ( x ) la alternativa que corresponda a su respuesta.</p>
+<p>1. Género:</p>
+<p>_____ a. Masculino</p>
+<p>_____ b. Femenino</p>
+<p>2. Año de estudios:</p>
+<p>_____ a. Primero (menos de 30 créditos aprobados)</p>
+<p>_____ b. Segundo (de 30 a 59 créditos aprobados)</p>
+<p>_____ c. Tercero (de 60 a 89 créditos aprobados)</p>
+<p>_____ d. Cuarto (90 créditos aprobados o más)</p>
+<p>Tema 2: Eficacia de la herramienta</p>
+<p>Utilizando la escala presentada, identifique su grado de aceptación de la afirmación sobre los siguientes aspectos de los mapas conceptuales con una marca de cotejo ( x ):</p>
+<p>
+<fig id="gf12" fig-type="chart">
+<label/>
+<caption>
+<title/>
+</caption>
+<graphic xlink:href="63543879003_gf1.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>
+<fig id="gf14" fig-type="chart">
+<label/>
+<caption>
+<title/>
+</caption>
+<graphic xlink:href="63543879003_gf14.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p>
+<fig id="gf15" fig-type="chart">
+<label/>
+<caption>
+<title/>
+</caption>
+<graphic xlink:href="63543879003_gf18.jpg" position="anchor" orientation="portrait"/>
+<attrib/>
+</fig>
+</p>
+<p> <bold>Tema 3: Aplicación del conocimiento</bold> </p>
+<p>Utilizando la escala presentada, identifique su grado de acuerdo en relación con los siguientes criterios de aplicación del conocimiento con una marca de cotejo( x):</p>
+<p> <bold>Tema 4: Conocimiento y adiestramiento previo</bold> </p>
+<p>18. Antes de la exposición al módulo, ¿había usado las bases de datos en formato electrónico de la biblioteca?</p>
+<p>_____a. Sí</p>
+<p>_____ b. No</p>
+<p>19. Antes de la exposición al módulo, ¿había sido adiestrado en el uso de las bases de datos?</p>
+<p>_____a. Sí</p>
+<p>_____ b. No</p>
+<p>20. Antes de haber estado expuesto a este módulo, ¿había sido adiestrado para investigar a travésde lainternet?</p>
+<p>_____a. Sí</p>
+<p>_____b. No</p>
+</sec>
+</app>
+</app-group>
+</back>
+</article>

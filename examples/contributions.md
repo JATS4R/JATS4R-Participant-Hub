@@ -432,4 +432,107 @@ suggestions for improvements welcome.
 ```
 	
 
+## MIT Press
 
+One unique affiliation per author
+
+```xml
+<contrib contrib-type="author">
+<string-name>
+<given-names>Manisha</given-names> <surname>Bhardwaj</surname>
+</string-name>
+<aff id="aff1">Department of Mathematics, University of Houston, Houston, TX 77004, U.S.A.</aff>
+</contrib>
+```
+
+Many authors, shared affiliation, NO linking character
+
+```xml
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>
+<given-names>Wei-Chun</given-names> <surname>Wang</surname>
+</string-name>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<x>, </x>
+
+<contrib contrib-type="author">
+<string-name><given-names>Nadia M.</given-names> <surname>Brashier</surname>
+</string-name>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<x>, </x>
+
+<contrib contrib-type="author">
+<string-name><given-names>Erik A.</given-names> <surname>Wing</surname>
+</string-name>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<x>, </x>
+
+<contrib contrib-type="author">
+<string-name><given-names>Elizabeth J.</given-names>  <surname>Marsh</surname>
+</string-name>
+</contrib>
+<x>, and </x>
+
+<contrib contrib-type="author">
+<string-name><given-names>Roberto</given-names><surname>Cabeza</surname>
+</string-name>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<aff id="aff1">Duke University</aff>
+
+</contrib-group>
+```
+
+Many authors, shared affiliation, WITH linking character
+
+```xml
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>
+<given-names>Wei-Chun</given-names><surname>Wang</surname>
+</string-name>
+<xref ref-type="aff" rid="aff1">*</xref>
+</contrib>
+<x>, </x>
+
+<contrib contrib-type="author">
+<string-name>
+<given-names>Nadia M.</given-names><surname>Brashier</surname>
+</string-name>
+<xref ref-type="aff" rid="aff2">**</xref>
+</contrib>
+<x>, </x>
+
+<contrib contrib-type="author">
+<string-name>
+<given-names>Erik A.</given-names><surname>Wing</surname>
+</string-name>
+<xref ref-type="aff" rid="aff3"><sup>1</sup></xref>
+</contrib>
+<x>, </x>
+
+
+<contrib contrib-type="author">
+<string-name>
+<given-names>Elizabeth J.</given-names><surname>Marsh</surname>
+</string-name>
+</contrib>
+<x>, and </x>
+
+<contrib contrib-type="author">
+<string-name>
+<given-names>Roberto</given-names><surname>Cabeza</surname>
+</string-name><xref ref-type="aff" rid="aff4"><sup>2</sup></xref>
+</contrib>
+
+<aff id="aff1"><label>*</label>Duke University</aff>
+<aff id="aff2"><label>**</label>Northeastern University</aff>
+<aff id="aff3"><label><sup>1</sup></label>Boston University</aff>
+<aff id="aff4"><label><sup>2</sup></label>University of Colorado</aff>
+
+</contrib-group>
+```

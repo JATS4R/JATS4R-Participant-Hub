@@ -8,7 +8,7 @@ The affiliations are cross linked with authors using the following style within 
 tag:
 
 ```xml
-<xref ref-type="aff" rid="aff2">2</xref>
+<xref ref-type="aff" rid="aff1">1</xref>
 ```
 
 ```xml
@@ -46,7 +46,7 @@ tag:
 
 ```
 
-The reviewing editor contians affliation details within the contrib:
+The reviewing editor contains affliation details within the contrib:
 
 ```xml
 <contrib-group content-type="section">
@@ -64,24 +64,140 @@ The reviewing editor contians affliation details within the contrib:
 </contrib-group>
 ```
 
-And the same for affiliatins of members of a group author group:
+Affiliatins of members of a group author group are contained within contrib for each individual's affiliation, but the group's generif affiliation is dealt with in the same way as for indivudual authors:
 
 ```xml
-<contrib-group>
-  <contrib contrib-type="author non-byline">
-    <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
-    <name>
-      <surname>Mullikin</surname>
-      <given-names>Jim</given-names>
-    </name>
-    <aff>
-      <institution>Science Exchange, Palo Alto</institution>,
-      <addr-line>
-        <named-content content-type="city">California</named-content>
-      </addr-line>
-    </aff>
-  </contrib>
+ <contrib contrib-type="author">
+                   <collab>eLife Editorial Production Group
+                        <contrib-group>                          
+                            <role>Writing group</role>
+                            <contrib>
+                                <name>
+                                    <surname>Shearer</surname>
+                                    <given-names>Alistair</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                            <contrib>
+                                <name>
+                                    <surname>Caton</surname>
+                                    <given-names>Hannah</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                                <aff>
+                                    <institution>eLife Institute</institution>
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                        </contrib-group>
+                        <contrib-group>
+                            <role>Editing group</role>
+                            <contrib>
+                                <name>
+                                    <surname>Chan</surname>
+                                    <given-names>Wei Mun</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                            <contrib>
+                                <name>
+                                    <surname>Drury</surname>
+                                    <given-names>Hannah</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                            <contrib>
+                                <name>
+                                    <surname>Guerreiro</surname>
+                                    <given-names>Maria</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                            <contrib>
+                                <name>
+                                    <surname>Richmond</surname>
+                                    <given-names>Susanna</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                        </contrib-group>
+                </collab>
+                    <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
+                    <xref ref-type="fn" rid="con3"/>
+                    <xref ref-type="fn" rid="conf2"/>
+                    <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                
+                ...
+  <aff id="aff1">
+    <label>1</label>
+    <institution content-type="dept">Department of Molecular and Cell Biology</institution>, 
+    <institution>University of California, Berkeley</institution>,
+    <addr-line>
+      <named-content content-type="city">Berkeley</named-content>
+    </addr-line>, 
+    <country>United States</country>
+  </aff>
+  <aff id="aff2">
+    <label>2</label>
+    <institution content-type="dept">Department of Biological Chemistry and Molecular 
+      Pharmacology</institution>,
+    <institution>Harvard Medical School</institution>, 
+    <addr-line>
+      <named-content content-type="city">Boston</named-content>
+    </addr-line>,
+    <country>United States</country>
+  </aff>
+  <aff id="aff3">
+    <label>3</label>
+    <institution content-type="dept">Department of Biochemistry</institution>,
+    <institution>Stanford University School of Medicine</institution>, 
+    <addr-line>
+      <named-content content-type="city">Stanford</named-content>
+    </addr-line>,
+    <country>United States</country>
+  </aff>
 </contrib-group>
+                
 ```
 
 ### Present address

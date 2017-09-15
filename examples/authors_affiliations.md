@@ -1,8 +1,8 @@
 # `<contrib-group>, <contrib>, <aff>`
 
 # Authors and Affiliations
-[eLife](##eLife)<br>
-[Frontiers](##Frontiers)
+[eLife](#eLife)<br>
+[Frontiers](#frontiers)
 
 ## eLife <a name="eLife"></a>
 
@@ -244,7 +244,7 @@ Each affiliation has some level of granularity in the address:
 
 
 
-## Frontiers
+## Frontiers <a name="frontiers"></a>
 
 ```xml
 <contrib contrib-type="author">

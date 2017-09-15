@@ -5,7 +5,7 @@
 [Aries](#aries)<br>
 [BIR](#bir)<br>
 [eLife](#eLife)<br>
-[Frontiers](#frontiers)
+[Frontiers](#frontiers)<br>
 [PeerJ](#peerj)<br>
 [Redalyc](#redalyc)<br>
 [SciELO](#scielo)

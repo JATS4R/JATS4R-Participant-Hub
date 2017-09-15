@@ -2,7 +2,6 @@
 
 # Authors and Affiliations
 [eLife](##eLife)
-
 [Frontiers](##Frontiers)
 
 ## eLife

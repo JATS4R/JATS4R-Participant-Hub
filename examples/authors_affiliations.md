@@ -276,6 +276,21 @@ Sample 4 (parsed aff and contrib ids)
 <aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
+## eLife <a name="degruyter"></a>
+```xml
+<contrib-group>
+  <contrib contrib-type="series_editor">
+    <name>
+      <surname>Michael</surname>
+      <given-names>Miller</given-names>
+    </name>
+    <email xlink:href="mailto:michael.miller@jatssamples.com">michael.miller@jatssamples.com</email>
+    <xref ref-type="aff" rid="j_hsz-2013-0008_aff_001"/>
+    <xref ref-type="aff" rid="j_hsz-2013-0008_aff_003"/>
+  </contrib>
+</contrib-group>
+```
+
 
 ## eLife <a name="eLife"></a>
 
@@ -475,7 +490,7 @@ Affiliatins of members of a group author group are contained within contrib for 
                 
 ```
 
-### Present address
+Present address:
 
 An author with a present address has the following within the contrib tagging:
 

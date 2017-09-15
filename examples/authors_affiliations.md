@@ -1,9 +1,53 @@
 # `<contrib-group>, <contrib>, <aff>`
 
 # Authors and Affiliations
+[Aries](#aries)<br>
 [eLife](#eLife)<br>
 [Frontiers](#frontiers)
 
+
+
+
+
+
+## Aries <a name="aries></a>
+
+```xml
+   <aff id="aff1">
+           <institution-wrap>
+          <institution>University of Massachusetts</institution>
+          <institution-id institution-id-type="Ringgold">14707</institution-id>
+          </institution-wrap>
+          <institution content-type="position">Director</institution>
+          <institution content-type="dept">Admissions</institution>
+          <addr-line content-type="addrline1">110 Thatcher Rd</addr-line>
+          <addr-line content-type="addrline2">Administration Building</addr-line>
+          <addr-line content-type="addrline3">Suite 204</addr-line>
+          <addr-line content-type="addrline4">Mail Drop 1501</addr-line>
+          <country>UNITED STATES</country>
+          <addr-line content-type="city">Amherst</addr-line>
+          <addr-line content-type="state">MA</addr-line>
+          <addr-line content-type="zipcode">01003</addr-line>
+          <fax>978-975-6813</fax>
+          <phone content-type="primary">978-975-7570</phone>
+</aff>
+```
+## BIR <a name="bir"></a>
+
+```xml
+<contrib contrib-type="author">
+  <string-name>
+    <given-names>P M</given-names><x> </x>
+    <surname>Price</surname>
+  </string-name><x> </x><email>PatPrice@patprice.co.uk</email>
+  <xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+  <xref ref-type="aff" rid="AF0002"><sup>2</sup></xref>
+</contrib>
+...
+
+<aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
+<aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
+```
 ## eLife <a name="eLife"></a>
 
 The affiliations are cross linked with authors using the following style within the contrib 
@@ -221,29 +265,6 @@ and the following footnote in author notes:
   </fn>
 </author-notes>
 ```
-
-
-## PeerJ
-
-Each author has a reference to one or more affiliations:
-
-```xml
-<contrib id="author-1" contrib-type="author">
-  …
-  <xref ref-type="aff" rid="aff-1">1</xref>
-</contrib>
-```
-
-Each affiliation has some level of granularity in the address:
-
-```xml
-<aff id="aff-1"><institution>Department of Physiology and Biophysics, The Weill Cornell 
-  Medical College</institution>, <addr-line>New York, NY</addr-line>, 
-  <country>United States of America</country></aff>
-```
-
-
-
 ## Frontiers <a name="frontiers"></a>
 
 ```xml
@@ -281,48 +302,61 @@ Footnote in author notes:
 <fn fn-type="present-address" id="fn003"><p>&#x02020;Present Address: Hongyan Ren, 
   Shanghai Majorbio Bio-pharm Technology Co., Ltd., Shanghai, China</p></fn>
 ```
+## PeerJ <a name="peerj"></a>
 
-## BIR
+Each author has a reference to one or more affiliations:
 
 ```xml
-<contrib contrib-type="author">
-  <string-name>
-    <given-names>P M</given-names><x> </x>
-    <surname>Price</surname>
-  </string-name><x> </x><email>PatPrice@patprice.co.uk</email>
-  <xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
-  <xref ref-type="aff" rid="AF0002"><sup>2</sup></xref>
+<contrib id="author-1" contrib-type="author">
+  …
+  <xref ref-type="aff" rid="aff-1">1</xref>
 </contrib>
-...
-
-<aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
-<aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
 
-## Aries
+Each affiliation has some level of granularity in the address:
 
 ```xml
-   <aff id="aff1">
-           <institution-wrap>
-          <institution>University of Massachusetts</institution>
-          <institution-id institution-id-type="Ringgold">14707</institution-id>
-          </institution-wrap>
-          <institution content-type="position">Director</institution>
-          <institution content-type="dept">Admissions</institution>
-          <addr-line content-type="addrline1">110 Thatcher Rd</addr-line>
-          <addr-line content-type="addrline2">Administration Building</addr-line>
-          <addr-line content-type="addrline3">Suite 204</addr-line>
-          <addr-line content-type="addrline4">Mail Drop 1501</addr-line>
-          <country>UNITED STATES</country>
-          <addr-line content-type="city">Amherst</addr-line>
-          <addr-line content-type="state">MA</addr-line>
-          <addr-line content-type="zipcode">01003</addr-line>
-          <fax>978-975-6813</fax>
-          <phone content-type="primary">978-975-7570</phone>
+<aff id="aff-1"><institution>Department of Physiology and Biophysics, The Weill Cornell 
+  Medical College</institution>, <addr-line>New York, NY</addr-line>, 
+  <country>United States of America</country></aff>
+```
+
+
+
+## Redalyc <a name="redalyc"></a>
+```
+<contrib-group>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Maldonado Rivera</surname>
+<given-names>Ivette</given-names>
+</name>
+<xref ref-type="aff" rid="aff1"/>
+<email>ivette.maldonado1@upr.edu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Romero</surname>
+<given-names>Liz</given-names>
+</name>
+<xref ref-type="aff" rid="aff2"/>
+<email>lisbia@nova.edu</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Centro de Recursos para el
+Aprendizaje, Universidad de Puerto Rico en Bayamón. ivette.maldonado1@upr.edu</institution>
+<institution content-type="orgname">Universidad de Puerto Rico</institution>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Abraham S. Fischler College
+of Education, Nova Southeastern University. lisbia@nova.edu</institution>
+<institution content-type="orgname">Nova Southeastern University</institution>
 </aff>
 ```
 
-## SciELO
+
+## SciELO <a name="scielo"></a>
 
 
 ```
@@ -357,34 +391,3 @@ Footnote in author notes:
 ```
 
 
-## Redalyc
-```
-<contrib-group>
-<contrib contrib-type="author" corresp="no">
-<name name-style="western">
-<surname>Maldonado Rivera</surname>
-<given-names>Ivette</given-names>
-</name>
-<xref ref-type="aff" rid="aff1"/>
-<email>ivette.maldonado1@upr.edu</email>
-</contrib>
-<contrib contrib-type="author" corresp="no">
-<name name-style="western">
-<surname>Romero</surname>
-<given-names>Liz</given-names>
-</name>
-<xref ref-type="aff" rid="aff2"/>
-<email>lisbia@nova.edu</email>
-</contrib>
-</contrib-group>
-<aff id="aff1">
-<institution content-type="original">Centro de Recursos para el
-Aprendizaje, Universidad de Puerto Rico en Bayamón. ivette.maldonado1@upr.edu</institution>
-<institution content-type="orgname">Universidad de Puerto Rico</institution>
-</aff>
-<aff id="aff2">
-<institution content-type="original">Abraham S. Fischler College
-of Education, Nova Southeastern University. lisbia@nova.edu</institution>
-<institution content-type="orgname">Nova Southeastern University</institution>
-</aff>
-```

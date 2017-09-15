@@ -1,6 +1,8 @@
 # `<contrib-group>, <contrib>, <aff>`
 
-Authors and Affiliations
+# Authors and Affiliations
+[eLife](##eLife)
+[Frontiers](##Frontiers)
 
 ## eLife
 

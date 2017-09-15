@@ -1,4 +1,4 @@
-# `<aff>`
+# `<contrib-group>, <contrib>, <aff>`
 
 Authors and Affiliations
 

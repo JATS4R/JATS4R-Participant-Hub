@@ -1,4 +1,5 @@
-# Authors and Affiliations
+#Affiliations
+N.B. See samples of author and affiliation relationhsips at Authors and affiliations
 [American Society for Microbiology](#asm)<br>
 [Aries](#aries)<br>
 [BIR](#bir)<br>

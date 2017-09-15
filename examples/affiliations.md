@@ -1,5 +1,7 @@
 #Affiliations
-N.B. See samples of author and affiliation relationhsips at Authors and affiliations
+N.B. See samples of author and affiliation relationhsips in [authors_affililations.md] (https://github.com/JATS4R/JATS4R-Participant-Hub/blob/master/examples/authors_affiliations.md)
+
+
 [American Society for Microbiology](#asm)<br>
 [Aries](#aries)<br>
 [BIR](#bir)<br>
@@ -59,25 +61,6 @@ N.B. See samples of author and affiliation relationhsips at Authors and affiliat
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
 ## deGruyter <a name="degruyter"></a>
-```xml
-<contrib-group>
-  <contrib contrib-type="series_editor">
-    <name>
-      <surname>Michael</surname>
-      <given-names>Miller</given-names>
-    </name>
-    <email xlink:href="mailto:michael.miller@jatssamples.com">michael.miller@jatssamples.com</email>
-    <xref ref-type="aff" rid="j_hsz-2013-0008_aff_001"/>
-    <xref ref-type="aff" rid="j_hsz-2013-0008_aff_003"/>
-  </contrib>
-</contrib-group>
-```
-Required Information: `@id`, `institution`, `city`, `country/@country`\
-Optional Information: `institution[@content-type="dept"]`, `addr-line`
-
-attribute `@country` restricted to ISO 3166-1 Alpha-2 code.
-
-### Examples:
 ```
 <aff id="j_hsz-2013-0008_aff_002">
   <institution>Cancer Research UK Cell Signalling Group and Weatherall</institution>,
@@ -87,7 +70,7 @@ attribute `@country` restricted to ISO 3166-1 Alpha-2 code.
   <country country="GB">United Kingdom</country>.
 </aff>
 ```
-#### Hidden Country Information
+Hidden Country Information
 ```
 <aff id="j_med-2017-0001_aff_002">
     <institution content-type="dept">Department of General and Endocrynology Surgery

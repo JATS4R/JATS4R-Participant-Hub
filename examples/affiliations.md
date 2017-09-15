@@ -5,7 +5,7 @@ N.B. See samples of author and affiliation relationhsips in [authors_affililatio
 [American Society for Microbiology](#asm)<br>
 [Aries](#aries)<br>
 [BIR](#bir)<br>
-[deGruyter](#degruyter)<br>
+[de Gruyter](#degruyter)<br>
 [eLife](#eLife)<br>
 [Frontiers](#frontiers)<br>
 [PeerJ](#peerj)<br>
@@ -60,7 +60,7 @@ N.B. See samples of author and affiliation relationhsips in [authors_affililatio
 <aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
-## deGruyter <a name="degruyter"></a>
+## de Gruyter <a name="degruyter"></a>
 ```
 <aff id="j_hsz-2013-0008_aff_002">
   <institution>Cancer Research UK Cell Signalling Group and Weatherall</institution>,

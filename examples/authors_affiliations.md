@@ -1,6 +1,7 @@
 # `<contrib-group>, <contrib>, <aff>`
 
 # Authors and Affiliations
+[American Society for Microbiology](#asm)<br>
 [Aries](#aries)<br>
 [BIR](#bir)<br>
 [eLife](#eLife)<br>
@@ -9,9 +10,231 @@
 [Redalyc](#redalyc)<br>
 [SciELO](#scielo)
 
+## American Society for Microbiology <a name="asm"></a>
 
+Sample 1 (using addr-line in aff; aff as child of contrib-group)
+```xml
+<contrib-group content-type="authors">
+                <contrib contrib-type="author" corresp="yes">
+				<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7881-8027</contrib-id>
+                    <name>
+                        <surname>Roghmann</surname>
+                        <given-names>Mary-Claire</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"><sup>a</sup></xref>
+                    <xref ref-type="aff" rid="aff2"><sup>b</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Lydecker</surname>
+                        <given-names>Alison D.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2"><sup>b</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Hittle</surname>
+                        <given-names>Lauren</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff3"><sup>c</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>DeBoy</surname>
+                        <given-names>Robert T.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2"><sup>b</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Nowak</surname>
+                        <given-names>Rebecca G.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2"><sup>b</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Johnson</surname>
+                        <given-names>J. Kristie</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff4"><sup>d</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Mongodin</surname>
+                        <given-names>Emmanuel F.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff3"><sup>c</sup></xref>
+                </contrib>
+                <aff id="aff1"><label>a</label><addr-line>Geriatrics Research Education and Clinical
+                        Center, VA Maryland Health Care System, Baltimore, Maryland,
+                    USA</addr-line></aff>
+                <aff id="aff2"><label>b</label><addr-line>Department of Epidemiology and Public
+                        Health, University of Maryland School of Medicine, Baltimore, Maryland,
+                        USA</addr-line></aff>
+                <aff id="aff3"><label>c</label><addr-line>Department of Microbiology and Immunology
+                        and Institute for Genome Sciences, University of Maryland School of
+                        Medicine, Baltimore, Maryland, USA</addr-line></aff>
+                <aff id="aff4"><label>d</label><addr-line>Department of Pathology, University of
+                        Maryland School of Medicine, Baltimore, Maryland, USA</addr-line></aff>
+            </contrib-group>
+```
+Sample 2 (aff as child of contrib-group [no addr-line])
+```xml
+ <contrib-group content-type="authors">
+                <contrib contrib-type="author" corresp="yes">
+                    <name>
+                        <surname>Juretschko</surname>
+                        <given-names>Stefan</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"><sup>a</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Mahony</surname>
+                        <given-names>James</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2"><sup>b</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Buller</surname>
+                        <given-names>Richard S.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff3"><sup>c</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Manji</surname>
+                        <given-names>Ryhana</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"><sup>a</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Dunbar</surname>
+                        <given-names>Sherry</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff4"><sup>d</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Walker</surname>
+                        <given-names>Kimberly</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff5"><sup>e</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Rao</surname>
+                        <given-names>Arundhati</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff5"><sup>e</sup></xref>
+                </contrib>
+                <aff id="aff1"><label>a</label>Northwell Health Laboratories, Pathology and
+                    Laboratory Medicine, Lake Success, New York, USA</aff>
+                <aff id="aff2"><label>b</label>McMaster University, Hamilton, Ontario, Canada</aff>
+                <aff id="aff3"><label>c</label>Washington University School of Medicine, Department
+                    of Pediatrics, St. Louis, Missouri, USA</aff>
+                <aff id="aff4"><label>d</label>Luminex Corporation, Austin, Texas, USA</aff>
+                <aff id="aff5"><label>e</label>Scott and White Medical Center, Baylor Scott and
+                    White Healthcare, Temple, Texas, USA</aff>
+            </contrib-group>
+```
+Sample 3 (aff as child of contrib)
+```xml
+<contrib-group content-type="editors">
+                <contrib contrib-type="editor">
+                    <name>
+                        <surname>Mitchell</surname>
+                        <given-names>Aaron P.</given-names>
+                    </name>
+                    <role>Editor</role>
+                    <aff>Carnegie Mellon University</aff>
+                </contrib>
+            </contrib-group>
+```
+Sample 4 (parsed aff and contrib ids)
+```xml
+<contrib-group content-type="authors">
+    <contrib id="author-1" contrib-type="author" corresp="yes">
+        <name>
+            <surname>Garcia</surname>
+            <given-names>Danilo</given-names>
+        </name>
+        <email>danilo.garcia@icloud.com</email>
+        <xref ref-type="aff" rid="aff-1">1</xref>
+        <xref ref-type="aff" rid="aff-2">2</xref>
+        <xref ref-type="aff" rid="aff-3">3</xref>
+        <xref ref-type="aff" rid="aff-4">4</xref>
+    </contrib>
+    <contrib id="author-2" contrib-type="author">
+        <name>
+            <surname>Granjard</surname>
+            <given-names>Alexandre</given-names>
+        </name>
+        <xref ref-type="aff" rid="aff-1">1</xref>
+    </contrib>
+    <contrib id="author-3" contrib-type="author">
+        <name>
+            <surname>Lundblad</surname>
+            <given-names>Suzanna</given-names>
+        </name>
+        <xref ref-type="aff" rid="aff-5">5</xref>
+    </contrib>
+    <contrib id="author-4" contrib-type="author">
+        <name>
+            <surname>Archer</surname>
+            <given-names>Trevor</given-names>
+        </name>
+        <xref ref-type="aff" rid="aff-2">2</xref>
+        <xref ref-type="aff" rid="aff-3">3</xref>
+    </contrib>
+    <aff id="aff-1">
+        <label>1</label>
+        <institution>
+            Blekinge Centre of Competence, Blekinge County Council
+        </institution>
+        ,
+        <city>Karlskrona</city>
+        ,
+        <country>Sweden</country>
+    </aff>
+    <aff id="aff-2">
+        <label>2</label>
+        <institution>Department of Psychology, University of Gothenburg</institution>
+        ,
+        <city>Gothenburg</city>
+        ,
+        <country>Sweden</country>
+    </aff>
+    <aff id="aff-3">
+        <label>3</label>
+        <institution>Network for Empowerment and Well-Being</institution>
+        ,
+        <country>Sweden</country>
+    </aff>
+    <aff id="aff-4">
+        <label>4</label>
+        <institution>Department of Psychology, Lund University</institution>
+        ,
+        <city>Lund</city>
+        ,
+        <country>Sweden</country>
+    </aff>
+    <aff id="aff-5">
+        <label>5</label>
+        <institution>
+            Psychiatry Affective, Anorexia & Bulimia Clinic for Adults, Sahlgrenska University Hospital
+        </institution>
+        ,
+        <city>Gothenburg</city>
+        ,
+        <country>Sweden</country>
+    </aff>
+</contrib-group>
 
-
+```
 
 
 ## Aries <a name="aries"></a>

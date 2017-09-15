@@ -507,7 +507,7 @@ and the following footnote in author notes:
   <country>USA</country></aff>
 ```
 
-### Present address
+Present address
 
 In contrib:
 

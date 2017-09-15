@@ -4,7 +4,7 @@
 [eLife](##eLife)<br>
 [Frontiers](##Frontiers)
 
-## eLife
+## eLife <a name="eLife"></a>
 
 The affiliations are cross linked with authors using the following style within the contrib 
 tag:

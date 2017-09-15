@@ -1,6 +1,6 @@
 # `<aff>`
 
-Affiliations
+Authors and Affiliations
 
 ## eLife
 

@@ -1,6 +1,8 @@
 # `<contrib-group>, <contrib>, <aff>`
 
-# Authors and Affiliations
+# Authors and Affiliations<br>
+
+For samples related to affiliation details, see [affiliations.md] (https://github.com/JATS4R/JATS4R-Participant-Hub/blob/master/examples/affiliations.md)<br>
 [American Society for Microbiology](#asm)<br>
 [Aries](#aries)<br>
 [BIR](#bir)<br>
@@ -236,30 +238,6 @@ Sample 4 (parsed aff and contrib ids)
 </contrib-group>
 
 ```
-
-
-## Aries <a name="aries"></a>
-
-```xml
-   <aff id="aff1">
-           <institution-wrap>
-          <institution>University of Massachusetts</institution>
-          <institution-id institution-id-type="Ringgold">14707</institution-id>
-          </institution-wrap>
-          <institution content-type="position">Director</institution>
-          <institution content-type="dept">Admissions</institution>
-          <addr-line content-type="addrline1">110 Thatcher Rd</addr-line>
-          <addr-line content-type="addrline2">Administration Building</addr-line>
-          <addr-line content-type="addrline3">Suite 204</addr-line>
-          <addr-line content-type="addrline4">Mail Drop 1501</addr-line>
-          <country>UNITED STATES</country>
-          <addr-line content-type="city">Amherst</addr-line>
-          <addr-line content-type="state">MA</addr-line>
-          <addr-line content-type="zipcode">01003</addr-line>
-          <fax>978-975-6813</fax>
-          <phone content-type="primary">978-975-7570</phone>
-</aff>
-```
 ## BIR <a name="bir"></a>
 
 ```xml
@@ -276,7 +254,7 @@ Sample 4 (parsed aff and contrib ids)
 <aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
-## deGruyter <a name="degruyter"></a>
+## de Gruyter <a name="degruyter"></a>
 ```xml
 <contrib-group>
   <contrib contrib-type="series_editor">
@@ -869,7 +847,7 @@ and the following footnote in author notes:
   <country>USA</country></aff>
 ```
 
-### Present address
+Present address
 
 In contrib:
 
@@ -881,12 +859,6 @@ In contrib:
 </contrib>
 ```
 
-Footnote in author notes:
-
-```xml
-<fn fn-type="present-address" id="fn003"><p>&#x02020;Present Address: Hongyan Ren, 
-  Shanghai Majorbio Bio-pharm Technology Co., Ltd., Shanghai, China</p></fn>
-```
 ## PeerJ <a name="peerj"></a>
 
 Each author has a reference to one or more affiliations:
@@ -941,38 +913,6 @@ of Education, Nova Southeastern University. lisbia@nova.edu</institution>
 ```
 
 
-## SciELO <a name="scielo"></a>
 
-
-```
- <aff id="aff2">
-    <label>2</label>
-    <institution content-type="normalized">University School of Physical Education in Wroclaw</institution>
-    <institution content-type="orgname">Univ. School of Physical Educ. in Wroclaw</institution>
-    <institution content-type="orgdiv1">Faculty of Physiotherapy</institution>
-    <institution content-type="orgdiv2">Department of Physiotherapy in Internal Diseases</institution>   
-    <addr-line>
-        <named-content content-type="state">Wroclaw</named-content>
-    </addr-line>
-    <country country="PL">Poland</country>
-    <institution content-type="original">Department of Physiotherapy in Internal Diseases, Faculty of Physiotherapy, Univ. School of Physical Educ. in Wroclaw, Wroclaw, Poland</institution>
-                </aff>
-```
-
-```
-<aff id="aff3">
-    <label>3</label>
-    <institution content-type="normalized">Universidade de São Paulo</institution>
-    <institution content-type="orgname">USP</institution>
-    <institution content-type="orgdiv1">Faculdade de Medicina de Ribeirão Preto</institution>
-    <institution content-type="orgdiv2">Departamento de Cirurgia e Anatomia</institution>   
-    <addr-line>
-        <named-content content-type="city">Ribeirão Preto</named-content>
-        <named-content content-type="state">SP</named-content>
-    </addr-line>
-    <country country="BR">Brasil</country>
-    <institution content-type="original">Departamento de Cirurgia e Anatomia, Faculdade de Medicina de Ribeirão Preto, USP, Ribeirão Preto, SP, Brasil</institution>
-</aff>
-```
 
 

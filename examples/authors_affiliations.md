@@ -276,7 +276,7 @@ Sample 4 (parsed aff and contrib ids)
 <aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
-## eLife <a name="degruyter"></a>
+## deGruyter <a name="degruyter"></a>
 ```xml
 <contrib-group>
   <contrib contrib-type="series_editor">

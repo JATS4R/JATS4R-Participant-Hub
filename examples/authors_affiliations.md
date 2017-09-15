@@ -2,15 +2,19 @@
 
 # Authors and Affiliations
 [Aries](#aries)<br>
+[BIR](#bir)<br>
 [eLife](#eLife)<br>
 [Frontiers](#frontiers)
+[PeerJ](#peerj)<br>
+[Redalyc](#redalyc)<br>
+[SciELO](#scielo)
 
 
 
 
 
 
-## Aries <a name="aries></a>
+## Aries <a name="aries"></a>
 
 ```xml
    <aff id="aff1">

@@ -7,7 +7,8 @@ For samples related to affiliation details, see [Affiliations](https://github.co
 
 [American Society for Microbiology](#asm)<br>
 [BIR](#bir)<br>
-[deGruyter](#degruyter)<br>
+[Canadian Science Publishing](#csp)<br>
+[de Gruyter](#degruyter)<br>
 [eLife](#eLife)<br>
 [Frontiers](#frontiers)<br>
 [PeerJ](#peerj)<br>
@@ -256,6 +257,76 @@ Sample 4 (parsed aff and contrib ids)
 
 <aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
+```
+##Canadian Science Publishing <a name="csp"></a>
+```xml
+<contrib-group content-type="authors">
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">http://orcid.org/9999-8888-7777-666X</contrib-id>
+<string-name name-style="western">
+<given-names initials="V">Vincent</given-names> <surname initials="V">Vega</surname>
+</string-name>
+<on-behalf-of>on behalf of the National Working Group on Fish Biomechanics</on-behalf-of>
+    <aff specific-use="internal-use">Fish Ecology and Conservation Physiology Laboratory, Department of Biology, Institute of Environmental Science, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+<role content-type="contribution" specific-use="contrib1">conceived and designed the study</role>
+<role content-type="contribution" specific-use="contrib5">drafted or revised the manuscript</role>
+<xref ref-type="aff" rid="affa">
+<sup>a</sup>
+</xref>
+<xref ref-type="author-fn" rid="afn1">
+<sup>&#x02020;</sup>
+</xref>
+</contrib>
+ <x>, </x>
+<contrib contrib-type="author" corresp="no">
+<collab>The Mohandas K.Gandhi Institute for Research in Peaceful Fisheries</collab>
+    <aff specific-use="internal-use">Fish Ecology and Conservation Physiology Laboratory, Department of Biology, Institute of Environmental Science, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+<role content-type="contribution" specific-use="contrib1">conceived and designed the study</role>
+<role content-type="contribution" specific-use="contrib5">drafted or revised the manuscript</role>
+<xref ref-type="aff" rid="affa">
+<sup>a</sup>
+</xref>
+<xref ref-type="author-fn" rid="afn1">
+<sup>&#x02020;</sup>
+</xref>
+</contrib>
+    <x>, </x>
+<contrib contrib-type="author" corresp="no">
+<string-name name-style="western"><given-names initials="M">Marsalis</given-names> <surname initials="W">Wallace</surname>
+</string-name>
+    <aff specific-use="internal-use">Fish Ecology and Conservation Physiology Laboratory, Department of Biology, Institute of Environmental Science, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+<role content-type="contribution" specific-use="contrib1">conceived and designed the study</role>
+<role content-type="contribution" specific-use="contrib5">drafted or revised the manuscript</role>
+<xref ref-type="aff" rid="affa">
+<sup>a</sup>
+</xref>
+</contrib>
+    <x>, </x>
+<contrib contrib-type="author" corresp="yes">
+<string-name name-style="western"><given-names initials="C">Captain</given-names> <surname initials="C">Cooke</surname>
+</string-name>
+    <aff specific-use="internal-use">Fish Ecology and Conservation Physiology Laboratory, Department of Biology, Institute of Environmental Science, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+    <aff specific-use="internal-use">Canadian Centre for Evidence-Based Conservation and Environmental Management, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+<email>steven_cooke@carleton.ca</email><email>scooke@gmail.com</email>
+<role content-type="contribution" specific-use="contrib1">conceived and designed the study</role>
+<role content-type="contribution" specific-use="contrib4">contributed resources</role>
+<role content-type="contribution" specific-use="contrib5">drafted or revised the manuscript</role>
+<xref ref-type="aff" rid="affa">
+<sup>a</sup>
+</xref>
+<xref ref-type="aff" rid="affb">
+<sup>b</sup>
+</xref>
+</contrib>
+<aff id="affa">
+<label>
+<sup>a</sup>
+</label>Fish Ecology and Conservation Physiology Laboratory, Department of Biology, Institute of Environmental Science, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+<aff id="affb">
+<label>
+<sup>b</sup>
+</label>Canadian Centre for Evidence-Based Conservation and Environmental Management, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+</contrib-group>
 ```
 ## de Gruyter <a name="degruyter"></a>
 ```xml

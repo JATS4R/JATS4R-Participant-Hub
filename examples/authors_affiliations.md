@@ -14,7 +14,7 @@ For samples related to affiliation details, see [Affiliations](https://github.co
 [PeerJ](#peerj)<br>
 [Redalyc](#redalyc)<br>
 [Sage](#sage)<br>
-[SciELO](#scielo)
+[SciELO](#scielo)<br>
 [Sheridan](#sheridan)
 
 ## American Society for Microbiology <a name="asm"></a>

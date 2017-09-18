@@ -14,6 +14,7 @@ For samples related to affiliation details, see [Affiliations](https://github.co
 [Redalyc](#redalyc)<br>
 [Sage](#sage)<br>
 [SciELO](#scielo)
+[Sheridan](#sheridan)
 
 ## American Society for Microbiology <a name="asm"></a>
 
@@ -810,3 +811,332 @@ Example 3
 	</author-notes>
 </article-meta>
 ```
+## Sheridan <a name="sheridan></a>
+Example A (JATS Journal Publishing v1.0)
+```xml
+<contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                    <name>
+                        <surname>Tester</surname>
+                        <given-names>Tester R.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"><sup>a</sup></xref>
+                    <xref ref-type="corresp" rid="cor1"><sup>1</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Victor</surname>
+                        <given-names>Nelbit</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2"><sup>b</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Tony</surname>
+                        <given-names>Donald</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff3"><sup>c</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Douglas</surname>
+                        <given-names>Mick</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"><sup>a</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Mariah</surname>
+                        <given-names>Sandy</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff4"><sup>d</sup></xref>
+                </contrib>
+                <aff id="aff1"><sup>a</sup>ZZZZZ Independent Science and Partnership Council
+                    Secretariat, <institution>Food and Agriculture Organization</institution>, Rome
+                    00185, <country>Italy</country>;</aff>
+                <aff id="aff2"><sup>b</sup>Department of Food Economics, <institution>Purdue
+                        University</institution>, Barre, <addr-line>CT</addr-line>
+                    47907;</aff>
+                <aff id="aff3"><sup>c</sup>ZZZZZ Standing Panel on Impact Assessment, Washington,
+                        <addr-line>DC</addr-line> 20007; and</aff>
+                <aff id="aff4"><sup>d</sup>Department of Milk, Food, and Resource Economics,
+                        <institution>New York State University</institution>, East Lansing,
+                        <addr-line>NY</addr-line> 48824</aff>
+            </contrib-group>
+```
+Example B (JATS Archiving and Interchange v1.0 w/Atypon extensions)
+```xml
+<contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                    <string-name>
+                        <given-names>Tester</given-names>
+                        <x> </x>
+                        <surname>Robert</surname>
+                        <x>,</x>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff1">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff6">
+                        <sup>6</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff7">
+                        <sup>7</sup>
+                    </xref>
+                    <x> </x>
+                </contrib>
+                <contrib contrib-type="author">
+                    <string-name>
+                        <given-names>Maria</given-names>
+                        <x> </x>
+                        <surname>Johnson</surname>
+                        <x>,</x>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff1">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff6">
+                        <sup>6</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff7">
+                        <sup>7</sup>
+                    </xref>
+                    <x> </x>
+                </contrib>
+                <contrib contrib-type="author">
+                    <string-name>
+                        <given-names>Doug M.</given-names>
+                        <x> </x>
+                        <surname>Thompson</surname>
+                        <x>,</x>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff1">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff6">
+                        <sup>6</sup>
+                    </xref>
+                    <x> </x>
+                </contrib>
+                <contrib contrib-type="author">
+                    <string-name>
+                        <given-names>Renita</given-names>
+                        <x> </x>
+                        <surname>Pulis</surname>
+                        <x>,</x>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff1">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff6">
+                        <sup>6</sup>
+                    </xref>
+                    <x> </x>
+                </contrib>
+                <contrib contrib-type="author">
+                    <string-name>
+                        <given-names>Reggie L.</given-names>
+                        <x> </x>
+                        <surname>Myers</surname>
+                        <x>,</x>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff5">
+                        <sup>5</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff6">
+                        <sup>6</sup>
+                    </xref>
+                    <x> </x>
+                </contrib>
+                <contrib contrib-type="author">
+                    <string-name>
+                        <given-names>Bruce M.</given-names>
+                        <x> </x>
+                        <surname>Randall</surname>
+                        <x>,</x>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff1">
+                        <sup>1</sup>
+                    </xref>
+                    <x> and </x>
+                </contrib>
+                <contrib contrib-type="author">
+                    <string-name>
+                        <given-names>Doug D.</given-names>
+                        <x> </x>
+                        <surname>Walters</surname>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff1">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff2">
+                        <sup>2</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff3">
+                        <sup>3</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff4">
+                        <sup>4</sup>
+                    </xref>
+                    <xref ref-type="aff" rid="aff6">
+                        <sup>6</sup>
+                    </xref>
+                </contrib>
+                <aff id="aff1"><label>1</label>Department of Pediatrics, </aff>
+                <aff id="aff2"><label>2</label>Department of Psychiatry and Human Behavior, </aff>
+                <aff id="aff3"><label>3</label>Department of Obstetrics and Gynecology, </aff>
+                <aff id="aff4"><label>4</label>Department of Epidemiology, </aff>
+                <aff id="aff5"><label>5</label>Department of Statistics, and </aff>
+                <aff id="aff6"><label>6</label>Department of Development, Health, and Disease
+                    Research Program, University of California, Irvine, Irvine, California
+                    92697</aff>
+                <aff id="aff7"><label>7</label>Institute of Medical Psychology, Charit&#x00E9;
+                    Universit&#x00E4;tsmedizin Berlin, 10117 Berlin, Germany</aff>
+            </contrib-group>
+```
+Example C (NLM Journal Publishing v2.3)
+```xml
+<contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Nuge</surname>
+                        <given-names>Burl B.</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+                    <xref ref-type="corresp" rid="cor1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Bodeen</surname>
+                        <given-names>Pamela</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Courage</surname>
+                        <given-names>Jean-Paul</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Ryle</surname>
+                        <given-names>Paul</given-names>
+                    </name>
+                    <degrees>MSC</degrees>
+                    <xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Frank</surname>
+                        <given-names>Bean</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Hart</surname>
+                        <given-names>Kane</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff6"><sup>6</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Queen</surname>
+                        <given-names>Owen</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff7"><sup>7</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Molly</surname>
+                        <given-names>Henry</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff8"><sup>8</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Travis</surname>
+                        <given-names>Monte</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff9"><sup>9</sup></xref>
+                </contrib>
+                <aff id="aff1"><sup>1</sup>University of Washington Medical Center-Roosevelt,
+                    Seattle, Washington</aff>
+                <aff id="aff2"><sup>2</sup>Atlanta Diabetes Association, Atlanta, Georgia</aff>
+                <aff id="aff3"><sup>3</sup>Diabetology and Vascular Disease Unit, General Hospital,
+                    Narbonne, France</aff>
+                <aff id="aff4"><sup>4</sup>BioStat Degludec, Novo Nordisk A/S, S&#x00F8;borg,
+                    Denmark</aff>
+                <aff id="aff5"><sup>5</sup>Department of Internal Diseases, Endocrinology, and
+                    Diabetology, CSK MSWiA, and Medical Research Center, Polish Academy of Science,
+                    Warsaw, Poland</aff>
+                <aff id="aff6"><sup>6</sup>Department of Endocrinology and Metabolism MEA, Aarhus
+                    University Hospital, Aarhus, Denmark</aff>
+                <aff id="aff7"><sup>7</sup>Department of Endocrinology, Diabetes Care Center,
+                    Salinas, California</aff>
+                <aff id="aff8"><sup>8</sup>Medical and Science Degludec, Novo Nordisk A/S,
+                    S&#x00F8;borg, Denmark</aff>
+                <aff id="aff9"><sup>9</sup>Department of Cardiovascular Sciences, University of
+                    Leicester and University Hospitals of Leicester NHS Trust, Leicester, U.K</aff>
+            </contrib-group>
+
+```
+Example D (NLM Journal Publishing v2.3)
+```xml
+<contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Duck</surname>
+                        <given-names>Thomas R.</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Jack</surname>
+                        <given-names>James A.</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Bolo</surname>
+                        <given-names>Jonathan</given-names>
+                    </name>
+                    <degrees>MD, PhD</degrees>
+                    <xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Spinning</surname>
+                        <given-names>James W.</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Testfield</surname>
+                        <given-names>Hank H.</given-names>
+                    </name>
+                    <degrees>MD</degrees>
+                    <xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+                </contrib>
+                <aff id="aff1"><label>1</label>Department of Orthopedic Surgery, Mayo Clinic, 200
+                    First Street S.W., Rochester, MN 55905. E-mail address for R.H. Cofield:
+                        <email>cofield.robert@mayo.edu</email></aff>
+            </contrib-group>
+```
+

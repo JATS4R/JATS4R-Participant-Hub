@@ -12,6 +12,7 @@ For samples related to affiliation details, see [Affiliations](https://github.co
 [Frontiers](#frontiers)<br>
 [PeerJ](#peerj)<br>
 [Redalyc](#redalyc)<br>
+[Sage](#sage)<br>
 [SciELO](#scielo)
 
 ## American Society for Microbiology <a name="asm"></a>
@@ -577,7 +578,122 @@ of Education, Nova Southeastern University. lisbia@nova.edu</institution>
 <institution content-type="orgname">Nova Southeastern University</institution>
 </aff>
 ```
+## Sage <a name="sage"></a>
+Example 1: Typgraphic cross-references
 
+```xml
+<contrib-group>
+  <contrib contrib-type="author">
+    <name>
+      <surname>Casey</surname>
+      <given-names>Linda</given-names>
+    </name>
+    <degrees>FRCPC</degrees>
+    <xref ref-type="aff" rid="doi-aff1">1</xref>
+    <xref ref-type="corresp" rid="doi-corresp1"/>
+  </contrib>
+  <contrib contrib-type="author">
+    <name>
+      <surname>Lee</surname>
+      <given-names>Karr-Hong</given-names>
+    </name>
+    <degrees>MD</degrees>
+    <xref ref-type="aff" rid="aff2-doi">2</xref>
+  </contrib>
+  <contrib contrib-type="author">
+    <name>
+      <surname>Rosychuk</surname>
+      <given-names>Rhonda</given-names>
+    </name>
+    <degrees>PhD</degrees>
+    <xref ref-type="aff" rid="aff2-doi">2</xref>
+  </contrib>
+  <contrib contrib-type="author">
+    <name>
+      <surname>Huynh</surname>
+      <given-names>Hien Q.</given-names>
+    </name>
+    <degrees>FRACP</degrees>
+    <xref ref-type="aff" rid="aff3-doi">3</xref>
+  </contrib>
+<contrib contrib-type="author">
+    <name>
+      <surname>Turner</surname>
+      <given-names>Justine</given-names>
+    </name>
+    <degrees>FRACP, PhD</degrees>
+    <xref ref-type="aff" rid="aff2-doi">2</xref>
+  </contrib>
+</contrib-group>
+<aff id="aff1-doi"><label>1</label>Stollery Children’s Hospital, University of Alberta</aff>
+<aff id="aff2-doi"><label>2</label>University of Alberta</aff>
+<aff id=”aff3-doi"><label>3</label>Department of Pediatrics, Division of Gastroenterology and Nutrition, University of Alberta, Edmonton, Alberta, Canada</aff>
+<author-notes>
+  <corresp id="corresp1-doi">Hien Q. Huynh, FRACP, Department of Pediatrics, Division of Gastroenterology and Nutrition, University of Alberta, Room 9219, 11402 University Ave, Edmonton, Alberta, Canada T6G 2J3; e-mail: <email>xxx@xxx.xxx</email>
+  </corresp>
+</author-notes>
+```
+Example 2: Affiliation listed adjacent to each author. No typographic cross-references.
+```xml
+<contrib-group>
+  <contrib contrib-type="author">
+    <name>
+      <surname>O&#x02019;Connor</surname>
+      <given-names>Erin</given-names>
+    </name>
+  <aff id="aff1-doi">New York University</aff>
+  </contrib>
+</contrib-group>
+<contrib-group>
+  <contrib contrib-type="author">
+    <name>
+      <surname>McCartney</surname>
+      <given-names>Kathleen</given-names>
+    </name>
+</contrib>
+<contrib contrib-type="author">
+    <name>
+      <surname>Smith</surname>
+      <given-names>Charles</given-names>
+    </name>
+</contrib>
+    <aff id="aff2-doi">Harvard University</aff>
+</contrib-group>
+```
+Example 3: Affiliations in block note
+```xml
+<contrib-group>
+  <contrib contrib-type="author">
+    <name>
+      <surname>Latendresse</surname>
+      <given-names>Gwen</given-names>
+    </name>
+    <degrees>CNM, MS, PhD</degrees>
+<xref ref-type="corresp" rid="corresp1-doi"/>
+  </contrib>
+  <contrib contrib-type="author">
+    <name>
+      <surname>Ruiz</surname>
+      <given-names>Roberta Jeanne</given-names>
+    </name>
+    <degrees>RN, PhD</degrees>
+  </contrib>
+<contrib contrib-type="author">
+    <name>
+      <surname>Martinez</surname>
+      <given-names>Maria</given-names>
+    </name>
+    <degrees>MS</degrees>
+  </contrib>
+  </contrib-group>
+<aff>University of Utah College of Nursing, Salt Lake City, Utah; University of Texas Medical Branch, Galveston, Texas; University of Oklahoma School of Nursing, Norman.</aff>
+<author-notes>
+  <corresp id="corresp1-doi">Gwen Latendresse, University of Utah
+  College of Nursing, 10 South 2000 East, Salt Lake City, UT 84112;
+  phone: (801) 587-9636; e-mail: <email> xxx@xxx.xxx</email>.</corresp>
+</author-notes>
+
+```
 
 ## SciELO <a name="scielo"></a>
 Example 1

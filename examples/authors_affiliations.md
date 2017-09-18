@@ -258,7 +258,7 @@ Sample 4 (parsed aff and contrib ids)
 <aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
-##Canadian Science Publishing <a name="csp"></a>
+## Canadian Science Publishing <a name="csp"></a>
 ```xml
 <contrib-group content-type="authors">
 <contrib contrib-type="author" corresp="no">

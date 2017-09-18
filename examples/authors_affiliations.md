@@ -340,7 +340,16 @@ Sample 4 (parsed aff and contrib ids)
     <xref ref-type="aff" rid="j_hsz-2013-0008_aff_001"/>
     <xref ref-type="aff" rid="j_hsz-2013-0008_aff_003"/>
   </contrib>
-</contrib-group>
+
+<aff id="j_hsz-2013-0008_aff_002">
+  <institution>Cancer Research UK Cell Signalling Group and Weatherall</institution>,
+  <institution content-type="dept">Institute of Molecular Medicine</institution>,
+  <city>Oxford</city>,
+  <addr-line>OX3 9DS</addr-line>,
+  <country country="GB">United Kingdom</country>.
+</aff>
+	</contrib-group>
+
 ```
 
 

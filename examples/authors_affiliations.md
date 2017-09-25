@@ -414,7 +414,7 @@ The reviewing editor contains affliation details within the contrib:
   </contrib>
 </contrib-group>
 ```
-
+<a name="elifegroup"></a>
 Affiliatins of members of a group author group are contained within contrib for each individual's affiliation, but the group's generif affiliation is dealt with in the same way as for indivudual authors:
 
 ```xml

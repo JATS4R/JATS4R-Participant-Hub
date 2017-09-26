@@ -2,7 +2,7 @@
 
 # Authors and Affiliations<br>
 
-For samples related to affiliation details, see [Affiliations](https://github.com/JATS4R/JATS4R-Participant-Hub/blob/master/examples/affiliations.md)
+This page contains samples that illustrate how authors are associated to their affiliations. For samples related to affiliation details particularly, see [Affiliations](https://github.com/JATS4R/JATS4R-Participant-Hub/blob/master/examples/affiliations.md)
 
 
 [American Society for Microbiology](#asm)<br>

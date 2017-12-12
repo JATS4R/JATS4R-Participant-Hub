@@ -60,6 +60,18 @@ N.B. See samples of author and affiliation relationhsips in [authors_affililatio
 <aff id="AF0001"><sup>1</sup>The Harley Street Clinic, London, UK</aff>
 <aff id="AF0002"><sup>2</sup>Department of Surgery and Cancer, Imperial College London, London, UK</aff>
 ```
+```xml
+## Canadian Science Publishing <a name="csp"></a>
+<aff id="affa">
+<label>
+<sup>a</sup>
+</label>Fish Ecology and Conservation Physiology Laboratory, Department of Biology, Institute of Environmental Science, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+<aff id="affb">
+<label>
+<sup>b</sup>
+</label>Canadian Centre for Evidence-Based Conservation and Environmental Management, <institution>Carleton University</institution>, 1125 Colonel By Dr., Ottawa, ON K1S 5B6, Canada</aff>
+
+```
 ## de Gruyter <a name="degruyter"></a>
 ```
 <aff id="j_hsz-2013-0008_aff_002">
@@ -176,6 +188,10 @@ of Education, Nova Southeastern University. lisbia@nova.edu</institution>
 <institution content-type="orgname">Nova Southeastern University</institution>
 </aff>
 ```
+```xml
+## Sage <a name="sage"></a>
+<aff>University of Utah College of Nursing, Salt Lake City, Utah; University of Texas Medical Branch, Galveston, Texas; University of Oklahoma School of Nursing, Norman.</aff>
+```
 ## SciELO <a name="scielo"></a>
 ```xml
  <aff id="aff2">
@@ -203,5 +219,9 @@ of Education, Nova Southeastern University. lisbia@nova.edu</institution>
     <country country="BR">Brasil</country>
     <institution content-type="original">Departamento de Cirurgia e Anatomia, Faculdade de Medicina de Ribeirão Preto, USP, Ribeirão Preto, SP, Brasil</institution>
 </aff>
+```
+```xml
+## Sheridan <a name="sheridan"></a>
+<aff>University of Utah College of Nursing, Salt Lake City, Utah; University of Texas Medical Branch, Galveston, Texas; University of Oklahoma School of Nursing, Norman.</aff>
 ```
                 

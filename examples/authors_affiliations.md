@@ -891,7 +891,7 @@ Example 3
 	</author-notes>
 </article-meta>
 ```
-## Sheridan <a name="sheridan></a>
+## Sheridan <a name="sheridan"></a>
 Example A (JATS Journal Publishing v1.0)
 ```xml
 <contrib-group>

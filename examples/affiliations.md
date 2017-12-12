@@ -153,27 +153,7 @@ The reviewing editor contains affliation details within the contrib:
   Nebraska-Lincoln</institution>, <addr-line>Lincoln, NE</addr-line>, 
   <country>USA</country></aff>
 ```
-## PeerJ <a name="peerj"></a>
-Each affiliation has some level of granularity in the address:
 
-```xml
-<aff id="aff-1"><institution>Department of Physiology and Biophysics, The Weill Cornell 
-  Medical College</institution>, <addr-line>New York, NY</addr-line>, 
-  <country>United States of America</country></aff>
-```
-## Redalyc <a name="redalyc"></a>
-```xml
-<aff id="aff1">
-<institution content-type="original">Centro de Recursos para el
-Aprendizaje, Universidad de Puerto Rico en Bayamón. ivette.maldonado1@upr.edu</institution>
-<institution content-type="orgname">Universidad de Puerto Rico</institution>
-</aff>
-<aff id="aff2">
-<institution content-type="original">Abraham S. Fischler College
-of Education, Nova Southeastern University. lisbia@nova.edu</institution>
-<institution content-type="orgname">Nova Southeastern University</institution>
-</aff>
-```
 ## PeerJ <a name="peerj"></a>
 
 Each affiliation has some level of granularity in the address:

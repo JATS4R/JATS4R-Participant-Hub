@@ -12,33 +12,31 @@ See http://jats.nlm.nih.gov/archiving/tag-library/1.1d3/attribute/abstract-type.
 Currently publish two types of abstract. The main abstract does not take an @abstract-type attribute
 
 ```xml
-<abstract>
-                <object-id pub-id-type="doi">10.7554/eLife.00013.001</object-id>
-                <p>text, text, text</p>
-                <p>text, text, text</p>
-                <p>text, text, text</p>
-                <p>
-                    <bold>DOI:</bold>
-                    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00013.001"
-                        >http://dx.doi.org/10.7554/eLife.00013.001</ext-link>
-                </p>
-            </abstract>
-            <abstract abstract-type="executive-summary">
-                <object-id pub-id-type="doi">10.7554/eLife.00013.002</object-id>
-                <title>eLife digest</title>
-                <p>text, text, text</p>
-                <p>text, text, text</p>
-                <p>text, text, text</p>
-                <p>text, text, text</p>
-                <p>
-                    <bold>DOI:</bold>
-                    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00013.002"
-                        >http://dx.doi.org/10.7554/eLife.00013.002</ext-link>
-                </p>
-            </abstract>
-            </custom-meta-group>
+      <abstract>
+          <object-id pub-id-type="doi">10.7554/eLife.00013.001</object-id>
+          <p>text, text, text</p>
+          <p>text, text, text</p>
+          <p>text, text, text</p>
+          <p>
+              <bold>DOI:</bold>
+              <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00013.001"
+                  >http://dx.doi.org/10.7554/eLife.00013.001</ext-link>
+          </p>
+      </abstract>
+      <abstract abstract-type="executive-summary">
+          <object-id pub-id-type="doi">10.7554/eLife.00013.002</object-id>
+          <title>eLife digest</title>
+          <p>text, text, text</p>
+          <p>text, text, text</p>
+          <p>text, text, text</p>
+          <p>text, text, text</p>
+          <p>
+              <bold>DOI:</bold>
+              <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00013.002"
+                  >http://dx.doi.org/10.7554/eLife.00013.002</ext-link>
+          </p>
+      </abstract>
 ```
-
 
 
 ## PMC
@@ -84,13 +82,13 @@ From PLoS Biol. 2014 May; 12(5): e1001860; 10.1371/journal.pbio.1001860
 Publish two abstract in two languages
 
 
-```
-<abstract xml:lang="es">
-<title>Resumen</title>
-<p>Para determinar la eficacia de los mapas conceptuales en el desarrollo de las competencias informacionales se seleccionaron, mediante la técnica de muestreo no probabilístico, 30 estudiantes matriculados en un curso de Gerencia en la Universidad de Puerto Rico en Bayamón (UPRB) durante el año académico 2012-2013. Se utilizó un enfoque de investigación cuantitativo y un diseño cuasi-experimental. Los estudiantes participaron en una unidad instruccional sobre búsqueda y evaluación de información, basada en mapas conceptuales. Para determinar el aprendizaje de los estudiantes se administró un examen que también fue utilizado comopreprueba. Para conocer su opinión sobre la estrategia implementada se administró un cuestionario de opinión. Debido a que hubo un aumento significativo en las medias aritméticas de lapospruebacuando se comparó con las medias de laprepruebase concluyó que los mapas conceptuales representan una estrategia efectiva para el aprendizaje de competencias de búsqueda y evaluación de información.</p>
-</abstract>
-<trans-abstract xml:lang="en">
-<title>Abstract</title>
-<p>To determine the effectiveness of concept mapping in developing information skills, through nonprobability sampling technique were selected 30 students enrolled in a Management course at the University of Puerto Rico at Bayamon during the academic year 2012-2013. A quantitative research approach and aquasiexperimentaldesignwasused. The students participated in an instructional unit on searching and evaluating information, based on concept maps. To determine student learning a test was used as a pre and posttest. To know the opinion of students on the strategy implemented an opinion questionnaire was administered. Because there was a significant increase in the arithmetic means of the posttest when compared with average pretest it was concluded that concept maps represent an effective strategy for learning skills of finding and evaluating information.</p>
-</trans-abstract>
+```xml
+      <abstract xml:lang="es">
+        <title>Resumen</title>
+        <p>Para determinar la eficacia de los mapas conceptuales en el desarrollo de las competencias informacionales se seleccionaron, mediante la técnica de muestreo no probabilístico, 30 estudiantes matriculados en un curso de Gerencia en la Universidad de Puerto Rico en Bayamón (UPRB) durante el año académico 2012-2013. Se utilizó un enfoque de investigación cuantitativo y un diseño cuasi-experimental. Los estudiantes participaron en una unidad instruccional sobre búsqueda y evaluación de información, basada en mapas conceptuales. Para determinar el aprendizaje de los estudiantes se administró un examen que también fue utilizado comopreprueba. Para conocer su opinión sobre la estrategia implementada se administró un cuestionario de opinión. Debido a que hubo un aumento significativo en las medias aritméticas de lapospruebacuando se comparó con las medias de laprepruebase concluyó que los mapas conceptuales representan una estrategia efectiva para el aprendizaje de competencias de búsqueda y evaluación de información.</p>
+      </abstract>
+      <trans-abstract xml:lang="en">
+        <title>Abstract</title>
+        <p>To determine the effectiveness of concept mapping in developing information skills, through nonprobability sampling technique were selected 30 students enrolled in a Management course at the University of Puerto Rico at Bayamon during the academic year 2012-2013. A quantitative research approach and aquasiexperimentaldesignwasused. The students participated in an instructional unit on searching and evaluating information, based on concept maps. To determine student learning a test was used as a pre and posttest. To know the opinion of students on the strategy implemented an opinion questionnaire was administered. Because there was a significant increase in the arithmetic means of the posttest when compared with average pretest it was concluded that concept maps represent an effective strategy for learning skills of finding and evaluating information.</p>
+      </trans-abstract>
 ```
